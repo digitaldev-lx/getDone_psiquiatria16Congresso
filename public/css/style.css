@@ -3580,10 +3580,9 @@ a.btn.disabled, fieldset[disabled] a.btn {
 
 .bottom-shape {
     z-index: 9999999999;
-    margin-top: -30px;
     height: 30px;
-    width: 50%;
-    background: linear-gradient(to right, #df0024 0%, #df0024 70%, #979874ff 70%, #979874ff 100%);
+    width: 100%;
+    background: #979874ff;
 }
 
 @media (max-width: 1180px) {
@@ -3631,8 +3630,8 @@ a.btn.disabled, fieldset[disabled] a.btn {
         z-index: 9999999999;
         margin-top: -30px;
         height: 30px;
-        width: 70%;
-        background: linear-gradient(to right, #df0024 0%, #df0024 70%, #979874ff 70%, #979874ff 100%);
+        width: 100%;
+        background: #979874ff;
     }
 }
 
@@ -7706,7 +7705,15 @@ h1, h2, h3, h4, h5, h6 {
 
 .doctor-img{
     margin-top: 20px;
-    width: 240px
+    width: 240px;
+    border-radius: 50%;
+    -webkit-box-shadow: 6px 5px 0px 5px #979874ff;
+    box-shadow: 6px 5px 0px 5px #979874ff;
+}
+
+.doctor_signature{
+    width: 70%;
+    margin-top: 20px;
 }
 
 .fh5co-post {
@@ -8831,4 +8838,15 @@ i.red{
 .gal-container{
     padding-top :75px;
     padding-bottom:75px;
+}
+
+.fh5co-parallax{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 95vh;
+    background-image: url("../images/bg.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }

@@ -30,8 +30,19 @@
                         Cordiais cumprimentos.</h3>
 
                 </div>
-                <div class="col-md-4">
-                    <img class="doctor-img" src="{{asset("images/doctor.png")}}"/>
+                <div class="col-md-4 row">
+                    <div class="col-md-12 text-center">
+                        <img class="doctor-img" src="{{asset("images/presidentes/MJH.jpg")}}"/>
+                        <img class="doctor_signature" src="{{asset("images/presidentes/mjh_signature.png")}}"/>
+                        <h5>Maria João Heitor</h5>
+                        <h6>Presidente da SPPSM</h6>
+                    </div>
+                    <div class="col-md-12">
+                        <img class="doctor-img" src="{{asset("images/presidentes/LM.jpg")}}"/>
+                        <img class="doctor_signature" src="{{asset("images/presidentes/lm_signature.png")}}"/>
+                        <h5>Luís Madeira</h5>
+                        <h6>Presidente da Comissão Organizadora</h6>
+                    </div>
                 </div>
                 <div class="fh5co-spacer fh5co-spacer-md"></div>
             </div>
