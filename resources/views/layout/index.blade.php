@@ -12,8 +12,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>XVI Congresso Nacional de Psiquiatria</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Aterosclerose - GETDONE"/>
-    <meta name="keywords" content="Aterosclerose - GETDONE"/>
+    <meta name="description" content="XVI Congresso Nacional de Psiquiatria"/>
+    <meta name="keywords" content="XVI Congresso Nacional de Psiquiatria"/>
     <meta name="author" content="codeboys.pt"/>
 
 
