@@ -1,12 +1,28 @@
 @extends("layout.index")
 
 @section("content")
-    <div id="fh5co-products"  style="margin-top: 80px">
-        <div class="container">
-            <div class="row text-center">
+    <div id="fh5co-products" style="margin-top: 80px">
+        <img src="{{asset("images/side-banner.png")}}" class="side-banner" alt="Sociedade Portuguesa de Psiquiatria"/>
+
+        <div class="container" style="display: inline-block;">
+            <div class="row">
                 <div class="col-md-8">
                     <h2 class="fh5co-section-lead">Boas-vindas</h2>
-                    <h3 class="fh5co-section-sub-lead">Caros Colegas
+                </div>
+                <div class="col-md-3 hidden-xs hidden-sm" style="margin-top: -50px">
+                    <h2 class="logo-title">XVI</h2>
+                    <h4 class="logo-sub-title">Congresso Nacional de Psiquiatria</h4>
+                    <h6 class="logo-bold-text">O Natural e o Artificial na Psiquiatria:</h6>
+                    <h6 class="logo-bold-text" style="margin-top: -5px">Novelos e os seus Desenlaces</h6>
+                    <h6 class="logo-normal-text">The Natural and The Artificial in Psychiatry:</h6>
+                    <h6 class="logo-normal-text" style="margin-top: -5px">Knots ant their untying</h6>
+
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-md-8">
+
+                    <h3 class="fh5co-section-sub-lead">Caros Colegas<br><br>
                         É com o maior prazer que os convidamos para o XVI Congresso Nacional de Psiquiatria (CNP)
                         organizado pela Sociedade Portuguesa de Psiquiatria e Saúde Mental (SPPSM) que terá lugar de 16
                         a 19 novembro de 2022. Com o alívio das medidas de confinamento no âmbito da pandemia de
@@ -28,18 +44,19 @@
                         trazendo contributos sob a forma de posters e comunicações livres, para uma discussão aberta,
                         crítica e livre de constrangimentos entre os vários saberes e modelos na Psiquiatria contemporânea.<br><br>
                         Cordiais cumprimentos.</h3>
+                    <img src="{{asset("images/sppsm_logo.png")}}" style="width: 150px; float: left; margin-top: 50px" alt="sppsm"/>
 
                 </div>
                 <div class="col-md-4 row">
-                    <div class="col-md-12 text-center">
-                        <img class="doctor-img" src="{{asset("images/presidentes/MJH.jpg")}}"/>
-                        <img class="doctor_signature" src="{{asset("images/presidentes/mjh_signature.png")}}"/>
+                    <div class="col-md-12 text-center" style="margin-top: 50px">
+                        <img alt="Maria João Heitor" class="doctor-img" src="{{asset("images/presidentes/MJH.jpg")}}"/>
+                        <img alt="Maria João Heitor" class="doctor_signature" src="{{asset("images/presidentes/mjh_signature.png")}}"/>
                         <h5>Maria João Heitor</h5>
                         <h6>Presidente da SPPSM</h6>
                     </div>
                     <div class="col-md-12">
-                        <img class="doctor-img" src="{{asset("images/presidentes/LM.jpg")}}"/>
-                        <img class="doctor_signature" src="{{asset("images/presidentes/lm_signature.png")}}"/>
+                        <img alt="Luis Madeira" class="doctor-img" src="{{asset("images/presidentes/LM.jpg")}}"/>
+                        <img alt="Luis Madeira" class="doctor_signature" src="{{asset("images/presidentes/lm_signature.png")}}"/>
                         <h5>Luís Madeira</h5>
                         <h6>Presidente da Comissão Organizadora</h6>
                     </div>

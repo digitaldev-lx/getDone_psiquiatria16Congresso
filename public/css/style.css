@@ -7,6 +7,13 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'jost-black';
+    src: url("../fonts/jost/Jost-Black.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
 /*!
  * Bootstrap v3.3.5 (http://getbootstrap.com)
  * Copyright 2011-2015 Twitter, Inc.
@@ -8849,4 +8856,52 @@ i.red{
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+}
+
+.logo-title{
+    font-family: "Arial Black", serif;
+    font-weight: bolder;
+    color: #237088ff;
+    font-size: 5rem;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.logo-sub-title{
+    font-family: "Arial", serif;
+    /*font-weight: bold;*/
+    color: #237088ff;
+    flex-wrap: wrap;
+    text-align: right;
+    font-size: 3rem;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.logo-bold-text{
+    font-family: "Arial Black", serif;
+    color: #237088ff;
+    flex-wrap: wrap;
+    text-align: right;
+    font-size: 1rem;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.logo-normal-text{
+    font-family: "Arial", serif;
+    color: #237088ff;
+    flex-wrap: wrap;
+    text-align: right;
+    font-size: 1rem;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.side-banner{
+    position: relative;
+    display: inline-block;
+    left: 0;
+    top: -100vh;
+    width: 100px;
 }
