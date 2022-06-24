@@ -9001,6 +9001,11 @@ i.red{
         background-attachment: fixed;
         background-size: cover;
     }
+
+
+    .slider-container{
+        margin-right: 25%;
+    }
 }
 
 .cta-parallax{
