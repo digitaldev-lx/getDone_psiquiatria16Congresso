@@ -2,14 +2,14 @@
 
 @section("content")
     <div id="fh5co-products" style="margin-top: 80px">
-        <img src="{{asset("images/side-banner.png")}}" class="side-banner" alt="Sociedade Portuguesa de Psiquiatria"/>
+        <img src="{{asset("images/side-banner.png")}}" class="side-banner hidden-xs hidden-sm hidden-md" alt="Sociedade Portuguesa de Psiquiatria"/>
 
         <div class="container" style="display: inline-block;">
             <div class="row">
-                <div class="col-md-8">
+                <div class="col-md-7 col-md-offset-1">
                     <h2 class="fh5co-section-lead">Boas-vindas</h2>
                 </div>
-                <div class="col-md-3 hidden-xs hidden-sm" style="margin-top: -50px">
+                <div class="col-md-3 hidden-xs hidden-sm hidden-md" style="margin-top: -50px">
                     <h2 class="logo-title">XVI</h2>
                     <h4 class="logo-sub-title">Congresso Nacional de Psiquiatria</h4>
                     <h6 class="logo-bold-text">O Natural e o Artificial na Psiquiatria:</h6>
@@ -20,7 +20,7 @@
                 </div>
             </div>
             <div class="row text-center">
-                <div class="col-md-8">
+                <div class="col-md-7 col-md-offset-1">
 
                     <h3 class="fh5co-section-sub-lead">Caros Colegas<br><br>
                         É com o maior prazer que os convidamos para o XVI Congresso Nacional de Psiquiatria (CNP)
@@ -61,53 +61,29 @@
                         <h6>Presidente da Comissão Organizadora</h6>
                     </div>
                 </div>
-                <div class="fh5co-spacer fh5co-spacer-md"></div>
             </div>
         </div>
     </div>
 
-{{--    <div class="fh5co-spacer fh5co-spacer-lg"></div>--}}
-    <!-- Comissões -->
-    <div class="container" id="fh5co-products">
-        <div class="row text-left">
-            <div class="col-md-8">
-                <h2 class="fh5co-section-lead">Comissões</h2>
-            </div>
-            <div class="fh5co-spacer fh5co-spacer-md"></div>
-        </div>
-        <div class="row">
-            <div class="col-md-6 col-sm-6 col-xs-6 col-xxs-12 fh5co-mb30">
-                <h2 class="fh5co-section-lead-cm">Comissão Organizadora</h2>
-                <h4>Lorem ipsum dolor sit amet</h4>
-                <h4>Lorem ipsum dolor sit amet</h4>
-                <h4>Lorem ipsum dolor sit amet</h4>
-                <h4>Lorem ipsum dolor sit amet</h4>
-                <h4>Lorem ipsum dolor sit amet</h4>
-                <h4>Lorem ipsum dolor sit amet</h4>
-                <h4>Lorem ipsum dolor sit amet</h4>
-            </div>
-            <div class="col-md-6 col-sm-6 col-xs-6 col-xxs-12 fh5co-mb30">
-                <h2 class="fh5co-section-lead-cm">Comissão Científica</h2>
-                <h4>Lorem ipsum dolor sit amet</h4>
-                <h4>Lorem ipsum dolor sit amet</h4>
-                <h4>Lorem ipsum dolor sit amet</h4>
-                <h4>Lorem ipsum dolor sit amet</h4>
-                <h4>Lorem ipsum dolor sit amet</h4>
-                <h4>Lorem ipsum dolor sit amet</h4>
-                <h4>Lorem ipsum dolor sit amet</h4>
-            </div>
-
+    <div class="cta-parallax row">
+        <div class="col-12 col-md-6 cta-content">
+        <span class="cta-text">
+            <h1>16 - 19</h1>
+            <h2>NOV 2022</h2>
+            <h5>PALÁCIO DE CONGRESSOS</h5>
+            <h4>DO ALGARVE</h4>
+            <a href="#" class="btn btn-primary">EFECTUAR INSCRIÇÃO <i class="glyphicon glyphicon-arrow-right"></i></a>
+        </span>
         </div>
     </div>
 
-    <div class="separador"></div>
 
     <div class="fh5co-spacer fh5co-spacer-lg"></div>
     <!-- Products -->
     <div class="container" id="fh5co-features">
         <div class="row text-left">
             <div class="col-md-8">
-                <h2 class="fh5co-section-lead">Sponsors</h2>
+                <h2 class="fh5co-section-lead">Patrocinadores</h2>
                 <h3 class="fh5co-section-sub-lead">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</h3>
             </div>
             <div class="fh5co-spacer fh5co-spacer-md"></div>

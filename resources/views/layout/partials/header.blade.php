@@ -4,7 +4,7 @@
         <div class="container-fluid">
             <div class="navbar-header">
                 <!-- Mobile Toggle Menu Button -->
-                <a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle" data-toggle="collapse" data-target="#fh5co-navbar" aria-expanded="false" aria-controls="navbar"><i></i></a>
+                <a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle hidden-md hidden-lg" data-toggle="collapse" data-target="#fh5co-navbar" aria-expanded="false" aria-controls="navbar"><i></i></a>
                 <a class="navbar-brand" href="index.html">
                     <img class="logo" src="{{asset("images/site_logo.png")}}" />
                 </a>

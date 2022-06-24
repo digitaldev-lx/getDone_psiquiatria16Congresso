@@ -14,6 +14,20 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'jost-medium';
+    src: url("../fonts/jost/Jost-Medium.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'jost-regular';
+    src: url("../fonts/jost/Jost-Regular.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
 /*!
  * Bootstrap v3.3.5 (http://getbootstrap.com)
  * Copyright 2011-2015 Twitter, Inc.
@@ -1759,7 +1773,7 @@ blockquote p:last-child, blockquote ul:last-child, blockquote ol:last-child {
 
 .fh5co-lead-footer {
     font-weight: 300;
-    color: red;
+    color: #fff;
     margin-bottom: 30px;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -1777,7 +1791,7 @@ blockquote p:last-child, blockquote ul:last-child, blockquote ol:last-child {
 }
 
 .getdone-logo {
-
+    float: right;
 }
 .getdone-logo img {
     margin-top: 85px;
@@ -7688,7 +7702,7 @@ h1, h2, h3, h4, h5, h6 {
     /*margin-top: 50px;*/
     height: 20px;
     width: 100%;
-    background: linear-gradient(to left, #df0024 0%, #df0024 66%, #1f5c75 66%, #1f5c75 100%);
+    background: #237088ff;
 }
 
 @media (max-width: 1180px) {
@@ -7970,7 +7984,6 @@ pre {
     padding: 6px 0 0 0;
     display: block;
     margin: 0 auto;
-    display: none;
     height: 44px;
     width: 44px;
     border-bottom: none !important;
@@ -7981,15 +7994,6 @@ pre {
         display: block;
     }
 }
-
-#fh5co-features {
-    /*background: rgba(0, 0, 0, 0.02);*/
-    background-image: url("../images/bg.png");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-}
-
 
 .fh5co-feature-border {
     border-right: 1px solid #e9e9e9;
@@ -8848,6 +8852,9 @@ i.red{
 }
 
 .fh5co-parallax{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     padding: 0;
     margin: 0;
     width: 100%;
@@ -8857,6 +8864,83 @@ i.red{
     background-attachment: fixed;
     background-size: cover;
 }
+
+.slider-container{
+    padding-right: 40px;
+    padding-top: 24px;
+    text-align: center;
+    width: 300px;
+    height: 300px;
+    background: #237088ff;
+    border-radius: 50%;
+}
+
+.slider-sppsm-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top:-130px;
+    left: 130px;
+    width: 130px;
+    height: 130px;
+    background: #fff;
+    border-radius: 50%;
+}
+
+.slider-sppsm-logo img{
+    width: 100px;
+}
+
+.slider-container
+.logo-title{
+    font-family: "Arial Black", serif;
+    font-weight: bolder;
+    color: #fff;
+    font-size: 4rem;
+    display: flex;
+    justify-content: flex-end;
+}
+.slider-container
+.logo-sub-title{
+    font-family: "Arial", serif;
+    /*font-weight: bold;*/
+    color: #fff;
+    flex-wrap: wrap;
+    text-align: right;
+    font-size: 2.3rem;
+    display: flex;
+    justify-content: flex-end;
+}
+.slider-container
+.logo-bold-text{
+    font-family: "Arial Black", serif;
+    color: #fff;
+    flex-wrap: wrap;
+    text-align: right;
+    font-size: 1rem;
+    display: flex;
+    justify-content: flex-end;
+}
+.slider-container
+.logo-normal-text{
+    font-family: "Arial", serif;
+    color: #fff;
+    flex-wrap: wrap;
+    text-align: right;
+    font-size: 1rem;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.slider-container a{
+    text-align: center;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    margin: 100px 0 0 40px;
+}
+/************************************/
 
 .logo-title{
     font-family: "Arial Black", serif;
@@ -8904,4 +8988,69 @@ i.red{
     left: 0;
     top: -100vh;
     width: 100px;
+}
+
+@media screen and (max-width: 480px) {
+    .cta-parallax{
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        height: 50vh;
+        background-image: url("../images/local-sm.jpg");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+}
+
+.cta-parallax{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 50vh;
+    background-image: url("../images/local.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.cta-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top:0;
+    left: 0;
+    height: 100%;
+    background-color: rgba(35, 112, 136, 0.5);
+}
+
+.cta-text{
+    text-align: center;
+ }
+
+.cta-text h1{
+    font-size: 5rem;
+}
+
+.cta-text h2{
+    margin-top: -15px;
+}
+
+.cta-text h1, .cta-text h2{
+    font-family: "jost-black", serif;
+    color: #fff;
+}
+
+.cta-text h5, .cta-text h4{
+    font-family: "jost-regular", serif;
+    color: #fff;
+}
+
+.cta-text h5{
+    font-size: 2rem;
+}
+
+.cta-text h4{
+    font-size: 4rem;
 }
