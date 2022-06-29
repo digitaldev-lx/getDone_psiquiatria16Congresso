@@ -6,23 +6,23 @@
 
         <div class="container" style="display: inline-block;">
             <div class="row">
-                <div class="col-md-7 col-md-offset-1">
+                <div class="col-md-8 col-md-offset-1">
                     <h2 class="fh5co-section-lead">Boas-vindas</h2>
+                    <hr class="underline-title">
                 </div>
-                <div class="col-md-3 hidden-xs hidden-sm hidden-md" style="margin-top: -50px">
+                <div class="col-md-2 hidden-xs hidden-sm hidden-md" style="margin-top: -50px">
                     <h2 class="logo-title">XVI</h2>
                     <h4 class="logo-sub-title">Congresso Nacional de Psiquiatria</h4>
                     <h6 class="logo-bold-text">O Natural e o Artificial na Psiquiatria:</h6>
                     <h6 class="logo-bold-text" style="margin-top: -5px">Novelos e os seus Desenlaces</h6>
                     <h6 class="logo-normal-text">The Natural and The Artificial in Psychiatry:</h6>
                     <h6 class="logo-normal-text" style="margin-top: -5px">Knots ant their untying</h6>
-
                 </div>
             </div>
             <div class="row text-center">
-                <div class="col-md-7 col-md-offset-1">
+                <div class="col-md-8 col-md-offset-1">
 
-                    <h3 class="fh5co-section-sub-lead">Caros Colegas<br><br>
+                    <h3 class="fh5co-section-sub-lead" style="margin-top: -90px;">Caros Colegas<br><br>
                         É com o maior prazer que os convidamos para o XVI Congresso Nacional de Psiquiatria (CNP)
                         organizado pela Sociedade Portuguesa de Psiquiatria e Saúde Mental (SPPSM) que terá lugar de 16
                         a 19 novembro de 2022. Com o alívio das medidas de confinamento no âmbito da pandemia de
@@ -47,7 +47,7 @@
                     <img src="{{asset("images/sppsm_logo.png")}}" style="width: 150px; float: left; margin-top: 50px" alt="sppsm"/>
 
                 </div>
-                <div class="col-md-4 row">
+                <div class="col-md-2 row">
                     <div class="col-md-12 text-center" style="margin-top: 50px">
                         <img alt="Maria João Heitor" class="doctor-img" src="{{asset("images/presidentes/MJH.jpg")}}"/>
                         <img alt="Maria João Heitor" class="doctor_signature" src="{{asset("images/presidentes/mjh_signature.png")}}"/>
@@ -84,6 +84,8 @@
         <div class="row text-left">
             <div class="col-md-8">
                 <h2 class="fh5co-section-lead">Patrocinadores</h2>
+                <hr class="underline-title">
+
                 <h3 class="fh5co-section-sub-lead">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</h3>
             </div>
             <div class="fh5co-spacer fh5co-spacer-md"></div>

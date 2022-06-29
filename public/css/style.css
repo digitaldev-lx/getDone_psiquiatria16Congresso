@@ -7667,6 +7667,13 @@ h1, h2, h3, h4, h5, h6 {
     color: #237088ff;
     letter-spacing: 2px;
     line-height: 22px;
+    /* text-decoration: underline solid #237088ff 10%; */
+}
+
+hr.underline-title{
+    margin: 0 0 0 0;
+    width: 7%;
+    border-top: 5px solid #237088ff;
 }
 
 .fh5co-section-lead-cm {
@@ -7717,6 +7724,7 @@ h1, h2, h3, h4, h5, h6 {
     font-family: "Roboto", arial, sans-serif;
     font-weight: 100;
     line-height: 32px;
+    
 }
 
 .signature{
@@ -7726,7 +7734,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .doctor-img{
     margin-top: 20px;
-    width: 240px;
+    width: 100%;
     border-radius: 50%;
     -webkit-box-shadow: 6px 5px 0px 5px #979874ff;
     box-shadow: 6px 5px 0px 5px #979874ff;
@@ -8983,12 +8991,29 @@ i.red{
     justify-content: flex-end;
 }
 
+.box {
+    display: flex;
+    align-items: stretch;
+  }
+
+  @media (min-width: 1200px){
+    .container {
+      width: 100%;
+    }
+    #fh5co-features {
+        padding: 5em 5em;
+        background: rgba(0,0,0,.02);
+    }
+  }
+  
+
 .side-banner{
-    position: relative;
-    display: inline-block;
+    position: absolute;
+    float: left;
     left: 0;
-    top: -100vh;
+    top: 130vh;
     width: 100px;
+    height: 570px;
 }
 
 @media screen and (max-width: 480px) {
@@ -9011,9 +9036,9 @@ i.red{
 
 .cta-parallax{
     padding: 0;
-    margin: 0;
+    margin: 3em 0;
     width: 100%;
-    height: 50vh;
+    height: 70vh;
     background-image: url("../images/local.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -9036,11 +9061,12 @@ i.red{
  }
 
 .cta-text h1{
-    font-size: 5rem;
+    font-size: 7.6rem;
 }
 
 .cta-text h2{
     margin-top: -15px;
+    font-size: 4.5rem;
 }
 
 .cta-text h1, .cta-text h2{
@@ -9060,3 +9086,4 @@ i.red{
 .cta-text h4{
     font-size: 4rem;
 }
+
