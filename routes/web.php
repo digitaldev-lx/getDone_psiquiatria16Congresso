@@ -18,6 +18,12 @@ Route::get('/', function () {
 })->name("home");
 
 Route::view('/comissoes', "comissoes")->name("comissoes");
+Route::view('/convidados', "convidados")->name("convidados");
+
+Route::get("convidado/{url}", function($url){
+    return view("convidados.".$url);
+})->name("convidado");
+
 Route::view('/downloads', "downloads")->name("downloads");
 Route::view('/local', "local")->name("local");
 Route::view('/congresso', "congresso")->name("congresso");

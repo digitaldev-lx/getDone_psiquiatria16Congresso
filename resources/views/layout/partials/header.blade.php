@@ -12,7 +12,7 @@
             <div id="fh5co-navbar" class="navbar-collapse collapse mobile-header">
                 <ul class="nav navbar-nav navbar-right" style="margin-top: 20px;background: white;">
                     <li class="{{Route::currentRouteName() == "home" ? "active": ""}}"><a href="{{route("home")}}"><span>Boas-vindas <span class="border {{Route::currentRouteName() == "home" ? "border-active": ""}}"></span></span></a></li>
-                    <li class="{{Route::currentRouteName() == "comissoes" ? "active": ""}}"><a href="{{route("comissoes")}}"><span>Comissões <span class="border"></span></span></a></li>
+                    <li class="{{Route::currentRouteName() == "convidados" ? "active": ""}}"><a href="{{route("convidados")}}"><span>Convidados <span class="border"></span></span></a></li>
 
 
                     <li><a class="btn btn-primary btn-sm btn-inscricoes" href="elements.html"><span class="glyphicon glyphicon-copy"></span> INSCRIÇÕES</a></li>

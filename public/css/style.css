@@ -22,6 +22,13 @@
 }
 
 @font-face {
+    font-family: 'jost-bold';
+    src: url("../fonts/jost/Jost-Bold.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
     font-family: 'jost-regular';
     src: url("../fonts/jost/Jost-Regular.ttf");
     font-weight: normal;
@@ -7688,7 +7695,7 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: bolder;
     color: #237088ff;
     letter-spacing: 2px;
-    margin-top: 120px;
+    margin-top: 150px;
     /* text-decoration: underline solid #237088ff 10%; */
 }
 
@@ -7755,7 +7762,7 @@ hr.underline-title{
 }
 
 .fh5co-section-sub-lead:first-child{
-    margin-top: -90px;
+    margin-top: -20px;
 }
 
 .signature{
@@ -7769,6 +7776,44 @@ hr.underline-title{
     border-radius: 50%;
     -webkit-box-shadow: 6px 5px 0px 5px #979874ff;
     box-shadow: 6px 5px 0px 5px #979874ff;
+}
+
+.doctor-img-individual{
+    margin-top: 120px;
+    width: 13em;
+    border-radius: 50%;
+    -webkit-box-shadow: 6px 5px 0px 5px #979874ff;
+    box-shadow: 6px 5px 0px 5px #979874ff;
+}
+
+#section-convidados{
+    width: ;
+}
+
+.convidado{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: unset;
+}
+
+.convidado div img{
+    width: 7em;
+    border-radius: 50%;
+    -webkit-box-shadow: 6px 3px 0px 3px #979874ff;
+    box-shadow: 6px 3px 0px 3px #979874ff;
+    
+}
+
+.convidado div h5{
+    font-family: 'jost-bold';
+    text-align: center;
+}
+
+.convidado div h6{
+    font-family: 'jost-regular';
+    text-align: center;
+    margin-top: -8px;
 }
 
 .doctor_signature{
@@ -9043,6 +9088,15 @@ i.red{
     float: left;
     left: 0;
     top: 130vh;
+    width: 100px;
+    height: 570px;
+}
+
+.side-banner-convidados{
+    position: absolute;
+    float: left;
+    left: 0;
+    top: 38vh;
     width: 100px;
     height: 570px;
 }
