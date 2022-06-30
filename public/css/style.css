@@ -7670,11 +7670,6 @@ h1, h2, h3, h4, h5, h6 {
     /* text-decoration: underline solid #237088ff 10%; */
 }
 
-hr.underline-title{
-    margin: 0 0 0 0;
-    width: 7%;
-    border-top: 5px solid #237088ff;
-}
 
 .fh5co-section-lead-cm {
     font-family: "Arial", serif;
@@ -7684,6 +7679,38 @@ hr.underline-title{
     color: #979874ff;
     letter-spacing: 2px;
     line-height: 22px;
+}
+
+.fh5co-section-convidados {
+    font-family: "Arial Black", serif;
+    text-align: left;
+    font-size: 28px;
+    font-weight: bolder;
+    color: #237088ff;
+    letter-spacing: 2px;
+    margin-top: 120px;
+    /* text-decoration: underline solid #237088ff 10%; */
+}
+
+.img-top-convidados{
+    position: relative;
+    top: 100px
+}
+
+.fh5co-section-convidados-cm {
+    font-family: "Arial", serif;
+    text-align: left;
+    font-size: 20px;
+    font-weight: bold;
+    color: #979874ff;
+    letter-spacing: 2px;
+    line-height: 22px;
+}
+
+hr.underline-title{
+    margin: 0 0 0 0;
+    width: 7%;
+    border-top: 5px solid #237088ff;
 }
 
 .separador {
@@ -7725,6 +7752,10 @@ hr.underline-title{
     font-weight: 100;
     line-height: 32px;
     
+}
+
+.fh5co-section-sub-lead:first-child{
+    margin-top: -90px;
 }
 
 .signature{
@@ -9031,6 +9062,15 @@ i.red{
 
     .slider-container{
         margin-right: 25%;
+    }
+
+    .fh5co-section-sub-lead:first-child {
+        margin-top: unset; 
+    }
+
+    hr.underline-title{
+        margin-bottom: 25px;
+        width: 13%;
     }
 }
 

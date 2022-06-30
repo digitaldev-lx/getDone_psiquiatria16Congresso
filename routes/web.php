@@ -17,7 +17,7 @@ Route::get('/', function () {
     return view('index');
 })->name("home");
 
-Route::view('/gallery', "gallery")->name("gallery");
+Route::view('/comissoes', "comissoes")->name("comissoes");
 Route::view('/downloads', "downloads")->name("downloads");
 Route::view('/local', "local")->name("local");
 Route::view('/congresso', "congresso")->name("congresso");

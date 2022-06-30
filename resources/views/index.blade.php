@@ -22,7 +22,7 @@
             <div class="row text-center">
                 <div class="col-md-8 col-md-offset-1">
 
-                    <h3 class="fh5co-section-sub-lead" style="margin-top: -90px;">Caros Colegas<br><br>
+                    <h3 class="fh5co-section-sub-lead">Caros Colegas<br>
                         É com o maior prazer que os convidamos para o XVI Congresso Nacional de Psiquiatria (CNP)
                         organizado pela Sociedade Portuguesa de Psiquiatria e Saúde Mental (SPPSM) que terá lugar de 16
                         a 19 novembro de 2022. Com o alívio das medidas de confinamento no âmbito da pandemia de
