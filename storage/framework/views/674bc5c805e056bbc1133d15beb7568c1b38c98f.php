@@ -1,7 +1,5 @@
-@extends("layout.index")
-
-@section("content")
-    @php
+<?php $__env->startSection("content"); ?>
+    <?php
         $convidados = [
             [
                 "name" => "Alfredo B. Cuéllar Barboza",
@@ -113,9 +111,9 @@
             ],
 
         ]
-    @endphp
+    ?>
     <section id="convidados">
-        <img src="{{asset("images/img-top-convidados.png")}}" class="img-top-convidados" alt="Sociedade Portuguesa de Psiquiatria"/>
+        <img src="<?php echo e(asset("images/img-top-convidados.png")); ?>" class="img-top-convidados" alt="Sociedade Portuguesa de Psiquiatria"/>
 
         <div class="container">
             <div class="row">
@@ -124,25 +122,25 @@
                     <hr class="underline-title">
                 </div>
                 <div class="hidden-xs col-xs-12 col-md-2">
-                    <img src="{{asset("images/sppsm_logo.png")}}" style="width: 100px; float: right; margin: 120px -120px 0 0" alt="sppsm"/>
+                    <img src="<?php echo e(asset("images/sppsm_logo.png")); ?>" style="width: 100px; float: right; margin: 120px -120px 0 0" alt="sppsm"/>
                 </div>
             </div>
             <div class="row">
                 <div class="hidden-xs col-md-1">
-                    <img src="{{asset("images/side-banner.png")}}" class="side-banner-convidados hidden-xs hidden-sm hidden-md" alt="Sociedade Portuguesa de Psiquiatria"/>
+                    <img src="<?php echo e(asset("images/side-banner.png")); ?>" class="side-banner-convidados hidden-xs hidden-sm hidden-md" alt="Sociedade Portuguesa de Psiquiatria"/>
                 </div>
                 <div class="col-xs-12 col-md-11" style="margin-top: 25px">
                     <div class="row">
-                        @foreach ($convidados as $convidado)
+                        <?php $__currentLoopData = $convidados; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $convidado): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
                             <div class="col-xs-4 col-md-2">
-                                <a href="{{route("convidado", $convidado["url"])}}" class="convidado">
-                                    <div class="col-xs-12 convidado text-center"><img alt="{{$convidado["name"]}}" src="{{asset("images/convidados/".$convidado["image"])}}"/></div>
-                                    <div class="col-xs-12 convidado"><h5>{{$convidado["name"]}}</h5>
+                                <a href="<?php echo e(route("convidado", $convidado["url"])); ?>" class="convidado">
+                                    <div class="col-xs-12 convidado text-center"><img alt="<?php echo e($convidado["name"]); ?>" src="<?php echo e(asset("images/convidados/".$convidado["image"])); ?>"/></div>
+                                    <div class="col-xs-12 convidado"><h5><?php echo e($convidado["name"]); ?></h5>
                                     </div>
-                                    <div class="col-xs-12 convidado"><h6>{{$convidado["country"]}}</h6></div>
+                                    <div class="col-xs-12 convidado"><h6><?php echo e($convidado["country"]); ?></h6></div>
                                 </a>
                             </div>
-                        @endforeach
+                        <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
                     </div>
                 </div>
             </div>
@@ -152,4 +150,6 @@
 
 
 
-@endsection
+<?php $__env->stopSection(); ?>
+
+<?php echo $__env->make("layout.index", \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH /var/www/html/resources/views/convidados.blade.php ENDPATH**/ ?>
