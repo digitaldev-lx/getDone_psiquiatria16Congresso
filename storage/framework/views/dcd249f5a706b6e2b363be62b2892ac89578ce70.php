@@ -13,6 +13,7 @@
                 <ul class="nav navbar-nav navbar-right" style="margin-top: 20px;background: white;">
                     <li class="<?php echo e(Route::currentRouteName() == "home" ? "active": ""); ?>"><a href="<?php echo e(route("home")); ?>"><span>Boas-vindas <span class="border <?php echo e(Route::currentRouteName() == "home" ? "border-active": ""); ?>"></span></span></a></li>
                     <li class="<?php echo e(Route::currentRouteName() == "convidados" ? "active": ""); ?>"><a href="<?php echo e(route("convidados")); ?>"><span>Convidados <span class="border"></span></span></a></li>
+                    <li class="<?php echo e(Route::currentRouteName() == "comissoes" ? "active": ""); ?>"><a href="<?php echo e(route("comissoes")); ?>"><span>Comissões <span class="border"></span></span></a></li>
 
 
                     <li><a class="btn btn-primary btn-sm btn-inscricoes" href="elements.html"><span class="glyphicon glyphicon-copy"></span> INSCRIÇÕES</a></li>

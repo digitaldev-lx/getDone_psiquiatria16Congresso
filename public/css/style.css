@@ -8413,8 +8413,8 @@ pre {
         align-content: center;
     }
 
-    .h5co-section-convidados{
-        margin-top: unset!important;
+    .fh5co-section-convidados {
+        margin-top: 30px!important;
     }
 }
 
@@ -9129,6 +9129,15 @@ i.red{
     float: left;
     left: 0;
     /*top: 38vh;*/
+    width: 100px;
+    height: 570px;
+}
+
+.side-banner-comissoes{
+    position: absolute;
+    float: left;
+    left: 0;
+    top: -8vh;
     width: 100px;
     height: 570px;
 }
