@@ -2,9 +2,9 @@
 
 @section("content")
     @php
-        $convidados = [
+        $estrangeiros = [
             [
-                "name" => "Alfredo B. Cuéllar Barboza",
+                "name" => "Alfredo Barboza",
                 "country" => "GERMANY",
                 "image" => "AMELIA_FISKE.jpg",
                 "url" => "alfredo-cuellar-barboza"
@@ -112,7 +112,9 @@
                 "url" => "tom-craig"
             ],
 
-        ]
+        ];
+
+
     @endphp
     <section id="convidados">
         <img src="{{asset("images/img-top-convidados.png")}}" class="img-top-convidados" alt="Sociedade Portuguesa de Psiquiatria"/>
@@ -121,7 +123,7 @@
             <div class="row">
                 <div class="col-xs-12 col-md-8 col-md-offset-1">
                     <h2 class="fh5co-section-convidados">Convidados Nacionais e Estrangeiros</h2>
-                    <hr class="underline-title">
+                    <hr class="underline-title" style="margin-left: 32px">
                 </div>
                 <div class="hidden-xs col-xs-12 col-md-2">
                     <img src="{{asset("images/sppsm_logo.png")}}" style="width: 100px; float: right; margin: 120px -120px 0 0" alt="sppsm"/>
@@ -133,7 +135,7 @@
                 </div>
                 <div class="col-xs-12 col-md-11" style="margin-top: 25px">
                     <div class="row">
-                        @foreach ($convidados as $convidado)
+                        @foreach ($estrangeiros as $convidado)
                             <div class="col-xs-4 col-md-2">
                                 <a href="{{route("convidado", $convidado["url"])}}" class="convidado">
                                     <div class="col-xs-12 convidado text-center"><img alt="{{$convidado["name"]}}" src="{{asset("images/convidados/".$convidado["image"])}}"/></div>

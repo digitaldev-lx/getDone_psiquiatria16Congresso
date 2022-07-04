@@ -1784,7 +1784,7 @@ blockquote p:last-child, blockquote ul:last-child, blockquote ol:last-child {
     margin-bottom: 30px;
     text-transform: uppercase;
     letter-spacing: 1px;
-    font-family: "Arial Black", arial, sans-serif;
+    font-family: "jost-bold", arial, sans-serif;
 }
 
 .fh5co-sub-lead-footer {
@@ -1794,7 +1794,7 @@ blockquote p:last-child, blockquote ul:last-child, blockquote ol:last-child {
     color: #fff;
     line-height: 42px;
     font-weight: bold;
-    font-family: "Arial", arial, sans-serif;
+    font-family: "jost-bold", arial, sans-serif;
 }
 
 .getdone-logo {
@@ -7667,7 +7667,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .fh5co-section-lead {
-    font-family: "Arial Black", serif;
+    font-family: "jost-bold", serif;
     text-align: left;
     font-size: 28px;
     font-weight: bolder;
@@ -7803,7 +7803,7 @@ hr.underline-title{
     padding: unset;
 }
 section#convidados{
-    height: 130vh;
+    height: auto;
 }
 .convidado div img{
     width: 65px;
@@ -9010,7 +9010,7 @@ i.red{
 
 .slider-container
 .logo-title{
-    font-family: "Arial Black", serif;
+    font-family: "jost-bold", serif;
     font-weight: bolder;
     color: #fff;
     font-size: 4rem;
@@ -9019,7 +9019,7 @@ i.red{
 }
 .slider-container
 .logo-sub-title{
-    font-family: "Arial", serif;
+    font-family: "jost-bold", serif;
     /*font-weight: bold;*/
     color: #fff;
     flex-wrap: wrap;
@@ -9030,7 +9030,7 @@ i.red{
 }
 .slider-container
 .logo-bold-text{
-    font-family: "Arial Black", serif;
+    font-family: "jost-regular", serif;
     color: #fff;
     flex-wrap: wrap;
     text-align: right;
@@ -9040,7 +9040,7 @@ i.red{
 }
 .slider-container
 .logo-normal-text{
-    font-family: "Arial", serif;
+    font-family: "jost-regular", serif;
     color: #fff;
     flex-wrap: wrap;
     text-align: right;
@@ -9050,11 +9050,11 @@ i.red{
 }
 
 .slider-container a{
-    text-align: center;
-    font-size: 1rem;
+    font-family: "jost-bold", serif;
+    font-size: 1.3rem;
     display: flex;
     justify-content: center;
-    margin: 100px 0 0 40px;
+    margin: 140px 0 0 0;
 }
 /************************************/
 
