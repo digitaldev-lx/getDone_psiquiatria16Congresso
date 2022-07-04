@@ -14,3 +14,6 @@ yarn-error.log
 /.vscode
 
 # Project exclude paths
+/storage/framework/views/*
+/storage/framework/sessions/*
+/storage/framework/cache/*
