@@ -8,12 +8,12 @@
         <div class="container">
             <div class="row">
                 <div class="col-xs-12 col-md-2 col-md-offset-1">
-                    <img alt="Amelia Fiske" class="doctor-img-individual" src="{{asset("images/comissoes/cientifica/fernandovieira.jpg")}}"/>
-                    <img src="{{asset("images/sppsm_logo.png")}}" style="width: 150px; float: left; margin-top: 50vh" alt="sppsm"/>
+                    <img alt="Amelia Fiske" class="doctor-img-individual" style="height: 13em;" src="{{asset("images/comissoes/cientifica/francoisgysin.jpg")}}"/>
+                    <img src="{{asset("images/sppsm_logo.png")}}" style="width: 150px; float: left; margin-top: 80vh" alt="sppsm"/>
                 </div>
                 <div class="col-xs-12 col-md-6">
                     <h2 class="fh5co-section-convidados">François Gysin</h2>
-                    <h4>SWITZERLAND</h4>
+                    <h4>PORTUGAL</h4>
                     <p>EDUCATION<br>
                         François Gysin
 

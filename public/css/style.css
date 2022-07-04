@@ -1780,8 +1780,7 @@ blockquote p:last-child, blockquote ul:last-child, blockquote ol:last-child {
 
 .fh5co-lead-footer {
     font-weight: 300;
-    color: #fff;
-    margin-bottom: 30px;
+    color: #237088ff;
     text-transform: uppercase;
     letter-spacing: 1px;
     font-family: "jost-bold", arial, sans-serif;
@@ -1791,10 +1790,9 @@ blockquote p:last-child, blockquote ul:last-child, blockquote ol:last-child {
     font-size: 24px;
     margin-top: -15px;
     letter-spacing: .4rem;
-    color: #fff;
-    line-height: 42px;
+    color: #237088ff;
     font-weight: bold;
-    font-family: "jost-bold", arial, sans-serif;
+    font-family: "jost-regular", arial, sans-serif;
 }
 
 .getdone-logo {
@@ -7509,6 +7507,11 @@ h1, h2, h3, h4, h5, h6 {
         padding-left: 0px;
         padding-right: 0px;
     }
+
+    .tabela {
+        display: table;
+        width: 100%!important;
+    }
 }
 
 #fh5co-header > .navbar li a {
@@ -7700,6 +7703,24 @@ h1, h2, h3, h4, h5, h6 {
     /* text-decoration: underline solid #237088ff 10%; */
 }
 
+.abstracts-title {
+    font-family: "jost-bold", serif;
+    text-align: left;
+    font-size: 20px;
+    font-weight: bolder;
+    color: #237088ff;
+    letter-spacing: 2px;
+    margin-left: 30px;
+    /* text-decoration: underline solid #237088ff 10%; */
+}
+.abstracts-title span{
+    font-family: "jost-bold", serif;
+    text-align: left;
+    font-size: 24px;
+    color: darkgrey;
+    letter-spacing: 2px;
+}
+
 .fh5co-section-convidados+h4, .fh5co-section-convidados+h4+p{
         margin-left: 30px;
 }
@@ -7761,10 +7782,29 @@ hr.underline-title{
 .fh5co-section-sub-lead {
     text-align: justify;
     font-size: 16px;
-    font-family: "Roboto", arial, sans-serif;
+    color: lightgrey;
+    font-family: "jost-medium", arial, sans-serif;
     font-weight: 100;
     line-height: 32px;
 
+}
+
+.inscricoes-sub-lead-title {
+    text-align: left;
+    font-size: 16px;
+    color: darkgrey;
+    font-family: "jost-bold", arial, sans-serif;
+}
+
+.inscricoes-sub-lead {
+    text-align: left;
+    font-size: 16px;
+    color: darkgrey;
+    font-family: "jost-regular", arial, sans-serif;
+}
+
+.inscricoes-sub-lead ul li {
+    margin-bottom: 20px;
 }
 
 .fh5co-section-sub-lead:first-child{
@@ -7802,9 +7842,27 @@ hr.underline-title{
     justify-content: center;
     padding: unset;
 }
+section#comissoes{
+    height: auto;
+}
 section#convidados{
     height: auto;
 }
+
+section#programa{
+    height: 150vh;
+}
+
+section#call-for-abstracts{
+    height: auto;
+    margin-bottom: 8em;
+}
+
+section#inscricoes{
+    height: auto;
+    margin-bottom: 8em;
+}
+
 .convidado div img{
     width: 65px;
     height: 65px;
@@ -8178,7 +8236,44 @@ pre {
     display: block;
     float: left;
     margin-right: 10px;
+    border-radius: 50%;
 }
+.tabela {
+    display: table;
+    width: 60%;
+}
+
+.tabela-row {
+    display: table-row;
+}
+
+.tabela-cell {
+    display: table-cell;
+    font-family: "jost-bold", arial, sans-serif;
+    background: #e8e6e6;
+    color: #237088ff;
+    padding: 7px;
+    border: white solid 7px;
+}
+
+.tabela-cell-70 {
+    width: 70%;
+}
+
+.tabela-cell-30 {
+    width: 30%;
+    text-align: right;
+}
+
+.tabela-cell-title {
+    display: table-cell;
+    width: 100%;
+    font-family: "jost-bold", arial, sans-serif;
+    color: #000;
+    padding: 7px;
+
+}
+
 
 .fh5co-social li a:hover, .fh5co-social li a:active, .fh5co-social li a:focus {
     outline: none;
@@ -8414,7 +8509,7 @@ pre {
     }
 
     .fh5co-section-convidados {
-        margin-top: 30px!important;
+        margin-top: 90px!important;
     }
 }
 

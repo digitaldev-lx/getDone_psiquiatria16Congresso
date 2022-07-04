@@ -19,6 +19,10 @@ Route::get('/', function () {
 
 Route::view('/comissoes', "comissoes")->name("comissoes");
 Route::view('/convidados', "convidados")->name("convidados");
+Route::view('/programa', "programa")->name("programa");
+Route::view('/inscricoes', "inscricoes")->name("inscricoes");
+Route::view('/call-for-abstracts', "call-for-abstracts")->name("call.for.abstracts");
+Route::view('/informacoes', "informacoes")->name("informacoes");
 
 Route::get("convidado/{url}", function($url){
     return view("convidados.".$url);

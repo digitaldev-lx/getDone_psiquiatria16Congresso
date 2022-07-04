@@ -97,6 +97,12 @@
                     "url" => "luiz-cortez-pinto"
                 ],
                 [
+                    "name" => "Maria Luísa Figueira",
+                    "country" => "PORTUGAL",
+                    "image" => "marialuisafigueira.png",
+                    "url" => "maria-luisa-figueira"
+                ],
+                [
                     "name" => "Miguel Xavier",
                     "country" => "PORTUGAL",
                     "image" => "miguelxavier.jpg",
@@ -146,7 +152,7 @@
                 ]
                 ]
     @endphp
-    <section id="convidados">
+    <section id="comissoes">
         <img src="{{asset("images/img-top-convidados.png")}}" class="img-top-convidados" alt="Sociedade Portuguesa de Psiquiatria"/>
 
         <div class="container">

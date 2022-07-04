@@ -10,9 +10,9 @@
                 </div>
                 <div class="fh5co-footer-widget">
                     <ul class="fh5co-social">
-                        <li><a href="#"><i style="color: white" class="icon-facebook"></i></a></li>
-                        <li><a href="#"><i style="color: white; margin-left: 10px" class="icon-twitter"></i></a></li>
-                        <li><a href="#"><i style="color: white; margin-left: 10px" class="icon-instagram"></i></a></li>
+                        <li><a href="#"><i style="color: white" class="icon-facebook-with-circle"></i></a></li>
+                        <li><a href="#"><i style="color: white; margin-left: 10px" class="icon-twitter-with-circle"></i></a></li>
+                        <li><a href="#"><i style="color: white; margin-left: 10px" class="icon-instagram-with-circle"></i></a></li>
                     </ul>
                 </div>
 
@@ -22,7 +22,6 @@
                     <img src="{{asset("images/getdone.png")}}"/>
                 </div>
             </div>
-
 
             <div class="visible-sm-block clearfix"></div>
 

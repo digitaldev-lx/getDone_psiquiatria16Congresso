@@ -2,6 +2,7 @@
 
 @section("content")
     @php
+
         $estrangeiros = [
             [
                 "name" => "Alfredo Barboza",
@@ -114,10 +115,72 @@
 
         ];
 
-
+        $nacionais = [
+                    [
+                        "name" => "Carolina Perdigoto",
+                        "country" => "PORTUGAL",
+                        "image" => "AMELIA_FISKE.jpg",
+                        "url" => "carolina-perdigoto"
+                    ],
+                    [
+                        "name" => "Ciro Oliveiro",
+                        "country" => "PORTUGAL",
+                        "image" => "AMELIA_FISKE.jpg",
+                        "url" => "ciro-oliveiro"
+                    ],
+                    [
+                        "name" => "Gonçalo Graça Pereira",
+                        "country" => "PORTUGAL",
+                        "image" => "AMELIA_FISKE.jpg",
+                        "url" => "goncalo-graca-pereira"
+                    ],
+                    [
+                        "name" => "Guilherme Queiroz",
+                        "country" => "PORTUGAL",
+                        "image" => "guilhermequeiroz.jpg",
+                        "url" => "guilherme-queiroz"
+                    ],
+                    [
+                        "name" => "Inês Cargaleiro",
+                        "country" => "PORTUGAL",
+                        "image" => "Brendan_Kelly.jpg",
+                        "url" => "ines-cargaleiro"
+                    ],
+                    [
+                        "name" => "João Pedro Frois",
+                        "country" => "PORTUGAL",
+                        "image" => "joaopedrofrois.jpg",
+                        "url" => "joao-pedro-frois"
+                    ],
+                    [
+                        "name" => "Miguel Nascimento",
+                        "country" => "PORTUGAL",
+                        "image" => "miguelnascimento.jpg",
+                        "url" => "miguel-nascimento"
+                    ],
+                    [
+                        "name" => "Pedro Gamito",
+                        "country" => "PORTUGAL",
+                        "image" => "pedrogamito.jpg",
+                        "url" => "pedro-gamito"
+                    ],
+                    [
+                        "name" => "Rui Henriques",
+                        "country" => "PORTUGAL",
+                        "image" => "IRMGARD_EMMELHAINZ.jpg",
+                        "url" => "rui-henriques"
+                    ],
+                    [
+                        "name" => "Tiago Maia",
+                        "country" => "PORTUGAL",
+                        "image" => "IRMGARD_EMMELHAINZ.jpg",
+                        "url" => "tiago-maia"
+                    ],
+                   ];
     @endphp
     <section id="convidados">
-        <img src="{{asset("images/img-top-convidados.png")}}" class="img-top-convidados" alt="Sociedade Portuguesa de Psiquiatria"/>
+        <img src="{{asset("images/img-top-convidados.png")}}" class="img-top-convidados"
+             alt="Sociedade Portuguesa de Psiquiatria"/>
 
         <div class="container">
             <div class="row">
@@ -126,19 +189,58 @@
                     <hr class="underline-title" style="margin-left: 32px">
                 </div>
                 <div class="hidden-xs col-xs-12 col-md-2">
-                    <img src="{{asset("images/sppsm_logo.png")}}" style="width: 100px; float: right; margin: 120px -120px 0 0" alt="sppsm"/>
+                    <img src="{{asset("images/sppsm_logo.png")}}"
+                         style="width: 100px; float: right; margin: 120px -120px 0 0" alt="sppsm"/>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-md-8 col-md-offset-1">
+                    <h2 class="fh5co-section-convidados" style="margin-top: 30px">Nacionais</h2>
                 </div>
             </div>
             <div class="row">
                 <div class="hidden-xs col-md-1">
-                    <img src="{{asset("images/side-banner.png")}}" class="side-banner-convidados hidden-xs hidden-sm hidden-md" alt="Sociedade Portuguesa de Psiquiatria"/>
+                    <img src="{{asset("images/side-banner.png")}}"
+                         class="side-banner-comissoes hidden-xs hidden-sm hidden-md"
+                         alt="Sociedade Portuguesa de Psiquiatria"/>
                 </div>
+
                 <div class="col-xs-12 col-md-11" style="margin-top: 25px">
                     <div class="row">
-                        @foreach ($estrangeiros as $convidado)
+
+                        @foreach ($nacionais as $convidado)
                             <div class="col-xs-4 col-md-2">
                                 <a href="{{route("convidado", $convidado["url"])}}" class="convidado">
-                                    <div class="col-xs-12 convidado text-center"><img alt="{{$convidado["name"]}}" src="{{asset("images/convidados/".$convidado["image"])}}"/></div>
+                                    <div class="col-xs-12 convidado text-center"><img alt="{{$convidado["name"]}}"
+                                                                                      src="{{asset("images/convidados/".$convidado["image"])}}"/>
+                                    </div>
+                                    <div class="col-xs-12 convidado"><h5>{{$convidado["name"]}}</h5>
+                                    </div>
+                                    <div class="col-xs-12 convidado"><h6>{{$convidado["country"]}}</h6></div>
+                                </a>
+                            </div>
+                        @endforeach
+                    </div>
+                </div>
+            </div>
+            <div class="row" style="margin-top: 50px">
+                <div class="col-xs-12 col-md-8 col-md-offset-1">
+                    <h2 class="fh5co-section-convidados" style="margin-top: 30px">Estrangeiros</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="hidden-xs col-md-1">
+                </div>
+
+                <div class="col-xs-12 col-md-11" style="margin-top: 25px">
+                    <div class="row">
+
+                        @foreach ($estrangeiros as $convidado)
+                            <div class="col-xs-4 col-md-2">
+                                <a href="{{route("comissoes.perfil", $convidado["url"])}}" class="convidado">
+                                    <div class="col-xs-12 convidado text-center"><img alt="{{$convidado["name"]}}"
+                                                                                      src="{{asset("images/convidados/".$convidado["image"])}}"/>
+                                    </div>
                                     <div class="col-xs-12 convidado"><h5>{{$convidado["name"]}}</h5>
                                     </div>
                                     <div class="col-xs-12 convidado"><h6>{{$convidado["country"]}}</h6></div>
@@ -150,8 +252,5 @@
             </div>
         </div>
     </section>
-
-
-
 
 @endsection

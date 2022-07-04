@@ -21,7 +21,6 @@
             </div>
             <div class="row text-center">
                 <div class="col-md-8 col-md-offset-1">
-
                     <h3 class="fh5co-section-sub-lead">Caros Colegas<br>
                         É com o maior prazer que os convidamos para o XVI Congresso Nacional de Psiquiatria (CNP)
                         organizado pela Sociedade Portuguesa de Psiquiatria e Saúde Mental (SPPSM) que terá lugar de 16
@@ -86,59 +85,50 @@
                 <h2 class="fh5co-section-lead">Patrocinadores</h2>
                 <hr class="underline-title">
 
-                <h3 class="fh5co-section-sub-lead">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</h3>
             </div>
             <div class="fh5co-spacer fh5co-spacer-md"></div>
         </div>
         <div class="row">
             <div class="col-md-3 col-sm-6 col-xs-6 col-xxs-12 fh5co-mb30">
                 <div class="fh5co-product">
-                    <img src="images/slide_1.jpg" alt="codeboys.pt Free HTML5 Template Bootstrap" class="img-responsive img-rounded to-animate">
-                    <h4>Lorem ipsum</h4>
+                    <img src="images/slide_4.jpg" alt="codeboys.pt Free HTML5 Template Bootstrap" class="img-responsive img-rounded to-animate">
                 </div>
             </div>
             <div class="col-md-3 col-sm-6 col-xs-6 col-xxs-12 fh5co-mb30">
                 <div class="fh5co-product">
                     <img src="images/slide_2.jpg" alt="codeboys.pt Free HTML5 Template Bootstrap" class="img-responsive img-rounded to-animate">
-                    <h4>Architecto nihil</h4>
                 </div>
             </div>
             <div class="visible-sm-block visible-xs-block clearfix"></div>
             <div class="col-md-3 col-sm-6 col-xs-6 col-xxs-12 fh5co-mb30">
                 <div class="fh5co-product">
                     <img src="images/slide_3.jpg" alt="codeboys.pt Free HTML5 Template Bootstrap" class="img-responsive img-rounded to-animate">
-                    <h4>Animi earum</h4>
                 </div>
             </div>
             <div class="col-md-3 col-sm-6 col-xs-6 col-xxs-12 fh5co-mb30">
                 <div class="fh5co-product">
                     <img src="images/slide_4.jpg" alt="codeboys.pt Free HTML5 Template Bootstrap" class="img-responsive img-rounded to-animate">
-                    <h4>Recusandae iste</h4>
                 </div>
             </div>
             <div class="col-md-3 col-sm-6 col-xs-6 col-xxs-12 fh5co-mb30">
                 <div class="fh5co-product">
-                    <img src="images/slide_1.jpg" alt="codeboys.pt Free HTML5 Template Bootstrap" class="img-responsive img-rounded to-animate">
-                    <h4>Lorem ipsum</h4>
+                    <img src="images/slide_4.jpg" alt="codeboys.pt Free HTML5 Template Bootstrap" class="img-responsive img-rounded to-animate">
                 </div>
             </div>
             <div class="col-md-3 col-sm-6 col-xs-6 col-xxs-12 fh5co-mb30">
                 <div class="fh5co-product">
                     <img src="images/slide_2.jpg" alt="codeboys.pt Free HTML5 Template Bootstrap" class="img-responsive img-rounded to-animate">
-                    <h4>Architecto nihil</h4>
                 </div>
             </div>
             <div class="visible-sm-block visible-xs-block clearfix"></div>
             <div class="col-md-3 col-sm-6 col-xs-6 col-xxs-12 fh5co-mb30">
                 <div class="fh5co-product">
                     <img src="images/slide_3.jpg" alt="codeboys.pt Free HTML5 Template Bootstrap" class="img-responsive img-rounded to-animate">
-                    <h4>Animi earum</h4>
                 </div>
             </div>
             <div class="col-md-3 col-sm-6 col-xs-6 col-xxs-12 fh5co-mb30">
                 <div class="fh5co-product">
                     <img src="images/slide_4.jpg" alt="codeboys.pt Free HTML5 Template Bootstrap" class="img-responsive img-rounded to-animate">
-                    <h4>Recusandae iste</h4>
                 </div>
             </div>
         </div>
