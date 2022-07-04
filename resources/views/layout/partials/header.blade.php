@@ -5,7 +5,7 @@
             <div class="navbar-header">
                 <!-- Mobile Toggle Menu Button -->
                 <a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle hidden-md hidden-lg" data-toggle="collapse" data-target="#fh5co-navbar" aria-expanded="false" aria-controls="navbar"><i></i></a>
-                <a class="navbar-brand" href="index.html">
+                <a class="navbar-brand" href="{{route("home")}}">
                     <img class="logo" src="{{asset("images/site_logo.png")}}" />
                 </a>
             </div>

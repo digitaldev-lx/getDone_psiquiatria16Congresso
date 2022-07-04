@@ -114,7 +114,6 @@
             ],
 
         ];
-
         $nacionais = [
                     [
                         "name" => "Carolina Perdigoto",
@@ -181,7 +180,6 @@
     <section id="convidados">
         <img src="{{asset("images/img-top-convidados.png")}}" class="img-top-convidados"
              alt="Sociedade Portuguesa de Psiquiatria"/>
-
         <div class="container">
             <div class="row">
                 <div class="col-xs-12 col-md-8 col-md-offset-1">

@@ -45,7 +45,6 @@
                             </h3>
                         </div>
                     </div>
-
                     <div class="row">
                         <div class="col-xs-12 col-md-12">
                             <h3 class="inscricoes-sub-lead-title">COMO CHEGAR</h3>
