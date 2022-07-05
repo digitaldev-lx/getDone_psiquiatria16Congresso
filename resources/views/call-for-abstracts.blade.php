@@ -73,7 +73,7 @@
                             </li>
                         </ul>
                     </h3>
-                    <a href="#" class="btn btn-primary" style="background: #237088ff">SUBMETER ABSTRACT <i class="glyphicon glyphicon-arrow-right" style="margin-left: 5px"></i></a>
+                    <a href="https://eventbase.pt/EventBase/Login/LoginGetDone.aspx" class="btn btn-primary" style="background: #237088ff">SUBMETER ABSTRACT <i class="glyphicon glyphicon-arrow-right" style="margin-left: 5px"></i></a>
 
                 </div>
             </div>

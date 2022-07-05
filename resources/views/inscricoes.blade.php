@@ -117,7 +117,7 @@
 
                     <div class="row">
                         <div class="col-xs-12 col-md-12">
-                            <a href="#" class="btn btn-primary" style="background: #237088ff">EFECTUAR INSCRIÇÃO <i class="glyphicon glyphicon-arrow-right" style="margin-left: 5px"></i></a>
+                            <a href="https://www.eventbase.pt/EventBase/Inscricoes/PaginaInscricaoIndividual.aspx?Params=RXZlbnRvSUQ9NjUy" class="btn btn-primary" style="background: #237088ff">EFECTUAR INSCRIÇÃO <i class="glyphicon glyphicon-arrow-right" style="margin-left: 5px"></i></a>
                         </div>
                     </div>
                 </div>
