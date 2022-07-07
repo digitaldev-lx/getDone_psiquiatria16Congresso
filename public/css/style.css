@@ -7698,16 +7698,22 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .fh5co-section-lead {
-    font-family: "jost-bold", serif;
+    font-family: "jost-medium", serif;
     text-align: left;
-    font-size: 28px;
-    font-weight: bolder;
+    font-size: 32px;
     color: #237088ff;
-    letter-spacing: 2px;
-    line-height: 22px;
+    /*letter-spacing: 2px;*/
+    /*line-height: 22px;*/
     /* text-decoration: underline solid #237088ff 10%; */
 }
 
+.bv-aligment{
+    margin-top: 10px;
+}
+
+.fh5co-section-sub-lead:first-child {
+    margin-top: -130px!important;
+}
 
 .fh5co-section-lead-cm {
     font-family: "Arial", serif;
@@ -7769,11 +7775,20 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 22px;
 }
 
+
 hr.underline-title{
     margin: 0 0 0 0;
     width: 7%;
     border-top: 5px solid #237088ff;
 }
+
+
+hr.underline-title-bv{
+    margin: -10px 0 0 0;
+    width: 35px;
+    border-top: 3px solid #237088ff;
+}
+
 
 .separador {
     z-index: 9999999999;
@@ -7809,12 +7824,10 @@ hr.underline-title{
 
 .fh5co-section-sub-lead {
     text-align: justify;
-    font-size: 16px;
-    color: lightgrey;
-    font-family: "jost-medium", arial, sans-serif;
-    font-weight: 100;
-    line-height: 32px;
-
+    font-size: 15px;
+    color: grey;
+    font-family: "jost-light", arial, sans-serif;
+    line-height: 22px;
 }
 
 .inscricoes-sub-lead-title {
@@ -7844,12 +7857,29 @@ hr.underline-title{
     margin-top: 20px;
 }
 
+.doctor-img-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
 .doctor-img{
-    margin-top: 20px;
-    width: 100%;
+    position: relative;
+    width: 200px;
     border-radius: 50%;
-    -webkit-box-shadow: 6px 5px 0px 5px #979874ff;
-    box-shadow: 6px 5px 0px 5px #979874ff;
+    margin: -13px 0 0 -26px;
+
+    /*-webkit-box-shadow: 6px 5px 0px 5px #979874ff;
+    box-shadow: 6px 5px 0px 5px #979874ff;*/
+}
+
+.shadow-img{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: #979874ff;
 }
 
 .doctor-img-individual{
@@ -7900,7 +7930,7 @@ section#inscricoes{
 }
 
 .convidado div h5{
-    font-family: 'jost-bold';
+    font-family: 'jost-bold', serif;
     text-align: center;
 }
 
@@ -7910,9 +7940,27 @@ section#inscricoes{
     margin-top: -8px;
 }
 
+.doctor-img-container h5{
+    font-family: 'jost-light', serif;
+    font-size: 15px;
+    margin-top: 0px;
+    word-wrap: break-word;         /* All browsers since IE 5.5+ */
+    overflow-wrap: break-word;     /* Renamed property in CSS3 draft spec */
+    width: 100%;
+}
+
+.doctor-img-container h6{
+    font-family: 'jost-light', serif;
+    font-size: 11px;
+    margin-top: -5px;
+    word-wrap: break-word;         /* All browsers since IE 5.5+ */
+    overflow-wrap: break-word;     /* Renamed property in CSS3 draft spec */
+    width: 100%;
+}
+
 .doctor_signature{
     width: 70%;
-    margin-top: 20px;
+    margin-top: 5px;
 }
 
 .fh5co-post {
@@ -9190,7 +9238,7 @@ i.red{
 /************************************/
 
 .logo-title{
-    font-family: "jost-bold", serif;
+    font-family: "jost-semi-bold", serif;
     font-weight: bolder;
     color: #237088ff;
     font-size: 5rem;
@@ -9199,9 +9247,8 @@ i.red{
 }
 
 .logo-sub-title{
-    font-family: "jost-regular", serif;
+    font-family: "jost-light", serif;
     /*font-weight: bold;*/
-    margin-top: -20px;
     color: #237088ff;
     flex-wrap: wrap;
     text-align: right;
@@ -9211,24 +9258,24 @@ i.red{
 }
 
 .logo-bold-text{
-    font-family: "jost-bold", serif;
-    color: #237088ff;
-    flex-wrap: wrap;
-    text-align: right;
-    font-size: 1rem;
-    display: flex;
-    justify-content: flex-end;
-}
-
-.logo-normal-text{
     font-family: "jost-medium", serif;
     color: #237088ff;
-    flex-wrap: wrap;
+    /*flex-wrap: wrap;*/
+    text-align: right;
+    font-size: 1.1rem;
+    display: flex;
+    justify-content: flex-end;
+}
+.logo-normal-text{
+    font-family: "jost-light-italic", serif;
+    color: #237088ff;
+    /*flex-wrap: wrap;*/
     text-align: right;
     font-size: 1rem;
     display: flex;
     justify-content: flex-end;
 }
+/************************************/
 
 .box {
     display: flex;
@@ -9250,9 +9297,10 @@ i.red{
     position: absolute;
     float: left;
     left: 0;
-    top: 130vh;
-    width: 100px;
-    height: 570px;
+    margin-left: -40px;
+    top: 120vh;
+    width: 130px;
+    /*height: 570px;*/
 }
 
 .side-banner-convidados{
