@@ -14,7 +14,7 @@
                 <div class="col-xs-12 col-md-6">
                     <h2 class="fh5co-section-convidados">António Reis Marques</h2>
                     <h4>PORTUGAL</h4>
-                    <p>EDUCATION<br>
+                    <p><br>
                         Psiquiatra desde 1979 e nos quadros dos HUC desde 1980<br>
                         Foi chefe de redação da Revista "Psiquiatria Clínica (publicação mais antiga do País na Saúde Mental ) desde a sua criação em 1981, e desde 2010 foi seu editor.<br>
                         Diretor de Serviço de Psiquiatria dos HUC desde 2009 e Diretor do C R I de Psiquiatria e Saúde Mental do CHUC desde 2012<br>

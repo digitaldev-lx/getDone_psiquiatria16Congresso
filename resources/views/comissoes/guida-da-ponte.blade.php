@@ -14,7 +14,7 @@
                 <div class="col-xs-12 col-md-6">
                     <h2 class="fh5co-section-convidados">Guida da Ponte</h2>
                     <h4>PORTUGAL</h4>
-                    <p>EDUCATION<br>
+                    <p><br>
                         Guida da Ponte, MD, PhD Fellowship em Cuidados Paliativos – Instituto de Medicina Paliativa, Índia;<br>
                          Pós-Graduação em Medicina Social, Universidade Católica Portuguesa;<br> Vice-Presidente da Secção de Psico-Oncologia da Sociedade Portuguesa de Psiquiatria e Saúde Mental;<br> Coordenação do Grupo de Trabalho de Psicoterapia - HIV/AIDS Special Interest Group - Academy of Consultation-Liaison Psychiatry;<br>  Unidade de Psiquiatria de Ligação do Departamento de Psiquiatria e Saúde Mental do Centro Hospitalar Barreiro-Montijo, EPE;
                     </p>

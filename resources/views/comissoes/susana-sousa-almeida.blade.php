@@ -14,7 +14,7 @@
                 <div class="col-xs-12 col-md-6">
                     <h2 class="fh5co-section-convidados">Susana Sousa Almeida</h2>
                     <h4>PORTUGAL</h4>
-                    <p>EDUCATION<br>
+                    <p><br>
                         Susana Sousa Almeida, MD, MSc, MRCPsych<br><br>
 
                         Psiquiatra Consultora no Instituto Português de Oncologia – Porto (IPOP), e no Hospital Cuf Porto, onde coordena a Unidade de Neuropsiquiatria.<br>

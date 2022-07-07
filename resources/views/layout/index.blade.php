@@ -41,8 +41,7 @@
     <link rel="stylesheet" href="{{asset("css/owl.theme.default.min.css")}}">
     <link rel="stylesheet" href="{{asset("css/magnific-popup.css")}}">
     <link rel="stylesheet" href="{{asset("css/style.css")}}">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-    <script src="{{asset("js/modernizr-2.6.2.min.js")}}"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />    <script src="{{asset("js/modernizr-2.6.2.min.js")}}"></script>
     <!-- FOR IE9 below -->
     <!--[if lt IE 9]>
     <script src="{{asset("js/respond.min.js")}}"></script>

@@ -14,7 +14,7 @@
                 <div class="col-xs-12 col-md-6">
                     <h2 class="fh5co-section-convidados">Nuno Sousa</h2>
                     <h4>PORTUGAL</h4>
-                    <p>EDUCATION<br>
+                    <p><br>
                         Nuno Sousa (nascido em 1968) é Professor Catedrático na Escola de Medicina da Universidade do Minho. É Professor visitante na Upstate Medical University, NY, USA.<br>
                         Médico, Neuro-Radiologista. É Diretor do Centro Clínico Académico - Braga (2CA) no Hospital de Braga e do Centro de Medicina Digital P5. É investigador no Domínio de Investigação em Neurociências no Instituto de Ciências da Vida e da Saúde (ICVS) da Universidade do Minho.<br>
                         Publicou mais de uma 500 de artigos em revistas internacionais, tendo um factor H de 74 com mais de 20000 citações. Supervisionou dezenas de alunos de Doutoramento e Mestrado.Recebeu vários prémios pelas suas atividades de investigação e prestação de cuidados de saúde, incluindo o Prémio Janssen Neurociências e a Medalha de Ouro do Ministério da Saúde em 2011. É membro de várias comissões de saúde e de investigação nacionais e internacionais.<br>

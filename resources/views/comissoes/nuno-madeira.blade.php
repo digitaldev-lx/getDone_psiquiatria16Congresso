@@ -14,7 +14,7 @@
                 <div class="col-xs-12 col-md-6">
                     <h2 class="fh5co-section-convidados">Nuno Madeira</h2>
                     <h4>PORTUGAL</h4>
-                    <p>EDUCATION<br>
+                    <p><br>
                         Assistente Hospitalar Graduado de Psiquiatria no Centro Hospitalar e Universitário de Coimbra<br><br>
                         Professor Auxiliar Convidado da Faculdade de Medicina da Universidade de Coimbra<br><br>
                         Membro Integrado do Coimbra Institute for Biomedical Imaging and Translational Research<br><br>

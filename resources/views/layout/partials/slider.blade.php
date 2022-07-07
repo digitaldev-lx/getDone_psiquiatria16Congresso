@@ -10,7 +10,7 @@
         <h6 class="logo-bold-text" style="margin-top: -5px">Novelos e os seus Desenlaces</h6>
         <h6 class="logo-normal-text">The Natural and The Artificial in Psychiatry:</h6>
         <h6 class="logo-normal-text" style="margin-top: -5px">Knots ant their untying</h6>
-        <a href="https://www.eventbase.pt/EventBase/Inscricoes/PaginaInscricaoIndividual.aspx?Params=RXZlbnRvSUQ9NjUy" class="btn btn-primary">EFECTUAR INSCRIÇÃO <i class="glyphicon glyphicon-arrow-right" style="margin-left: 5px"></i></a>
+        <a href="https://www.eventbase.pt/EventBase/Inscricoes/PaginaInscricaoIndividual.aspx?Params=RXZlbnRvSUQ9NjUy" class="btn btn-primary">EFECTUAR INSCRIÇÃO <i class="fa-solid fa-angle-right fa-xl"></i></a>
     </div>
 
 </div>

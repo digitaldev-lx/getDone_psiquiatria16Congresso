@@ -14,7 +14,7 @@
                 <div class="col-xs-12 col-md-6">
                     <h2 class="fh5co-section-convidados">Luiz Cortez Pinto</h2>
                     <h4>PORTUGAL</h4>
-                    <p>EDUCATION<br>
+                    <p><br>
                         Luiz Cortez Pinto, Assistente Graduado Sénior de Psiquiatria.<br>
                         Atualmente é:<br><br>
                         Presidente da Secção de Psiquiatria Geriátrica da SPSM.<br>

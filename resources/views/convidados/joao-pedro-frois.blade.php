@@ -14,7 +14,7 @@
                 <div class="col-xs-12 col-md-6">
                     <h2 class="fh5co-section-convidados">João Pedro Fróis</h2>
                     <h4>PORTUGAL</h4>
-                    <p>EDUCATION<br>
+                    <p><br>
                         João Pedro Fróis (Lisboa, 1957) investigador e docente universitário. Doutorado pela Universidade de Lisboa. Investigador Auxiliar Convidado da Faculdade de Medicina da Universidade de Lisboa (FM-UL). Trabalhou mais de uma década como psicólogo na área dos cuidados de saúde mental e reabilitação de crianças e jovens. Coordenou o Programa Gulbenkian Investigação e Desenvolvimento Estético (1997-2004).<br>
                         É Fellow da International Association of Empirical Aesthetics (IAEA) e Investigador afiliado do Center for Phenomenological Psychology and Aesthetics (CPPA), Universidade de Copenhaga. Áreas de investigação: Psicologia da Estética, Criatividade e Artes Visuais, Estudos de Museus de Arte (Educação), Arte Bruta/Outsider, História da Educação [Médico Pedagogia]. <br>
                         Recentemente publicou nas revistas: Curator: The Museum Journal, Raw Vision Magazine, Psychology & Culture, History of Psychiatry, Epidemiology and Psychiatric Sciences. Traduziu, com ensaio e notas, os livros de L S Vygotsky (1896-1934) — História das Funções Psíquicas Superiores (Lisboa: Relógio d’Agua, 2021) e Imaginação e Criatividade na Infância (Dinalivro 2012; Martins Fontes 2014). <br>

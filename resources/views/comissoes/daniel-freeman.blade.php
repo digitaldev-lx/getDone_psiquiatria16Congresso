@@ -14,7 +14,7 @@
                 <div class="col-xs-12 col-md-6">
                     <h2 class="fh5co-section-convidados">Daniel Freeman</h2>
                     <h4>GERMANY</h4>
-                    <p>EDUCATION<br>
+                    <p><br>
                         Daniel Freeman is a Professor of Clinical Psychology and NIHR Senior Investigator at the University of Oxford and a consultant clinical psychologist in Oxford Health NHS Foundation Trust. <br>
                         Professor Freeman’s research has focussed on using psychological theory to develop more powerful psychological treatments. He has also been pioneering the development of automated virtual reality treatments for mental health conditions. <br>
                         He founded Oxford VR, a University of Oxford spin-out company. He has published over 300 papers and 10 books. He is the recipient of the 2020 British Psychological Society Presidents' Award for Distinguished Contributions to Psychological Knowledge, and presented the BBC Radio 4 series ‘A History of Delusions’.</p>

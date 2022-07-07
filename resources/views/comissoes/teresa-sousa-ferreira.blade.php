@@ -14,7 +14,7 @@
                 <div class="col-xs-12 col-md-6">
                     <h2 class="fh5co-section-convidados">Teresa Sousa Ferreira</h2>
                     <h4>PORTUGAL</h4>
-                    <p>EDUCATION<br>
+                    <p><br>
                         Médica Psiquiatra e Assistente Hospitalar de Psiquiatria no Centro Hospitalar entre o Douro e Vouga, EPE (CHEDV). Exerce atividade clínica no Hospital de Dia de Psiquiatria – Unidade de São João da Madeira.<br><br>
                         Presidente da Secção de Perturbações da Personalidade da Sociedade Portuguesa de Psiquiatria e Saúde Mental (SPPSM).<br><br>
                         Formada e Acreditada em Terapia Comportamental Dialética (Dialectical Behavior Therapy - DBT) pela Association for Psychological Therapies no Reino Unido, com especialização em Perturbação de Stress Pós-traumático em Pertubação de Personalidade Borderline tendo tido formação com a Prof. Marsha Linehan e Prof. Melanie Harned.<br><br>

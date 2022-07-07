@@ -14,7 +14,7 @@
                 <div class="col-xs-12 col-md-6">
                     <h2 class="fh5co-section-convidados">Lia Fernandes</h2>
                     <h4>PORTUGAL</h4>
-                    <p>EDUCATION<br>
+                    <p><br>
                         Lia Fernandes é Médica Psiquiatra, Assistente Graduada Sénior do Serviço de Psiquiatria do Centro Hospitalar Universitário S. João (CHUSJ), com a Competência de Geriatria pela Ordem dos Médicos (integrando o respectivo Colégio desta Competência na OM), sendo ainda Terapeuta Familiar pela SPTF.<br>
                         É Professora Associada com Agregação da Faculdade de Medicina da Universidade do Porto (FMUP), integrou o Executivo da Direcção desta Faculdade (2018 a 2021), sendo actualmente Directora do Departamento de Neurociências Clínicas e Saúde Mental. <br>
                         É regente da UC de Psiquiatria (Prática Clínica) do 6º ano do Curso de Medicina e Directora do Mestrado em Psiquiatria e Saúde Mental, bem como Coordenadora da Pós-Graduação em Geriatria da FMUP.<br>
