@@ -8904,8 +8904,24 @@ img.fh5co-align-right {
 
 /*tablets maiores*/
 @media only screen and (min-width:481px) and (max-width:1180px){
+    .shadow-img-convidado{
+        width: 130px!important;
+        height: 130px!important;
+    }
+    .shadow-img-convidado img{
+        width: 130px!important;
+        height: 130px!important;
+    }
+
+    .sppsm-logo-comissoes, .sppsm-logo-convidados{
+        display: none!important;
+    }
     .fh5co-parallax{
         height: 80vh!important;
+    }
+
+    .side-banner-comissoes, .side-banner-convidados{
+        display: none!important;
     }
 
     .cta-parallax{
@@ -8986,7 +9002,7 @@ img.fh5co-align-right {
 
 /*mobile phones*/
 @media screen and (max-width: 480px) {
-    
+
     .fh5co-lead, .fh5co-sub-lead, .fh5co-text {
         margin-left: 30px !important;
     }
