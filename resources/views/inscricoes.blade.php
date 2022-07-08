@@ -10,7 +10,7 @@
             <div class="row">
                 <div class="col-xs-12 col-md-8 col-md-offset-1">
                     <h2 class="fh5co-section-convidados">Inscrições</h2>
-                    <hr class="underline-title" style="margin-left: 32px">
+                    <hr class="underline-title-bv" style="margin-left: 32px">
                 </div>
                 <div class="hidden-xs col-xs-12 col-md-2">
                     <img src="{{asset("images/sppsm_logo.png")}}"
@@ -116,8 +116,8 @@
                 <div class="col-xs-12 col-md-10 col-md-offset-1">
 
                     <div class="row">
-                        <div class="col-xs-12 col-md-12">
-                            <a href="https://www.eventbase.pt/EventBase/Inscricoes/PaginaInscricaoIndividual.aspx?Params=RXZlbnRvSUQ9NjUy" class="btn btn-primary" style="background: #237088ff">EFECTUAR INSCRIÇÃO <i class="glyphicon glyphicon-arrow-right" style="margin-left: 5px"></i></a>
+                        <div class="col-xs-12 col-md-12 slider-container-button" style="margin: unset!important;">
+                            <a href="https://www.eventbase.pt/EventBase/Inscricoes/PaginaInscricaoIndividual.aspx?Params=RXZlbnRvSUQ9NjUy" class="btn btn-primary" style="background: #237088ff">EFECTUAR INSCRIÇÃO <i class="fa-solid fa-angle-right fa-xl"></i></a>
                         </div>
                     </div>
                 </div>

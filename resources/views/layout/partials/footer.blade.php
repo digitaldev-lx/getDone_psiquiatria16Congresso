@@ -10,9 +10,28 @@
                 </div>
                 <div class="fh5co-footer-widget">
                     <ul class="fh5co-social">
-                        <li><a href="#"><i style="color: white" class="icon-facebook-with-circle"></i></a></li>
-                        <li><a href="#"><i style="color: white; margin-left: 10px" class="icon-twitter-with-circle"></i></a></li>
-                        <li><a href="#"><i style="color: white; margin-left: 10px" class="icon-instagram-with-circle"></i></a></li>
+                        <li>
+                            <a href="#">
+                                <span class="icon-container-outlined">
+                                    <i class="fa-brands fa-facebook-f white"></i>
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span class="icon-container-outlined">
+                                    <i class="fa-brands fa-twitter white"></i>
+                                </span>
+                            </a>
+
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span class="icon-container-outlined">
+                                    <i class="fa-brands fa-instagram white"></i>
+                                </span>
+                            </a>
+                        </li>
                     </ul>
                 </div>
 
@@ -20,10 +39,12 @@
             <div class="col-md-8 col-xs-12">
                 <div class="getdone-logo">
                     <img src="{{asset("images/getdone.png")}}"/>
+                    <h6>T.: +351 21 752 54 19 meetings@getdone.pt</h6>
+
                 </div>
             </div>
 
-            <div class="visible-sm-block clearfix"></div>
+{{--            <div class="visible-sm-block clearfix"></div>--}}
 
 
         </div>

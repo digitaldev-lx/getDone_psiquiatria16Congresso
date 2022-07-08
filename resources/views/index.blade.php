@@ -1,7 +1,7 @@
 @extends("layout.index")
 
 @section("content")
-    <div id="fh5co-products" style="margin-top: 80px">
+    <div id="fh5co-products" style="margin-top: 100px">
         <img src="{{asset("images/side-banner.png")}}" class="side-banner hidden-xs hidden-sm hidden-md" alt="Sociedade Portuguesa de Psiquiatria"/>
 
         <div class="container" style="display: inline-block;">
@@ -10,13 +10,13 @@
                     <h2 class="fh5co-section-lead">Boas-vindas</h2>
                     <hr class="underline-title-bv">
                 </div>
-                <div class="col-md-2 hidden-xs hidden-sm hidden-md" style="margin-top: -50px; padding: 0">
+                <div class="col-md-2 hidden-xs hidden-sm hidden-md" style="margin-top: -95px; padding: 0">
                     <h2 class="logo-title">XVI</h2>
                     <h4 class="logo-sub-title">Congresso Nacional de Psiquiatria</h4>
                     <h6 class="logo-bold-text">O Natural e o Artificial na Psiquiatria:</h6>
-                    <h6 class="logo-bold-text" style="margin-top: -5px">Novelos e os seus Desenlaces</h6>
+                    <h6 class="logo-bold-text" style="margin-top: -10px">Novelos e os seus Desenlaces</h6>
                     <h6 class="logo-normal-text">The Natural and The Artificial in Psychiatry:</h6>
-                    <h6 class="logo-normal-text" style="margin-top: -5px">Knots ant their untying</h6>
+                    <h6 class="logo-normal-text" style="margin-top: -10px">Knots ant their untying</h6>
                 </div>
             </div>
             <div class="row text-center">
@@ -46,7 +46,7 @@
                     <img src="{{asset("images/sppsm_logo.png")}}" style="width: 150px; float: left; margin-top: 50px" alt="sppsm"/>
 
                 </div>
-                <div class="col-md-3 row">
+                <div class="col-md-3 row" style="margin-left: 40px">
                     <div class="col-md-12 doctor-img-container" style="margin-top: 20px">
                         <div class="shadow-img">
                             <img alt="Maria João Heitor" class="doctor-img" src="{{asset("images/presidentes/MJH.jpg")}}"/>
@@ -75,7 +75,7 @@
             <h2>NOV 2022</h2>
             <h5>PALÁCIO DE CONGRESSOS</h5>
             <h4>DO ALGARVE</h4>
-            <a href="#" class="btn btn-primary">EFECTUAR INSCRIÇÃO <i class="glyphicon glyphicon-arrow-right"></i></a>
+            <a href="https://www.eventbase.pt/EventBase/Inscricoes/PaginaInscricaoIndividual.aspx?Params=RXZlbnRvSUQ9NjUy" class="btn btn-primary">EFECTUAR INSCRIÇÃO <i class="fa-solid fa-angle-right fa-xl"></i></a>
         </span>
         </div>
     </div>
@@ -87,7 +87,7 @@
         <div class="row text-left">
             <div class="col-md-8">
                 <h2 class="fh5co-section-lead">Patrocinadores</h2>
-                <hr class="underline-title">
+                <hr class="underline-title-bv">
 
             </div>
             <div class="fh5co-spacer fh5co-spacer-md"></div>

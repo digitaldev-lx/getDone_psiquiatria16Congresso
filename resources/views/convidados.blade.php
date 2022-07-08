@@ -184,7 +184,7 @@
             <div class="row">
                 <div class="col-xs-12 col-md-8 col-md-offset-1">
                     <h2 class="fh5co-section-convidados">Convidados Nacionais e Estrangeiros</h2>
-                    <hr class="underline-title" style="margin-left: 32px">
+                    <hr class="underline-title-bv" style="margin-left: 32px">
                 </div>
                 <div class="hidden-xs col-xs-12 col-md-2">
                     <img src="{{asset("images/sppsm_logo.png")}}"
@@ -210,7 +210,9 @@
                             <div class="col-xs-4 col-md-2">
                                 <a href="{{route("convidado", $convidado["url"])}}" class="convidado">
                                     <div class="col-xs-12 convidado text-center">
-                                        <img alt="{{$convidado["name"]}}" src="{{asset("images/convidados/".$convidado["image"])}}"/>
+                                        <div class="shadow-img-convidado">
+                                            <img alt="{{$convidado["name"]}}" src="{{asset("images/convidados/".$convidado["image"])}}"/>
+                                        </div>
                                     </div>
                                     <div class="col-xs-12 convidado"><h5>{{$convidado["name"]}}</h5>
                                     </div>
@@ -236,8 +238,10 @@
                         @foreach ($estrangeiros as $convidado)
                             <div class="col-xs-4 col-md-2">
                                 <a href="{{route("comissoes.perfil", $convidado["url"])}}" class="convidado">
-                                    <div class="col-xs-12 convidado text-center"><img alt="{{$convidado["name"]}}"
-                                                                                      src="{{asset("images/convidados/".$convidado["image"])}}"/>
+                                    <div class="col-xs-12 convidado text-center">
+                                        <div class="shadow-img-convidado">
+                                            <img alt="{{$convidado["name"]}}" src="{{asset("images/convidados/".$convidado["image"])}}"/>
+                                        </div>
                                     </div>
                                     <div class="col-xs-12 convidado"><h5>{{$convidado["name"]}}</h5>
                                     </div>
