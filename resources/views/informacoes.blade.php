@@ -10,7 +10,7 @@
             <div class="row">
                 <div class="col-xs-12 col-md-8 col-md-offset-1">
                     <h2 class="fh5co-section-convidados">Informações</h2>
-                    <hr class="underline-title" style="margin-left: 32px">
+                    <hr class="underline-title-bv" style="margin-left: 32px">
                 </div>
                 <div class="hidden-xs col-xs-12 col-md-2">
                     <img src="{{asset("images/sppsm_logo.png")}}"

@@ -160,7 +160,7 @@
             <div class="row">
                 <div class="col-xs-12 col-md-8 col-md-offset-1">
                     <h2 class="fh5co-section-convidados">Comissões</h2>
-                    <hr class="underline-title" style="margin-left: 30px">
+                    <hr class="underline-title-bv" style="margin-left: 30px">
                 </div>
                 <div class="hidden-xs col-xs-12 col-md-2">
                     <img src="{{asset("images/sppsm_logo.png")}}" style="width: 100px; float: right; margin: 120px -120px 0 0" alt="sppsm"/>
@@ -182,7 +182,10 @@
                         @foreach ($organizadora as $convidado)
                             <div class="col-xs-4 col-md-2">
                                 <a href="{{route("comissoes.perfil", $convidado["url"])}}" class="convidado">
-                                    <div class="col-xs-12 convidado text-center"><img alt="{{$convidado["name"]}}" src="{{asset("images/comissoes/".$convidado["image"])}}"/></div>
+                                    <div class="col-xs-12 convidado text-center">
+                                        <div class="shadow-img-convidado">
+                                            <img alt="{{$convidado["name"]}}" src="{{asset("images/comissoes/".$convidado["image"])}}"/></div>
+                                        </div>
                                     <div class="col-xs-12 convidado"><h5>{{$convidado["name"]}}</h5>
                                     </div>
                                     <div class="col-xs-12 convidado"><h6>{{$convidado["country"]}}</h6></div>
@@ -208,7 +211,10 @@
                         @foreach ($cientifica as $convidado)
                             <div class="col-xs-4 col-md-2">
                                 <a href="{{route("comissoes.perfil", $convidado["url"])}}" class="convidado">
-                                    <div class="col-xs-12 convidado text-center"><img alt="{{$convidado["name"]}}" src="{{asset("images/comissoes/cientifica/".$convidado["image"])}}"/></div>
+                                    <div class="col-xs-12 convidado text-center">
+                                        <div class="shadow-img-convidado">
+                                            <img alt="{{$convidado["name"]}}" src="{{asset("images/comissoes/cientifica/".$convidado["image"])}}"/></div>
+                                        </div>
                                     <div class="col-xs-12 convidado"><h5>{{$convidado["name"]}}</h5>
                                     </div>
                                     <div class="col-xs-12 convidado"><h6>{{$convidado["country"]}}</h6></div>
