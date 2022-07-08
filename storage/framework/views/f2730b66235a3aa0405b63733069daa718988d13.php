@@ -34,17 +34,17 @@
     <!-- Google Webfonts -->
     <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,100,500' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
-
     <link rel="stylesheet" href="<?php echo e(asset("css/animate.css")); ?>">
     <link rel="stylesheet" href="<?php echo e(asset("css/icomoon.css")); ?>">
     <link rel="stylesheet" href="<?php echo e(asset("css/owl.carousel.min.css")); ?>">
     <link rel="stylesheet" href="<?php echo e(asset("css/owl.theme.default.min.css")); ?>">
     <link rel="stylesheet" href="<?php echo e(asset("css/magnific-popup.css")); ?>">
     <link rel="stylesheet" href="<?php echo e(asset("css/style.css")); ?>">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="<?php echo e(asset("js/modernizr-2.6.2.min.js")); ?>"></script>
     <!-- FOR IE9 below -->
     <!--[if lt IE 9]>
+
     <script src="<?php echo e(asset("js/respond.min.js")); ?>"></script>
     <![endif]-->
 

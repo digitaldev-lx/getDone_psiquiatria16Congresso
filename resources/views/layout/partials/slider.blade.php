@@ -12,7 +12,6 @@
                 <h6 class="logo-normal-text">The Natural and The Artificial in Psychiatry:</h6>
                 <h6 class="logo-normal-text" style="margin-top: -5px">Knots ant their untying</h6>
             </div>
-
         </div>
         <div class="row">
             <div class="col-xs-12 slider-container-button">

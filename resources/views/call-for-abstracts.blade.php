@@ -1,7 +1,6 @@
 @extends("layout.index")
 
 @section("content")
-
     <section id="call-for-abstracts">
         <img src="{{asset("images/img-top-convidados.png")}}" class="img-top-convidados"
              alt="Sociedade Portuguesa de Psiquiatria"/>

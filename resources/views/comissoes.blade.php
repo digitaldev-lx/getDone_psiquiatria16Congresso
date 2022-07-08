@@ -175,7 +175,6 @@
                 <div class="hidden-xs col-md-1">
                     <img src="{{asset("images/side-banner.png")}}" class="side-banner-comissoes hidden-xs hidden-sm hidden-md" alt="Sociedade Portuguesa de Psiquiatria"/>
                 </div>
-
                 <div class="col-xs-12 col-md-11" style="margin-top: 25px">
                     <div class="row">
 

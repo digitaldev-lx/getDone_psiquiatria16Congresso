@@ -34,7 +34,6 @@
     <!-- Google Webfonts -->
     <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,100,500' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
-
     <link rel="stylesheet" href="{{asset("css/animate.css")}}">
     <link rel="stylesheet" href="{{asset("css/icomoon.css")}}">
     <link rel="stylesheet" href="{{asset("css/owl.carousel.min.css")}}">

@@ -18,7 +18,6 @@
                     <li class="{{Route::currentRouteName() == "inscricoes" ? "active": ""}}"><a href="{{route("inscricoes")}}"><span>Inscrições <span class="border"></span></span></a></li>
                     <li class="{{Route::currentRouteName() == "call-for-abstracts" ? "active": ""}}"><a href="{{route("call.for.abstracts")}}"><span>Call for Abstracts <span class="border"></span></span></a></li>
                     <li class="{{Route::currentRouteName() == "informacoes" ? "active": ""}}"><a href="{{route("informacoes")}}"><span>Informações <span class="border"></span></span></a></li>
-
                     <li><a class="btn btn-primary btn-sm btn-inscricoes" href="https://www.eventbase.pt/EventBase/Inscricoes/PaginaInscricaoIndividual.aspx?Params=RXZlbnRvSUQ9NjUy"><i class="fa-regular fa-file fa-xl" style="margin-right: 8px"></i> INSCRIÇÕES</a></li>
                 </ul>
             </div>

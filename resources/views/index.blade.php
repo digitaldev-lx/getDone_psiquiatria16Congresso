@@ -3,7 +3,6 @@
 @section("content")
     <div id="fh5co-products" style="margin-top: 100px">
         <img src="{{asset("images/side-banner.png")}}" class="side-banner hidden-xs hidden-sm hidden-md" alt="Sociedade Portuguesa de Psiquiatria"/>
-
         <div class="container" style="display: inline-block;">
             <div class="row">
                 <div class="col-md-8 col-md-offset-1 bv-aligment">
@@ -20,7 +19,7 @@
                 </div>
             </div>
             <div class="row text-center">
-                <div class="col-md-7 col-md-offset-1">
+                <div class="col-md-7 col-md-offset-1 mb-bv-aligment">
                     <h3 class="fh5co-section-sub-lead">Caros Colegas<br>
                         É com o maior prazer que os convidamos para o XVI Congresso Nacional de Psiquiatria (CNP)
                         organizado pela Sociedade Portuguesa de Psiquiatria e Saúde Mental (SPPSM) que terá lugar de 16
@@ -43,7 +42,7 @@
                         trazendo contributos sob a forma de posters e comunicações livres, para uma discussão aberta,
                         crítica e livre de constrangimentos entre os vários saberes e modelos na Psiquiatria contemporânea.<br><br>
                         Cordiais cumprimentos.</h3>
-                    <img src="{{asset("images/sppsm_logo.png")}}" style="width: 150px; float: left; margin-top: 50px" alt="sppsm"/>
+                    <img src="{{asset("images/sppsm_logo.png")}}" style="width: 150px; float: left; margin-top: 50px" alt="sppsm " class="hidden-xs hidden-sm"/>
 
                 </div>
                 <div class="col-md-3 row" style="margin-left: 40px">

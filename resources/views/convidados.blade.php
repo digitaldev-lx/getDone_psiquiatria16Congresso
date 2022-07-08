@@ -191,6 +191,7 @@
                          style="width: 100px; float: right; margin: 120px -120px 0 0" alt="sppsm"/>
                 </div>
             </div>
+
             <div class="row">
                 <div class="col-xs-12 col-md-8 col-md-offset-1">
                     <h2 class="fh5co-section-convidados" style="margin-top: 30px">Nacionais</h2>

@@ -25,6 +25,7 @@
                          alt="Sociedade Portuguesa de Psiquiatria"/>
                 </div>
 
+
                 <div class="col-xs-12 col-md-11" style="margin-top: 25px; text-align: left">
                     <div class="row">
                         <div class="col-xs-12 col-md-4 col-md-offset-1 text-center">
