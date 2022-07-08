@@ -8902,7 +8902,91 @@ img.fh5co-align-right {
     margin: 0 0 .5em 1em;
 }
 
+/*tablets maiores*/
+@media only screen and (min-width:481px) and (max-width:1180px){
+    .fh5co-parallax{
+        height: 80vh!important;
+    }
+
+    .cta-parallax{
+        background-image: url("../images/local-sm.jpg")!important;
+    }
+
+    .side-banner{
+        display: none;
+    }
+
+    .title-tablet{
+        margin-top: -160px!important;
+        padding: 0 0 0 75%!important;
+    }
+
+    /*.sppsm-logo-bv{
+        display: none!important;
+    }*/
+
+    .doctor-img-container{
+        width: 50%!important;
+        display: flex!important;
+        align-items: center!important;
+        justify-content: end!important;
+        flex-wrap: wrap!important;
+    }
+
+    .dt-main-container{
+        display: flex!important;
+        align-content: end!important;
+    }
+
+    .logo {
+        width: 100px!important;
+        margin-top: -10px!important;
+    }
+
+    .slider-container{
+        margin-top: 180px!important;
+    }
+
+    .slider-container-button{
+        margin: 0 auto!important;
+    }
+
+    .slider-container-button a{
+        width: 35%!important;
+    }
+}
+
+/*tablets*/
+@media only screen and (min-width:481px) and (max-width:768px){
+    .fh5co-parallax{
+        height: 90vh!important;
+    }
+
+    .cta-parallax{
+        background-image: url("../images/local-sm.jpg")!important;
+    }
+
+    .logo {
+        width: 100px!important;
+        margin-top: -10px!important;
+    }
+
+    .slider-container{
+        margin-top: 180px!important;
+    }
+
+    .slider-container-button{
+        margin: 0 auto!important;
+    }
+
+    .slider-container-button a{
+        width: 35%!important;
+    }
+}
+
+/*mobile phones*/
 @media screen and (max-width: 480px) {
+    
     .fh5co-lead, .fh5co-sub-lead, .fh5co-text {
         margin-left: 30px !important;
     }
@@ -8935,7 +9019,7 @@ img.fh5co-align-right {
     }
 
     .slider-container{
-        margin: 150px auto!important;
+        margin: 200px auto!important;
         padding-right: 50px!important;
         /*padding-left: 70px;*/
         padding-top: 0px!important;
@@ -8966,7 +9050,6 @@ img.fh5co-align-right {
         padding-right: 25px!important;
         /*margin-right: 20px;*/
     }
-
 
     .slider-container
     .logo-title{
@@ -9489,8 +9572,7 @@ i.red{
     width: 130px;
 }
 
-
-
+/*mobile phones*/
 @media screen and (max-width: 480px) {
     .cta-parallax{
         padding: 0;

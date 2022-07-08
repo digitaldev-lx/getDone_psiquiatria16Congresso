@@ -3,11 +3,11 @@
         <img src="<?php echo e(asset("images/side-banner.png")); ?>" class="side-banner hidden-xs hidden-sm hidden-md" alt="Sociedade Portuguesa de Psiquiatria"/>
         <div class="container" style="display: inline-block;">
             <div class="row">
-                <div class="col-md-8 col-md-offset-1 bv-aligment">
+                <div class="col-xs-12 col-md-8 col-md-offset-1 bv-aligment">
                     <h2 class="fh5co-section-lead">Boas-vindas</h2>
                     <hr class="underline-title-bv">
                 </div>
-                <div class="col-md-2 hidden-xs hidden-sm hidden-md" style="margin-top: -95px; padding: 0">
+                <div class="col-xs-12 col-md-2 hidden-xs hidden-sm title-tablet" style="margin-top: -95px; padding: 0">
                     <h2 class="logo-title">XVI</h2>
                     <h4 class="logo-sub-title">Congresso Nacional de Psiquiatria</h4>
                     <h6 class="logo-bold-text">O Natural e o Artificial na Psiquiatria:</h6>
@@ -17,7 +17,7 @@
                 </div>
             </div>
             <div class="row text-center">
-                <div class="col-md-7 col-md-offset-1 mb-bv-aligment">
+                <div class="col-md-7 col-md-offset-1 col-lg-7 col-lg-offset-1 mb-bv-aligment">
                     <h3 class="fh5co-section-sub-lead">Caros Colegas<br>
                         É com o maior prazer que os convidamos para o XVI Congresso Nacional de Psiquiatria (CNP)
                         organizado pela Sociedade Portuguesa de Psiquiatria e Saúde Mental (SPPSM) que terá lugar de 16
@@ -40,10 +40,10 @@
                         trazendo contributos sob a forma de posters e comunicações livres, para uma discussão aberta,
                         crítica e livre de constrangimentos entre os vários saberes e modelos na Psiquiatria contemporânea.<br><br>
                         Cordiais cumprimentos.</h3>
-                    <img src="<?php echo e(asset("images/sppsm_logo.png")); ?>" style="width: 150px; float: left; margin-top: 50px" alt="sppsm " class="hidden-xs hidden-sm"/>
+                    <img src="<?php echo e(asset("images/sppsm_logo.png")); ?>" style="width: 150px; float: left; margin-top: 50px" alt="sppsm " class="hidden-xs hidden-sm sppsm-logo-bv"/>
 
                 </div>
-                <div class="col-md-3 row" style="margin-left: 40px">
+                <div class="col-md-3 col-lg-3 row dt-main-container" style="margin-left: 40px;">
                     <div class="col-md-12 doctor-img-container" style="margin-top: 20px">
                         <div class="shadow-img">
                             <img alt="Maria João Heitor" class="doctor-img" src="<?php echo e(asset("images/presidentes/MJH.jpg")); ?>"/>
