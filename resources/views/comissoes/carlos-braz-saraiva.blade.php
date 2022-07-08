@@ -14,7 +14,7 @@
                 <div class="col-xs-12 col-md-6">
                     <h2 class="fh5co-section-convidados">Carlos Braz Saraiva</h2>
                     <h4>PORTUGAL</h4>
-                    <p>EDUCATION<br>
+                    <p><br>
                         Carlos Braz Saraiva, Professor de Psiquiatria da Faculdade de Medicina da Universidade de Coimbra (Aposentado), colaborou também com as Universidades dos Açores, Beira Interior e Cabo Verde, Chefe de Serviço de Psiquiatria dos Hospitais da Universidade de Coimbra (Aposentado), membro efetivo do Conselho Médico-Legal (2012-2017), Subespecialista de Psiquiatria Forense pela Ordem dos Médicos, Diretor de Psicodrama, autor e coautor de diversas obras científicas, designadamente “Para-suicídio” (Quarteto, 1999), “Estudos sobre o Para-suicídio – O que leva os jovens a espreitar a morte” (Redhorse, 2006), “Comportamentos Suicidários em Portugal (SPS, 2006), “Depressão e Suicídio” (Lidel, 2014), “Suicídio e Comportamentos Autolesivos” (Lidel, 2014), “Psiquiatria Fundamental” (Lidel, 2014) e “Manual de Psiquiatria Forense” (Lidel, 2017). <br>
                         É autor ou coautor de mais de uma centena de publicações científicas. Foi fundador da Consulta de Prevenção do Suicídio (1992) e o primeiro Presidente da Sociedade Portuguesa de Suicidologia (2001). <br>
                         Colaureado em Congresso Mundial de Suicidologia (IASP, Chennai, Índia, 2001). Foi dinamizador das Jornadas sobre Comportamentos Suicidários (1996-2016). Membro do Colégio da Especialidade de Psiquiatria nas décadas de 80 e 90. <br>

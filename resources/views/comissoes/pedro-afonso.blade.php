@@ -14,7 +14,7 @@
                 <div class="col-xs-12 col-md-6">
                     <h2 class="fh5co-section-convidados">Pedro Afonso</h2>
                     <h4>PORTUGAL</h4>
-                    <p>EDUCATION<br>
+                    <p><br>
                         Médico psiquiatra. Internato complementar de psiquiatria realizado no Hospital Júlio de Matos (2001), tendo mantido funções clínicas neste hospital até 2014. Mestre em Ciências do Sono e Doutorado em Psiquiatria e Saúde Mental pela Faculdade de Medicina de Lisboa. <br>
                         Foi Professor convidado no Instituto de Ciências da Saúde da Universidade Católica Portuguesa, tendo sido o coordenador da Pós-Graduação em Saúde Mental (2011-2017) e Professor Auxiliar de Psiquiatria na Faculdade de Medicina da Universidade de Lisboa (2011-2022). <br><br>
                          

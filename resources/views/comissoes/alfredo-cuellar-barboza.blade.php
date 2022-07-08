@@ -14,7 +14,7 @@
                 <div class="col-xs-12 col-md-6">
                     <h2 class="fh5co-section-convidados">Amelia Fiske</h2>
                     <h4>GERMANY</h4>
-                    <p>EDUCATION<br>
+                    <p><br>
                         2016 Ph.D., University of North Carolina at Chapel Hill, Socio-Cultural Anthropology with
                         specialization in Medical Anthropology<br>
                         2006 B.A., Bowdoin College, Environmental Studies and Latin American Studies major; Gender
@@ -46,5 +46,5 @@
             </div>
         </div>
     </div>
-    
+
 @endsection

@@ -14,7 +14,7 @@
                 <div class="col-xs-12 col-md-6">
                     <h2 class="fh5co-section-convidados">Pedro Gamito</h2>
                     <h4>GERMANY</h4>
-                    <p>EDUCATION<br>
+                    <p><br>
                         Pedro Gamito earned his PhD from the University of Salford (UK) in Built and Human Environment in 2002, and the title of Aggregate in Rehabilitation by the University of Lisbon in 2012. <br>
                         Pedro is a Full Professor and the Head of Programme of the Erasmus Mundus Joint Master Degree CYBER: Cyberspace, Behaviour and e-Therapy and the director of the Research Centre - HEI-Lab – Digital Human-Environment Interaction Lab, at Lusófona University. <br>
                         Since 2004 he has been developing, validating, and applying numerous virtual reality applications designed for the treatment of anxiety disorders and for the cognitive stimulation of patients with stroke, TBI and Substance Use Disorders. <br>

@@ -14,7 +14,7 @@
                 <div class="col-xs-12 col-md-6">
                     <h2 class="fh5co-section-convidados">Pedro Ribeiro Branco</h2>
                     <h4>PORTUGAL</h4>
-                    <p>EDUCATION<br>
+                    <p><br>
                         Médico Psiquiatra<br><br>
                         Membro da Secção de Psiquiatria Geriátrica da SPPSM
                     </p>

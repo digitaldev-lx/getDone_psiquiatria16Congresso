@@ -209,8 +209,8 @@
                         @foreach ($nacionais as $convidado)
                             <div class="col-xs-4 col-md-2">
                                 <a href="{{route("convidado", $convidado["url"])}}" class="convidado">
-                                    <div class="col-xs-12 convidado text-center"><img alt="{{$convidado["name"]}}"
-                                                                                      src="{{asset("images/convidados/".$convidado["image"])}}"/>
+                                    <div class="col-xs-12 convidado text-center">
+                                        <img alt="{{$convidado["name"]}}" src="{{asset("images/convidados/".$convidado["image"])}}"/>
                                     </div>
                                     <div class="col-xs-12 convidado"><h5>{{$convidado["name"]}}</h5>
                                     </div>

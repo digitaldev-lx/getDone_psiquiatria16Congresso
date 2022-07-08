@@ -14,7 +14,7 @@
                 <div class="col-xs-12 col-md-6">
                     <h2 class="fh5co-section-convidados">António Bento</h2>
                     <h4>PORTUGAL</h4>
-                    <p>EDUCATION<br>
+                    <p><br>
                         Natural de Lisboa (nascido em 13 de agosto de 1954).<br>
                         Licenciado em medicina pela Faculdade de Ciências Médicas de Lisboa.<br>
                         Chefe de Serviço de Psiquiatria (atualmente Assistente Graduado Sénior) desde 2001.<br>

@@ -14,7 +14,7 @@
                 <div class="col-xs-12 col-md-6">
                     <h2 class="fh5co-section-convidados">Maria Luísa Figueira</h2>
                     <h4>PORTUGAL</h4>
-                    <p>EDUCATION<br>
+                    <p><br>
                         Professora Catedrática Jubilada de Psiquiatria e Saúde Mental. Fez o doutoramento  na Faculdade de Medicina da Universidade de Lisboa com uma tese intitulada “Relações interpessoais na esquizofrenia. Um estudo experimental”. <br>
                         Foi diretora do Serviço de Psiquiatria do Centro Hospitalar Lisboa Norte (Hospital de Santa Maria) desde 2003 até à sua Jubilação em Janeiro de 2014. Presidente da Sociedade Portuguesa de Psiquiatria no triénio 2013-1015. Fez estudos de investigação em Psicofarmacologia, e estudos experimentais em Psicopatologia do Espectro da Esquizofrenia, da Doença Bipolar e da Ansiedade. <br>
                         Nos últimos anos tem trabalhado na área de Fenomenologia e Epistemologia da Psiquiatria na sua interface com as neurociências.  Publicou mais de 200 artigos em revistas Nacionais e Internacionais, sendo cerca de 60 em revistas indexadas e com revisão por pares. Em 2010 recebeu em Budapeste o prémio de carreira – “European Bipolar Forum Achievement Award”.</p>

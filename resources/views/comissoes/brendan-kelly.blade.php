@@ -14,7 +14,7 @@
                 <div class="col-xs-12 col-md-6">
                     <h2 class="fh5co-section-convidados">Brendan Kelly</h2>
                     <h4>GERMANY</h4>
-                    <p>EDUCATION<br>
+                    <p><br>
                         Brendan Kelly is Professor of Psychiatry at Trinity College Dublin, Ireland, Consultant Psychiatrist at Tallaght University Hospital, Dublin, and UCD Visiting Full Clinical Professor at UCD School of Medicine, University College Dublin.<br>
 
                         In addition to his medical degree (MB BCh BAO), he holds masters degrees in epidemiology (MSc), healthcare management (MA) and Buddhist studies (MA); and doctorates in medicine (MD), history (PhD), governance (DGov) and law (PhD).<br>

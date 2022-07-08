@@ -14,7 +14,7 @@
                 <div class="col-xs-12 col-md-6">
                     <h2 class="fh5co-section-convidados">Luis Câmara Pestana</h2>
                     <h4>PORTUGAL</h4>
-                    <p>EDUCATION<br>
+                    <p><br>
                         Luís Câmara Pestana, diretor do Serviço de Psiquiatria e Saúde Mental do Centro Hospitalar Lisboa Norte - Hospital de Santa Maria (CHLN) chefe de serviço de Psiquiatria. <br>
                         Especialista em Psiquiatria e Farmacologia Clínica pela Ordem dos Médicos. <br>
                         Professor Convidado de Clínica da Faculdade de Medicina de Lisboa. <br>

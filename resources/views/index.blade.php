@@ -6,11 +6,11 @@
 
         <div class="container" style="display: inline-block;">
             <div class="row">
-                <div class="col-md-8 col-md-offset-1">
+                <div class="col-md-8 col-md-offset-1 bv-aligment">
                     <h2 class="fh5co-section-lead">Boas-vindas</h2>
-                    <hr class="underline-title">
+                    <hr class="underline-title-bv">
                 </div>
-                <div class="col-md-2 hidden-xs hidden-sm hidden-md" style="margin-top: -50px">
+                <div class="col-md-2 hidden-xs hidden-sm hidden-md" style="margin-top: -50px; padding: 0">
                     <h2 class="logo-title">XVI</h2>
                     <h4 class="logo-sub-title">Congresso Nacional de Psiquiatria</h4>
                     <h6 class="logo-bold-text">O Natural e o Artificial na Psiquiatria:</h6>
@@ -20,7 +20,7 @@
                 </div>
             </div>
             <div class="row text-center">
-                <div class="col-md-8 col-md-offset-1">
+                <div class="col-md-7 col-md-offset-1">
                     <h3 class="fh5co-section-sub-lead">Caros Colegas<br>
                         É com o maior prazer que os convidamos para o XVI Congresso Nacional de Psiquiatria (CNP)
                         organizado pela Sociedade Portuguesa de Psiquiatria e Saúde Mental (SPPSM) que terá lugar de 16
@@ -46,15 +46,19 @@
                     <img src="{{asset("images/sppsm_logo.png")}}" style="width: 150px; float: left; margin-top: 50px" alt="sppsm"/>
 
                 </div>
-                <div class="col-md-2 row">
-                    <div class="col-md-12 text-center" style="margin-top: 50px">
-                        <img alt="Maria João Heitor" class="doctor-img" src="{{asset("images/presidentes/MJH.jpg")}}"/>
+                <div class="col-md-3 row">
+                    <div class="col-md-12 doctor-img-container" style="margin-top: 20px">
+                        <div class="shadow-img">
+                            <img alt="Maria João Heitor" class="doctor-img" src="{{asset("images/presidentes/MJH.jpg")}}"/>
+                        </div>
                         <img alt="Maria João Heitor" class="doctor_signature" src="{{asset("images/presidentes/mjh_signature.png")}}"/>
                         <h5>Maria João Heitor</h5>
                         <h6>Presidente da SPPSM</h6>
                     </div>
-                    <div class="col-md-12">
-                        <img alt="Luis Madeira" class="doctor-img" src="{{asset("images/presidentes/LM.jpg")}}"/>
+                    <div class="col-md-12 doctor-img-container" style="margin-top: 20px">
+                        <div class="shadow-img">
+                            <img alt="Luis Madeira" class="doctor-img" src="{{asset("images/presidentes/LM.jpg")}}"/>
+                        </div>
                         <img alt="Luis Madeira" class="doctor_signature" src="{{asset("images/presidentes/lm_signature.png")}}"/>
                         <h5>Luís Madeira</h5>
                         <h6>Presidente da Comissão Organizadora</h6>

@@ -14,7 +14,7 @@
                 <div class="col-xs-12 col-md-6">
                     <h2 class="fh5co-section-convidados">Fernando Vieira</h2>
                     <h4>PORTUGAL</h4>
-                    <p>EDUCATION<br>
+                    <p><br>
                         Fernando Vieira é médico, é assistente graduado sénior de psiquiatria no Serviço de Psiquiatria Forense do Centro Hospitalar Psiquiátrico de Lisboa, local para onde transitou após a anterior Direção do Serviço de Psiquiatria e posteriormente de Clínica Forense do INMLCF,IP na delegação sul em Lisboa (2004 a 2013). <br>
                         É assessor do Programa Nacional de Saúde Mental da DGS para assuntos relacionados com a Psiquiatria Forense. <br>
                         Pós-graduado com o Curso Superior de Medicina Legal e de Direito Biomédico. Membro da Direção da Secção da Subespecialidade de Psiquiatria Forense do Colégio de Psiquiatria da Ordem dos Médicos. <br>

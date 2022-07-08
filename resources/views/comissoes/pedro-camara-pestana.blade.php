@@ -14,7 +14,7 @@
                 <div class="col-xs-12 col-md-6">
                     <h2 class="fh5co-section-convidados">Pedro Câmara Pestana</h2>
                     <h4>PORTUGAL</h4>
-                    <p>EDUCATION<br>
+                    <p><br>
                         <b>Pedro Abecasis do Nascimento da Câmara Pestana</b>
                         <br><br>
                         Mestrado Integrado em Medicina pela Faculdade de Medicina da Universidade de Lisboa, 2009-2015<br>

@@ -14,7 +14,7 @@
                 <div class="col-xs-12 col-md-6">
                     <h2 class="fh5co-section-convidados">Miguel Xavier</h2>
                     <h4>PORTUGAL</h4>
-                    <p>EDUCATION<br>
+                    <p><br>
                         NOTA CURRICULAR<br><br>
 
                         •	Professor Catedrático de Psiquiatria e Saúde Mental – Faculdade de Ciências Médicas da Universidade Nova de Lisboa | NOVA Medical School.<br>
