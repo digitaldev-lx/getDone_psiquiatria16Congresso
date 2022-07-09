@@ -7882,8 +7882,9 @@ hr.underline-title-bv{
     box-shadow: 6px 5px 0px 5px #979874ff;*/
 }
 
-.shadow-img{
-    position: relative;
+.shadow-img-individual{
+    position: absolute;
+    top: 120px;
     width: 200px;
     height: 200px;
     border-radius: 50%;
@@ -7891,11 +7892,12 @@ hr.underline-title-bv{
 }
 
 .doctor-img-individual{
-    margin-top: 120px;
-    width: 13em;
+    position: relative;
+    margin: -13px 0 0 -18px;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
-    -webkit-box-shadow: 6px 5px 0px 5px #979874ff;
-    box-shadow: 6px 5px 0px 5px #979874ff;
+    margin: ;
 }
 
 /*#section-convidados{
@@ -7935,7 +7937,7 @@ section#convidados{
 }
 
 section#programa{
-    height: 150vh;
+    height: auto;
 }
 
 section#call-for-abstracts{
@@ -8904,6 +8906,46 @@ img.fh5co-align-right {
 
 /*tablets maiores*/
 @media only screen and (min-width:481px) and (max-width:1180px){
+    .fh5co-section-convidados{
+        margin-top: 175px!important;
+    }
+
+    .shadow-img-individual{
+        position: absolute;
+        top: 120px;
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        background: #979874ff;
+    }
+
+    .doctor-img-individual{
+        position: relative;
+        margin: -13px 0 0 -18px!important;
+        width: 200px!important;
+        height: 200px!important;
+        border-radius: 50%;
+        margin: ;
+    }
+
+    .doctor-img-individual{
+        position: relative;
+        width: 200px;
+        border-radius: 50%;
+        margin: -13px 0 0 -26px;
+
+        /*-webkit-box-shadow: 6px 5px 0px 5px #979874ff;
+        box-shadow: 6px 5px 0px 5px #979874ff;*/
+    }
+
+    .shadow-img-individual{
+        position: relative;
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        background: #979874ff;
+    }
+
     .shadow-img-convidado{
         width: 130px!important;
         height: 130px!important;
@@ -8974,6 +9016,28 @@ img.fh5co-align-right {
 
 /*tablets*/
 @media only screen and (min-width:481px) and (max-width:768px){
+    .fh5co-section-convidados{
+        margin-top: 350px!important;
+    }
+
+    .shadow-img-individual{
+        position: absolute;
+        top: 120px;
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        background: #979874ff;
+    }
+
+    .doctor-img-individual{
+        position: relative;
+        margin: -13px 0 0 -18px!important;
+        width: 200px!important;
+        height: 200px!important;
+        border-radius: 50%;
+        margin: ;
+    }
+
     .fh5co-parallax{
         height: 90vh!important;
     }
@@ -9002,6 +9066,32 @@ img.fh5co-align-right {
 
 /*mobile phones*/
 @media screen and (max-width: 480px) {
+
+    .fh5co-section-convidados{
+        margin-top: 100px!important;
+    }
+
+    .sppsm-logo-comissoes{
+        display: none!important;
+    }
+
+    .shadow-img-individual{
+        position: absolute;
+        top: 120px;
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        background: #979874ff;
+    }
+
+    .doctor-img-individual{
+        position: relative;
+        margin: -13px 0 0 -18px!important;
+        width: 200px!important;
+        height: 200px!important;
+        border-radius: 50%;
+        margin: ;
+    }
 
     .fh5co-lead, .fh5co-sub-lead, .fh5co-text {
         margin-left: 30px !important;
