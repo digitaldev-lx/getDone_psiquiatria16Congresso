@@ -7,10 +7,13 @@
          --}}
         <div class="container">
             <div class="row">
-                <div class="col-xs-12 col-md-2 col-md-offset-1 cvs-sm">
-                    <img alt="Amelia Fiske" class="doctor-img-individual" src="{{asset("images/convidados/DANIEL_FREEMAN.jpg")}}"/>
-                    <img src="{{asset("images/sppsm_logo.png")}}" style="width: 150px; float: left; margin-top: 40vh" alt="sppsm"/>
+                <div class="col-xs-12 col-md-2 col-md-offset-1">
+                    <div class="shadow-img-individual">
+                        <img class="doctor-img-individual" src="{{asset("images/convidados/DANIEL_FREEMAN.jpg")}}"/>
+                    </div>
+                    <img src="{{asset("images/sppsm_logo.png")}}" style="width: 150px; float: left; margin-top: 60vh" alt="sppsm" class="sppsm-logo-comissoes"/>
                 </div>
+
                 <div class="col-xs-12 col-md-6">
                     <h2 class="fh5co-section-convidados">Daniel Freeman</h2>
                     <h4>GERMANY</h4>

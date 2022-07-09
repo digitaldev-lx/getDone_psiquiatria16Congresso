@@ -15,7 +15,6 @@
                     <h2 class="fh5co-section-convidados">Miguel Nascimento</h2>
                     <h4>PORTUGAL</h4>
                     <p><br>
-
                         Formado em Medicina pela Faculdade de Medicina da Universidade de Lisboa, realizou a especialidade em Psiquiatria e Saúde Mental no Centro Hospitalar Psiquiátrico de Lisboa, onde atualmente exerce, não só em consulta comunitária, como internamento de agudos. <br>
                         Adicionalmente, tem desenvolvido trabalho como da direção clínica e coordenação do Núcleo Comunitário de Torres Vedras, além de participar na ECL de Saúde Mental de Lisboa Central relativamente à Rede de Cuidados Continuados Integrados. Encontra-se a realizar doutoramento em Neurociências, focado na melhoria dos sintomas cognitivos e incapacidade funcional em utentes com doença Bipolar.</p>
                 </div>
