@@ -1,25 +1,23 @@
 <?php $__env->startSection("content"); ?>
-    <div id="fh5co-products" style="margin-top: 80px">
+    <div id="fh5co-products" style="margin-top: 100px">
         <img src="<?php echo e(asset("images/side-banner.png")); ?>" class="side-banner hidden-xs hidden-sm hidden-md" alt="Sociedade Portuguesa de Psiquiatria"/>
-
         <div class="container" style="display: inline-block;">
             <div class="row">
-                <div class="col-md-8 col-md-offset-1">
+                <div class="col-xs-12 col-md-8 col-md-offset-1 bv-aligment">
                     <h2 class="fh5co-section-lead">Boas-vindas</h2>
-                    <hr class="underline-title">
+                    <hr class="underline-title-bv">
                 </div>
-                <div class="col-md-2 hidden-xs hidden-sm hidden-md" style="margin-top: -50px">
+                <div class="col-xs-12 col-md-2 hidden-xs hidden-sm title-tablet" style="margin-top: -95px; padding: 0">
                     <h2 class="logo-title">XVI</h2>
                     <h4 class="logo-sub-title">Congresso Nacional de Psiquiatria</h4>
                     <h6 class="logo-bold-text">O Natural e o Artificial na Psiquiatria:</h6>
-                    <h6 class="logo-bold-text" style="margin-top: -5px">Novelos e os seus Desenlaces</h6>
+                    <h6 class="logo-bold-text" style="margin-top: -10px">Novelos e os seus Desenlaces</h6>
                     <h6 class="logo-normal-text">The Natural and The Artificial in Psychiatry:</h6>
-                    <h6 class="logo-normal-text" style="margin-top: -5px">Knots ant their untying</h6>
+                    <h6 class="logo-normal-text" style="margin-top: -10px">Knots ant their untying</h6>
                 </div>
             </div>
             <div class="row text-center">
-                <div class="col-md-8 col-md-offset-1">
-
+                <div class="col-md-7 col-md-offset-1 col-lg-7 col-lg-offset-1 mb-bv-aligment">
                     <h3 class="fh5co-section-sub-lead">Caros Colegas<br>
                         É com o maior prazer que os convidamos para o XVI Congresso Nacional de Psiquiatria (CNP)
                         organizado pela Sociedade Portuguesa de Psiquiatria e Saúde Mental (SPPSM) que terá lugar de 16
@@ -42,18 +40,22 @@
                         trazendo contributos sob a forma de posters e comunicações livres, para uma discussão aberta,
                         crítica e livre de constrangimentos entre os vários saberes e modelos na Psiquiatria contemporânea.<br><br>
                         Cordiais cumprimentos.</h3>
-                    <img src="<?php echo e(asset("images/sppsm_logo.png")); ?>" style="width: 150px; float: left; margin-top: 50px" alt="sppsm"/>
+                    <img src="<?php echo e(asset("images/sppsm_logo.png")); ?>" style="width: 150px; float: left; margin-top: 50px" alt="sppsm " class="hidden-xs hidden-sm sppsm-logo-bv"/>
 
                 </div>
-                <div class="col-md-2 row">
-                    <div class="col-md-12 text-center" style="margin-top: 50px">
-                        <img alt="Maria João Heitor" class="doctor-img" src="<?php echo e(asset("images/presidentes/MJH.jpg")); ?>"/>
+                <div class="col-md-3 col-lg-3 row dt-main-container" style="margin-left: 40px;">
+                    <div class="col-md-12 doctor-img-container" style="margin-top: 20px">
+                        <div class="shadow-img">
+                            <img alt="Maria João Heitor" class="doctor-img" src="<?php echo e(asset("images/presidentes/MJH.jpg")); ?>"/>
+                        </div>
                         <img alt="Maria João Heitor" class="doctor_signature" src="<?php echo e(asset("images/presidentes/mjh_signature.png")); ?>"/>
                         <h5>Maria João Heitor</h5>
                         <h6>Presidente da SPPSM</h6>
                     </div>
-                    <div class="col-md-12">
-                        <img alt="Luis Madeira" class="doctor-img" src="<?php echo e(asset("images/presidentes/LM.jpg")); ?>"/>
+                    <div class="col-md-12 doctor-img-container" style="margin-top: 20px">
+                        <div class="shadow-img">
+                            <img alt="Luis Madeira" class="doctor-img" src="<?php echo e(asset("images/presidentes/LM.jpg")); ?>"/>
+                        </div>
                         <img alt="Luis Madeira" class="doctor_signature" src="<?php echo e(asset("images/presidentes/lm_signature.png")); ?>"/>
                         <h5>Luís Madeira</h5>
                         <h6>Presidente da Comissão Organizadora</h6>
@@ -70,7 +72,7 @@
             <h2>NOV 2022</h2>
             <h5>PALÁCIO DE CONGRESSOS</h5>
             <h4>DO ALGARVE</h4>
-            <a href="#" class="btn btn-primary">EFECTUAR INSCRIÇÃO <i class="glyphicon glyphicon-arrow-right"></i></a>
+            <a href="https://www.eventbase.pt/EventBase/Inscricoes/PaginaInscricaoIndividual.aspx?Params=RXZlbnRvSUQ9NjUy" class="btn btn-primary">EFECTUAR INSCRIÇÃO <i class="fa-solid fa-angle-right fa-xl"></i></a>
         </span>
         </div>
     </div>
@@ -82,61 +84,52 @@
         <div class="row text-left">
             <div class="col-md-8">
                 <h2 class="fh5co-section-lead">Patrocinadores</h2>
-                <hr class="underline-title">
+                <hr class="underline-title-bv">
 
-                <h3 class="fh5co-section-sub-lead">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</h3>
             </div>
             <div class="fh5co-spacer fh5co-spacer-md"></div>
         </div>
         <div class="row">
             <div class="col-md-3 col-sm-6 col-xs-6 col-xxs-12 fh5co-mb30">
                 <div class="fh5co-product">
-                    <img src="images/slide_1.jpg" alt="codeboys.pt Free HTML5 Template Bootstrap" class="img-responsive img-rounded to-animate">
-                    <h4>Lorem ipsum</h4>
+                    <img src="images/slide_4.jpg" alt="codeboys.pt Free HTML5 Template Bootstrap" class="img-responsive img-rounded to-animate">
                 </div>
             </div>
             <div class="col-md-3 col-sm-6 col-xs-6 col-xxs-12 fh5co-mb30">
                 <div class="fh5co-product">
                     <img src="images/slide_2.jpg" alt="codeboys.pt Free HTML5 Template Bootstrap" class="img-responsive img-rounded to-animate">
-                    <h4>Architecto nihil</h4>
                 </div>
             </div>
             <div class="visible-sm-block visible-xs-block clearfix"></div>
             <div class="col-md-3 col-sm-6 col-xs-6 col-xxs-12 fh5co-mb30">
                 <div class="fh5co-product">
                     <img src="images/slide_3.jpg" alt="codeboys.pt Free HTML5 Template Bootstrap" class="img-responsive img-rounded to-animate">
-                    <h4>Animi earum</h4>
                 </div>
             </div>
             <div class="col-md-3 col-sm-6 col-xs-6 col-xxs-12 fh5co-mb30">
                 <div class="fh5co-product">
                     <img src="images/slide_4.jpg" alt="codeboys.pt Free HTML5 Template Bootstrap" class="img-responsive img-rounded to-animate">
-                    <h4>Recusandae iste</h4>
                 </div>
             </div>
             <div class="col-md-3 col-sm-6 col-xs-6 col-xxs-12 fh5co-mb30">
                 <div class="fh5co-product">
-                    <img src="images/slide_1.jpg" alt="codeboys.pt Free HTML5 Template Bootstrap" class="img-responsive img-rounded to-animate">
-                    <h4>Lorem ipsum</h4>
+                    <img src="images/slide_4.jpg" alt="codeboys.pt Free HTML5 Template Bootstrap" class="img-responsive img-rounded to-animate">
                 </div>
             </div>
             <div class="col-md-3 col-sm-6 col-xs-6 col-xxs-12 fh5co-mb30">
                 <div class="fh5co-product">
                     <img src="images/slide_2.jpg" alt="codeboys.pt Free HTML5 Template Bootstrap" class="img-responsive img-rounded to-animate">
-                    <h4>Architecto nihil</h4>
                 </div>
             </div>
             <div class="visible-sm-block visible-xs-block clearfix"></div>
             <div class="col-md-3 col-sm-6 col-xs-6 col-xxs-12 fh5co-mb30">
                 <div class="fh5co-product">
                     <img src="images/slide_3.jpg" alt="codeboys.pt Free HTML5 Template Bootstrap" class="img-responsive img-rounded to-animate">
-                    <h4>Animi earum</h4>
                 </div>
             </div>
             <div class="col-md-3 col-sm-6 col-xs-6 col-xxs-12 fh5co-mb30">
                 <div class="fh5co-product">
                     <img src="images/slide_4.jpg" alt="codeboys.pt Free HTML5 Template Bootstrap" class="img-responsive img-rounded to-animate">
-                    <h4>Recusandae iste</h4>
                 </div>
             </div>
         </div>

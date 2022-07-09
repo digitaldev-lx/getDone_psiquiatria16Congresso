@@ -23,7 +23,6 @@
                                     <i class="fa-brands fa-twitter white"></i>
                                 </span>
                             </a>
-
                         </li>
                         <li>
                             <a href="#">

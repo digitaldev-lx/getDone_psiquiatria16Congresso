@@ -14,7 +14,7 @@
                 </div>
                 <div class="hidden-xs col-xs-12 col-md-2">
                     <img src="{{asset("images/sppsm_logo.png")}}"
-                         style="width: 100px; float: right; margin: 120px -120px 0 0" alt="sppsm"/>
+                         style="width: 100px; float: right; margin: 120px -120px 0 0" alt="sppsm" class="sppsm-logo-comissoes"/>
                 </div>
             </div>
 
@@ -110,7 +110,6 @@
 
             <div class="row" style="margin-top: 45px;">
                 <div class="hidden-xs col-md-1">
-
                 </div>
 
                 <div class="col-xs-12 col-md-10 col-md-offset-1">

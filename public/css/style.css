@@ -8902,7 +8902,107 @@ img.fh5co-align-right {
     margin: 0 0 .5em 1em;
 }
 
+/*tablets maiores*/
+@media only screen and (min-width:481px) and (max-width:1180px){
+    .shadow-img-convidado{
+        width: 130px!important;
+        height: 130px!important;
+    }
+    .shadow-img-convidado img{
+        width: 130px!important;
+        height: 130px!important;
+    }
+
+    .sppsm-logo-comissoes, .sppsm-logo-convidados{
+        display: none!important;
+    }
+    .fh5co-parallax{
+        height: 80vh!important;
+    }
+
+    .side-banner-comissoes, .side-banner-convidados{
+        display: none!important;
+    }
+
+    .cta-parallax{
+        background-image: url("../images/local-sm.jpg")!important;
+    }
+
+    .side-banner{
+        display: none;
+    }
+
+    .title-tablet{
+        margin-top: -160px!important;
+        padding: 0 0 0 75%!important;
+    }
+
+    /*.sppsm-logo-bv{
+        display: none!important;
+    }*/
+
+    .doctor-img-container{
+        width: 50%!important;
+        display: flex!important;
+        align-items: center!important;
+        justify-content: end!important;
+        flex-wrap: wrap!important;
+    }
+
+    .dt-main-container{
+        display: flex!important;
+        align-content: end!important;
+    }
+
+    .logo {
+        width: 100px!important;
+        margin-top: -10px!important;
+    }
+
+    .slider-container{
+        margin-top: 180px!important;
+    }
+
+    .slider-container-button{
+        margin: 0 auto!important;
+    }
+
+    .slider-container-button a{
+        width: 35%!important;
+    }
+}
+
+/*tablets*/
+@media only screen and (min-width:481px) and (max-width:768px){
+    .fh5co-parallax{
+        height: 90vh!important;
+    }
+
+    .cta-parallax{
+        background-image: url("../images/local-sm.jpg")!important;
+    }
+
+    .logo {
+        width: 100px!important;
+        margin-top: -10px!important;
+    }
+
+    .slider-container{
+        margin-top: 180px!important;
+    }
+
+    .slider-container-button{
+        margin: 0 auto!important;
+    }
+
+    .slider-container-button a{
+        width: 35%!important;
+    }
+}
+
+/*mobile phones*/
 @media screen and (max-width: 480px) {
+
     .fh5co-lead, .fh5co-sub-lead, .fh5co-text {
         margin-left: 30px !important;
     }
@@ -8926,7 +9026,116 @@ img.fh5co-align-right {
     }
 
     .logo {
-        width: 150px
+        width: 100px!important;
+        margin-top: -10px!important;
+    }
+
+    .slider-container{
+        margin-top: 90px!important;
+    }
+
+    .slider-container{
+        margin: 200px auto!important;
+        padding-right: 50px!important;
+        /*padding-left: 70px;*/
+        padding-top: 0px!important;
+        width: 300px!important;
+        height: 300px!important;
+        background: #237088ff!important;
+        border-radius: 50%!important;
+    }
+
+    .slider-sppsm-logo {
+        position: relative;
+        top: -20px;
+        left: -10px;
+        width: 100px!important;
+        height: 100px!important;
+        background: #fff;
+        border-radius: 50%;
+    }
+
+    .slider-sppsm-logo img{
+        width: 75px!important;
+    }
+
+
+    .lettering-logo-container{
+        margin-top: -65px!important;
+        padding-left: 30px!important;
+        padding-right: 25px!important;
+        /*margin-right: 20px;*/
+    }
+
+    .slider-container
+    .logo-title{
+        font-family: "jost-semi-bold", serif;
+        font-weight: bolder;
+        color: #fff;
+        font-size: 4rem!important;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .slider-container
+    .logo-sub-title{
+        font-family: "jost-light", serif;
+        /*font-weight: bold;*/
+        color: #fff;
+        flex-wrap: wrap;
+        text-align: right;
+        font-size: 2.6rem!important;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .slider-container
+    .logo-bold-text{
+        font-family: "jost-medium", serif;
+        color: #fff;
+        flex-wrap: wrap;
+        text-align: right;
+        font-size: 1.1rem!important;
+        display: flex;
+        justify-content: flex-end;
+    }
+    .slider-container
+    .logo-normal-text{
+        font-family: "jost-light-italic", serif;
+        color: #fff;
+        /*flex-wrap: wrap;*/
+        text-align: right;
+        font-size: 1rem!important;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+
+    .slider-container-button{
+        margin: -100px auto;
+    }
+
+    .slider-container-button a{
+        font-family: "jost-regular", serif;
+        font-size: 1rem;
+        text-align: left;
+        letter-spacing: 1px;
+        width: 75%!important;
+        -webkit-box-shadow: 5px 5px 15px 5px #7E7E7E;
+        box-shadow: 5px 5px 15px 5px #7E7E7E;
+    }
+
+    .slider-container-button a i{
+        margin-left: 20px;
+        font-size: 20px;
+    }
+
+    .bv-aligment{
+        margin-top: -90px!important;
+    }
+
+    .mb-bv-aligment{
+        margin-top: 40px!important;
     }
 
     .mobile-header {
@@ -9202,6 +9411,7 @@ i.red{
     border-radius: 50%;
 }
 
+
 .slider-container-button{
     margin: -100px auto;
 }
@@ -9222,9 +9432,9 @@ i.red{
 }
 
 .lettering-logo-container{
-    margin-top: -100px!important;
+    margin-top: -100px;
     padding-left: 30px!important;
-    padding-right: 45px!important;
+    padding-right: 45px;
     margin-right: 20px;
 }
 
@@ -9378,15 +9588,14 @@ i.red{
     width: 130px;
 }
 
-
-
+/*mobile phones*/
 @media screen and (max-width: 480px) {
     .cta-parallax{
         padding: 0;
         margin: 0;
         width: 100%;
-        height: 50vh;
-        background-image: url("../images/local-sm.jpg");
+        height: 70vh!important;
+        background-image: url("../images/local-sm.jpg")!important;
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-size: cover;

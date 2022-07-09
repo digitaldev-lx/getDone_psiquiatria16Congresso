@@ -188,9 +188,10 @@
                 </div>
                 <div class="hidden-xs col-xs-12 col-md-2">
                     <img src="{{asset("images/sppsm_logo.png")}}"
-                         style="width: 100px; float: right; margin: 120px -120px 0 0" alt="sppsm"/>
+                         style="width: 100px; float: right; margin: 120px -120px 0 0" alt="sppsm" class="sppsm-logo-convidados"/>
                 </div>
             </div>
+
             <div class="row">
                 <div class="col-xs-12 col-md-8 col-md-offset-1">
                     <h2 class="fh5co-section-convidados" style="margin-top: 30px">Nacionais</h2>
@@ -207,7 +208,7 @@
                     <div class="row">
 
                         @foreach ($nacionais as $convidado)
-                            <div class="col-xs-4 col-md-2">
+                            <div class="col-xs-6 col-md-2">
                                 <a href="{{route("convidado", $convidado["url"])}}" class="convidado">
                                     <div class="col-xs-12 convidado text-center">
                                         <div class="shadow-img-convidado">
@@ -236,7 +237,7 @@
                     <div class="row">
 
                         @foreach ($estrangeiros as $convidado)
-                            <div class="col-xs-4 col-md-2">
+                            <div class="col-xs-6 col-md-2">
                                 <a href="{{route("comissoes.perfil", $convidado["url"])}}" class="convidado">
                                     <div class="col-xs-12 convidado text-center">
                                         <div class="shadow-img-convidado">

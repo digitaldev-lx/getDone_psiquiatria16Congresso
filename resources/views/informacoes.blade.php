@@ -1,7 +1,6 @@
 @extends("layout.index")
 
 @section("content")
-
     <section id="programa">
         <img src="{{asset("images/img-top-convidados.png")}}" class="img-top-convidados"
              alt="Sociedade Portuguesa de Psiquiatria"/>
@@ -14,7 +13,7 @@
                 </div>
                 <div class="hidden-xs col-xs-12 col-md-2">
                     <img src="{{asset("images/sppsm_logo.png")}}"
-                         style="width: 100px; float: right; margin: 120px -120px 0 0" alt="sppsm"/>
+                         style="width: 100px; float: right; margin: 120px -120px 0 0" alt="sppsm" class="sppsm-logo-comissoes"/>
                 </div>
             </div>
 

@@ -14,7 +14,7 @@
                 </div>
                 <div class="hidden-xs col-xs-12 col-md-2">
                     <img src="{{asset("images/sppsm_logo.png")}}"
-                         style="width: 100px; float: right; margin: 120px -120px 0 0" alt="sppsm"/>
+                         style="width: 100px; float: right; margin: 120px -120px 0 0" alt="sppsm" class="sppsm-logo-comissoes"/>
                 </div>
             </div>
 
@@ -24,6 +24,7 @@
                          class="side-banner-comissoes hidden-xs hidden-sm hidden-md"
                          alt="Sociedade Portuguesa de Psiquiatria"/>
                 </div>
+
 
                 <div class="col-xs-12 col-md-11" style="margin-top: 25px; text-align: left">
                     <div class="row">
