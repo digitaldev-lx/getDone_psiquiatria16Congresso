@@ -12,7 +12,7 @@
                     <div class="shadow-img-individual">
                             <img alt="Amelia Fiske" class="doctor-img-individual" src="{{asset("images/pessoas/".$pessoa[2])}}"/>
                     </div>
-                    <img src="{{asset("images/sppsm_logo.png")}}" style="width: 150px; float: left; margin-top: 90vh" alt="sppsm" class="sppsm-logo-comissoes"/>
+                    <img src="{{asset("images/sppsm_logo_cinza.png")}}" style="width: 90px; float: left; margin-top: 90vh; margin-bottom: 20px" alt="sppsm" class="sppsm-logo-comissoes"/>
                 </div>
                 <div class="col-xs-12 col-md-6">
                     <h2 class="fh5co-section-convidados">{{$pessoa[0]}}</h2>

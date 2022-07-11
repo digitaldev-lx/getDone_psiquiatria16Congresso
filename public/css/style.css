@@ -1941,6 +1941,7 @@ pre code {
     .container {
         width: 760px;
     }
+
 }
 
 @media (min-width: 992px) {
@@ -5614,7 +5615,14 @@ a.badge:hover, a.badge:focus {
     max-width: 100%;
 }
 
-@media screen and (min-width: 1180px) {
+/* imac */
+@media screen and (min-width: 1800px) {
+    .title-tablet{
+        padding-left: 90px!important;
+        /*margin-top: -160px!important;*/
+        /*padding: 0 0 0 75%!important;*/
+    }
+
     .jumbotron {
         padding-top: 48px;
         padding-bottom: 48px;
@@ -5628,6 +5636,105 @@ a.badge:hover, a.badge:focus {
     .jumbotron h1, .jumbotron .h1 {
         font-size: 63px;
     }
+
+
+    .slider-container{
+        margin: 12% auto;
+        padding-right: 50px;
+        /*padding-left: 70px;*/
+        padding-top: 0px;
+        width: 560px!important;
+        height: 560px!important;
+        background: #237088ff;
+        border-radius: 50%;
+    }
+
+
+    .slider-container-button{
+        margin: -100px auto;
+    }
+
+    .slider-container-button a{
+        font-size: 1.3rem!important;
+        width: 270px!important;
+    }
+
+    .slider-container-button a i{
+        margin-left: 20px;
+        font-size: 20px;
+    }
+
+    .lettering-logo-container{
+        margin-top: -170px!important;
+        padding-left: 30px!important;
+        padding-right: 75px!important;
+        margin-right: 20px;
+    }
+
+    .slider-sppsm-logo{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        top:-90px!important;
+        left: -50px!important;
+        width: 223px!important;
+        height: 223px!important;
+        background: #fff;
+        border-radius: 50%;
+    }
+
+    .slider-sppsm-logo img{
+        width: 150px!important;
+    }
+
+    .slider-container
+    .logo-title{
+        font-size: 8rem!important;
+    }
+
+    .slider-container
+    .logo-sub-title{
+        font-size: 5.2rem!important;
+    }
+
+    .slider-container
+    .logo-bold-text{
+        font-size: 2.1rem!important;
+    }
+
+    .slider-container
+    .logo-normal-text{
+        font-size: 2rem!important;
+    }
+
+    .slider-container a i{
+        margin-left: 30px;
+    }
+}
+
+
+@media screen and (min-width: 1180px) {
+    .title-tablet{
+        padding-left: 90px!important;
+        /*margin-top: -160px!important;*/
+        /*padding: 0 0 0 75%!important;*/
+    }
+
+    .jumbotron {
+        padding-top: 48px;
+        padding-bottom: 48px;
+    }
+
+    .container .jumbotron, .container-fluid .jumbotron {
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+
+    .jumbotron h1, .jumbotron .h1 {
+        font-size: 63px;
+    }
+
 }
 
 .thumbnail {
