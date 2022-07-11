@@ -17,6 +17,7 @@
                 </div>
             </div>
 
+
             <div class="row" style="margin-top: 45px;">
                 <div class="hidden-xs col-md-1">
                     <img src="{{asset("images/side-banner.png")}}"

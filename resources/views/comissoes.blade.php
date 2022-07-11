@@ -27,7 +27,8 @@
                 <div class="col-xs-12 col-md-11" style="margin-top: 25px">
                     <div class="row">
 
-                        @foreach (config("congresso.comissoes.organizadora") as $convidado)
+
+                        @foreach ($organizadora as $convidado)
                             <div class="col-xs-6 col-md-2">
                                 <a href="{{route("profile", $convidado["url"])}}" class="convidado">
                                     <div class="col-xs-12 convidado text-center">
@@ -55,7 +56,7 @@
 
                 <div class="col-xs-12 col-md-11" style="margin-top: 25px">
                     <div class="row">
-                        @foreach (config("congresso.comissoes.cientifica") as $convidado)
+                        @foreach ($cientifica as $convidado)
                             <div class="col-xs-6 col-md-2">
                                 <a href="{{route("profile", $convidado["url"])}}" class="convidado">
                                     <div class="col-xs-12 convidado text-center">

@@ -178,6 +178,7 @@ return [
                 "url" => "joel-krueger",
                 "description" => ""
             ],
+
             [
                 "name" => "Laurel Riek",
                 "country" => "USA",
