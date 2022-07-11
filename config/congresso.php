@@ -177,7 +177,6 @@ return [
                 "image" => "IRMGARD_EMMELHAINZ.jpg",
                 "url" => "joel-krueger",
                 "description" => ""
-
             ],
             [
                 "name" => "Laurel Riek",

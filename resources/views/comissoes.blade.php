@@ -55,7 +55,6 @@
 
                 <div class="col-xs-12 col-md-11" style="margin-top: 25px">
                     <div class="row">
-
                         @foreach (config("congresso.comissoes.cientifica") as $convidado)
                             <div class="col-xs-6 col-md-2">
                                 <a href="{{route("profile", $convidado["url"])}}" class="convidado">
