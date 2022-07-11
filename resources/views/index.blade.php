@@ -42,7 +42,7 @@
                         trazendo contributos sob a forma de posters e comunicações livres, para uma discussão aberta,
                         crítica e livre de constrangimentos entre os vários saberes e modelos na Psiquiatria contemporânea.<br><br>
                         Cordiais cumprimentos.</h3>
-                    <img src="{{asset("images/sppsm_logo.png")}}" style="width: 150px; float: left; margin-top: 50px" alt="sppsm " class="hidden-xs hidden-sm sppsm-logo-bv"/>
+                    <img src="{{asset("images/sppsm_logo_cinza.png")}}" style="width: 90px; float: left; margin-top: 50px" alt="sppsm " class="hidden-xs hidden-sm sppsm-logo-bv"/>
 
                 </div>
                 <div class="col-md-3 col-lg-3 row dt-main-container" style="margin-left: 40px;">
@@ -92,44 +92,44 @@
             <div class="fh5co-spacer fh5co-spacer-md"></div>
         </div>
         <div class="row">
-            <div class="col-md-3 col-sm-6 col-xs-6 col-xxs-12 fh5co-mb30">
+            <div class="col-lg-2 col-md-3 col-sm-6 col-xs-6 col-xxs-12 fh5co-mb30">
                 <div class="fh5co-product">
                     <img src="images/slide_4.jpg" alt="codeboys.pt Free HTML5 Template Bootstrap" class="img-responsive img-rounded to-animate">
                 </div>
             </div>
-            <div class="col-md-3 col-sm-6 col-xs-6 col-xxs-12 fh5co-mb30">
+            <div class="col-lg-2 col-md-3 col-sm-6 col-xs-6 col-xxs-12 fh5co-mb30">
                 <div class="fh5co-product">
                     <img src="images/slide_2.jpg" alt="codeboys.pt Free HTML5 Template Bootstrap" class="img-responsive img-rounded to-animate">
                 </div>
             </div>
             <div class="visible-sm-block visible-xs-block clearfix"></div>
-            <div class="col-md-3 col-sm-6 col-xs-6 col-xxs-12 fh5co-mb30">
+            <div class="col-lg-2 col-md-3 col-sm-6 col-xs-6 col-xxs-12 fh5co-mb30">
                 <div class="fh5co-product">
                     <img src="images/slide_3.jpg" alt="codeboys.pt Free HTML5 Template Bootstrap" class="img-responsive img-rounded to-animate">
                 </div>
             </div>
-            <div class="col-md-3 col-sm-6 col-xs-6 col-xxs-12 fh5co-mb30">
+            <div class="col-lg-2 col-md-3 col-sm-6 col-xs-6 col-xxs-12 fh5co-mb30">
                 <div class="fh5co-product">
                     <img src="images/slide_4.jpg" alt="codeboys.pt Free HTML5 Template Bootstrap" class="img-responsive img-rounded to-animate">
                 </div>
             </div>
-            <div class="col-md-3 col-sm-6 col-xs-6 col-xxs-12 fh5co-mb30">
+            <div class="col-lg-2 col-md-3 col-sm-6 col-xs-6 col-xxs-12 fh5co-mb30">
                 <div class="fh5co-product">
                     <img src="images/slide_4.jpg" alt="codeboys.pt Free HTML5 Template Bootstrap" class="img-responsive img-rounded to-animate">
                 </div>
             </div>
-            <div class="col-md-3 col-sm-6 col-xs-6 col-xxs-12 fh5co-mb30">
+            <div class="col-lg-2 col-md-3 col-sm-6 col-xs-6 col-xxs-12 fh5co-mb30">
                 <div class="fh5co-product">
                     <img src="images/slide_2.jpg" alt="codeboys.pt Free HTML5 Template Bootstrap" class="img-responsive img-rounded to-animate">
                 </div>
             </div>
             <div class="visible-sm-block visible-xs-block clearfix"></div>
-            <div class="col-md-3 col-sm-6 col-xs-6 col-xxs-12 fh5co-mb30">
+            <div class="col-lg-2 col-md-3 col-sm-6 col-xs-6 col-xxs-12 fh5co-mb30">
                 <div class="fh5co-product">
                     <img src="images/slide_3.jpg" alt="codeboys.pt Free HTML5 Template Bootstrap" class="img-responsive img-rounded to-animate">
                 </div>
             </div>
-            <div class="col-md-3 col-sm-6 col-xs-6 col-xxs-12 fh5co-mb30">
+            <div class="col-lg-2 col-md-3 col-sm-6 col-xs-6 col-xxs-12 fh5co-mb30">
                 <div class="fh5co-product">
                     <img src="images/slide_4.jpg" alt="codeboys.pt Free HTML5 Template Bootstrap" class="img-responsive img-rounded to-animate">
                 </div>

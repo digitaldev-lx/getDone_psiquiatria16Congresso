@@ -29,7 +29,7 @@
     <meta name="twitter:card" content=""/>
 
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-    <link rel="shortcut icon" href="{{asset("favicon.ico")}}">
+    <link rel="shortcut icon" href="{{asset("images/sppsm_logo.png")}}">
 
     <!-- Google Webfonts -->
     <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,100,500' rel='stylesheet' type='text/css'>

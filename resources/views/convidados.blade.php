@@ -56,7 +56,6 @@
             <div class="row">
                 <div class="hidden-xs col-md-1">
                 </div>
-
                 <div class="col-xs-12 col-md-11" style="margin-top: 25px">
                     <div class="row">
 
