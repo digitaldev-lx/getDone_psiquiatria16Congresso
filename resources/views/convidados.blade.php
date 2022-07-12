@@ -8,7 +8,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-xs-12 col-md-8 col-md-offset-1">
-                    <h2 class="fh5co-section-convidados">Convidados Nacionais e Estrangeiros</h2>
+                    <h2 class="fh5co-section-convidados">Convidados Nacionais e Internacionais</h2>
                     <hr class="underline-title-bv" style="margin-left: 32px">
                 </div>
                 <div class="hidden-xs col-xs-12 col-md-2">
@@ -50,7 +50,7 @@
             </div>
             <div class="row" style="margin-top: 50px">
                 <div class="col-xs-12 col-md-8 col-md-offset-1">
-                    <h2 class="fh5co-section-convidados" style="margin-top: 30px">Estrangeiros</h2>
+                    <h2 class="fh5co-section-convidados" style="margin-top: 30px">Internacionais</h2>
                 </div>
             </div>
             <div class="row">

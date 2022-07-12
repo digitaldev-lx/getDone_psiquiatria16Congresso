@@ -4,12 +4,12 @@
     <div id="section-convidados">
         <img src="{{asset("images/img-top-convidados.png")}}" class="img-top-convidados" alt="Sociedade Portuguesa de Psiquiatria"/>
         <img src="{{asset("images/side-banner.png")}}" class="side-banner-convidados hidden-xs hidden-sm hidden-md" alt="Sociedade Portuguesa de Psiquiatria"/>
-        
+
         <div class="container">
             <div class="row">
                 <div class="col-md-8 col-md-offset-1">
-                    <h2 class="fh5co-section-convidados">Convidados Nacionais e Estrangeiros</h2>
-                    <hr class="underline-title">    
+                    <h2 class="fh5co-section-convidados">Convidados Nacionais e Internacionais</h2>
+                    <hr class="underline-title">
                 </div>
                 <div class="col-md-2 hidden-xs hidden-sm hidden-md">
                     <img src="{{asset("images/sppsm_logo.png")}}" style="width: 150px; float: right; margin-top: 120px" alt="sppsm"/>
@@ -102,10 +102,10 @@
                     "image" => "TOM_CRAIG.jpg",
                     "url" => "tom-craig "
                 ],
-               
+
             ]
         @endphp
-        
+
     </div>
     <div class="container">
         <div class="row">
@@ -119,12 +119,12 @@
                             <div class="col-xs-12 convidado"><h5>{{$convidado["name"]}}</h5>
                             </div>
                             <div class="col-xs-12 convidado"><h6>{{$convidado["country"]}}</h6></div>
-                        </a>                             
-                    </div>  
+                        </a>
+                    </div>
                     @endforeach
                 </div>
-            </div>    
+            </div>
         </div>
     </div>
-    
+
 @endsection
