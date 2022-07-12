@@ -80,7 +80,6 @@
     </div>
 
 
-    <div class="fh5co-spacer fh5co-spacer-lg"></div>
     <!-- Products -->
     <div class="container" id="fh5co-features">
         <div class="row text-left">

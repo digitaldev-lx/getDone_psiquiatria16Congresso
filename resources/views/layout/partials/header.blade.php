@@ -12,8 +12,9 @@
             <div id="fh5co-navbar" class="navbar-collapse collapse mobile-header">
                 <ul class="nav navbar-nav navbar-right" style="margin-top: 20px;background: white;">
                     <li class="{{Route::currentRouteName() == "home" ? "active": ""}}"><a href="{{route("home")}}"><span>Boas-vindas <span class="border {{Route::currentRouteName() == "home" ? "border-active": ""}}"></span></span></a></li>
-                    <li class="{{Route::currentRouteName() == "convidados" ? "active": ""}}"><a href="{{route("convidados")}}"><span>Convidados <span class="border"></span></span></a></li>
                     <li class="{{Route::currentRouteName() == "comissoes" ? "active": ""}}"><a href="{{route("comissoes")}}"><span>Comissões <span class="border"></span></span></a></li>
+                    <li class="{{Route::currentRouteName() == "convidados" ? "active": ""}}"><a href="{{route("convidados")}}"><span>Convidados <span class="border"></span></span></a></li>
+
                     <li class="{{Route::currentRouteName() == "programa" ? "active": ""}}"><a href="{{route("programa")}}"><span>Programa <span class="border"></span></span></a></li>
                     <li class="{{Route::currentRouteName() == "inscricoes" ? "active": ""}}"><a href="{{route("inscricoes")}}"><span>Inscrições <span class="border"></span></span></a></li>
                     <li class="{{Route::currentRouteName() == "call-for-abstracts" ? "active": ""}}"><a href="{{route("call.for.abstracts")}}"><span>Call for Abstracts <span class="border"></span></span></a></li>

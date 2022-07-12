@@ -18,7 +18,7 @@ return [
             [
                 "name" => "Alfredo Barboza",
                 "country" => "GERMANY",
-                "image" => "AMELIA_FISKE.jpg",
+                "image" => "bg_white.png",
                 "url" => "alfredo-cuellar-barboza",
                 "description" => ""
             ],
@@ -60,7 +60,7 @@ return [
             [
                 "name" => "Ana Ciaunica",
                 "country" => "GERMANY",
-                "image" => "AMELIA_FISKE.jpg",
+                "image" => "bg_white.png",
                 "url" => "ana-ciaunica",
                 "description" => ""
 
@@ -174,7 +174,7 @@ return [
             [
                 "name" => "Joel Krueger",
                 "country" => "MEXICO",
-                "image" => "IRMGARD_EMMELHAINZ.jpg",
+                "image" => "bg_white_logo.png",
                 "url" => "joel-krueger",
                 "description" => ""
             ],
@@ -270,7 +270,7 @@ return [
             [
                 "name" => "Swapnil Gupta",
                 "country" => "UK",
-                "image" => "RICHARD_GIPPS.jpeg",
+                "image" => "bg_white.png",
                 "url" => "swapnil-gupta",
                 "description" => ""
 
@@ -292,7 +292,7 @@ return [
             [
                 "name" => "Carolina Perdigoto",
                 "country" => "PORTUGAL",
-                "image" => "AMELIA_FISKE.jpg",
+                "image" => "bg_white_logo.png",
                 "url" => "carolina-perdigoto",
                 "description" => ""
 
@@ -300,7 +300,7 @@ return [
             [
                 "name" => "Ciro Oliveiro",
                 "country" => "PORTUGAL",
-                "image" => "AMELIA_FISKE.jpg",
+                "image" => "bg_white.png",
                 "url" => "ciro-oliveiro",
                 "description" => ""
 
@@ -308,7 +308,7 @@ return [
             [
                 "name" => "Gonçalo Graça Pereira",
                 "country" => "PORTUGAL",
-                "image" => "AMELIA_FISKE.jpg",
+                "image" => "bg_white_logo.png",
                 "url" => "goncalo-graca-pereira",
                 "description" => ""
 
@@ -370,7 +370,7 @@ return [
             [
                 "name" => "Rui Henriques",
                 "country" => "PORTUGAL",
-                "image" => "IRMGARD_EMMELHAINZ.jpg",
+                "image" => "bg_white.png",
                 "url" => "rui-henriques",
                 "description" => ""
 
@@ -378,7 +378,7 @@ return [
             [
                 "name" => "Tiago Maia",
                 "country" => "PORTUGAL",
-                "image" => "IRMGARD_EMMELHAINZ.jpg",
+                "image" => "bg_white_logo.png",
                 "url" => "tiago-maia",
                 "description" => ""
 
@@ -387,15 +387,55 @@ return [
     ],
     'comissoes' => [
         'organizadora' => [
-            [
+            /*[
                 "name" => "Luis Madeira",
                 "country" => "PORTUGAL",
-                "image" => "luismadeira.png",
+                "image" => "bg_white.png",
                 "url" => "luis-madeira",
                 "description" => "<br>
                         Luís Madeira, 39 anos, desenvolve a sua carreira em quatro vertentes síncronas. Médico Psiquiatra, vice-presidente da Sociedade Portuguesa de Psiquiatria e Saúde Mental, licenciado em Medicina pela Universidade de Lisboa em 2008, trabalha no Centro Hospitalar Lisboa Norte (CHLN) e Hospital CUF Descobertas. <br>
                         É titular de grau de Mestrado em Filosofia pela Universidade de Central Lancashire e de Doutoramento na área da Filosofia da Psiquiatria. <br>
                         É Professor Auxiliar de Ética e Deontologia médica e de Psiquiatria na Faculdade de Medicina da Universidade de Lisboa. É Membro do Conselho Nacional de Ética para as Ciências da Vida. É ainda Psicoterapeuta pela Sociedade Portuguesa de Psicoterapia Centrada no Cliente e Abordagem Centrada na Pessoa"
+
+            ],*/
+            [
+                "name" => "Ciro Oliveiro",
+                "country" => "PORTUGAL",
+                "image" => "bg_white_logo.png",
+                "url" => "ciro-oliveiro",
+                "description" => ""
+
+            ],
+            [
+                "name" => "Ema Conde",
+                "country" => "PORTUGAL",
+                "image" => "bg_white.png",
+                "url" => "ema-conde",
+                "description" => ""
+
+            ],
+            [
+                "name" => "João Bessa",
+                "country" => "PORTUGAL",
+                "image" => "bg_white_logo.png",
+                "url" => "joao-bessa",
+                "description" => ""
+
+            ],
+            [
+                "name" => "João Marques Teixeira",
+                "country" => "PORTUGAL",
+                "image" => "bg_white.png",
+                "url" => "joao-marques-teixeira",
+                "description" => ""
+
+            ],
+            [
+                "name" => "Joaquim Cerejeira",
+                "country" => "PORTUGAL",
+                "image" => "bg_white_logo.png",
+                "url" => "joaquim-cerejeira",
+                "description" => ""
 
             ],
             [
@@ -421,6 +461,14 @@ return [
 
             ],
             [
+                "name" => "Maria Manuela Abreu",
+                "country" => "PORTUGAL",
+                "image" => "bg_white.png",
+                "url" => "maria-manuela-abreu",
+                "description" => ""
+
+            ],
+            [
                 "name" => "Ricardo Coentre",
                 "country" => "PORTUGAL",
                 "image" => "ricardocoentre.png",
@@ -437,7 +485,7 @@ return [
             [
                 "name" => "António Bento",
                 "country" => "PORTUGAL",
-                "image" => "luismadeira.jpg",
+                "image" => "bg_white.png",
                 "url" => "antonio-bento",
                 "description" => "<br>
                         Natural de Lisboa (nascido em 13 de agosto de 1954).<br>
@@ -593,7 +641,7 @@ return [
             [
                 "name" => "Luis Madeira",
                 "country" => "PORTUGAL",
-                "image" => "luismadeira.jpg",
+                "image" => "luismadeira.png",
                 "url" => "luis-madeira",
                 "description" => "<br>
                         Luís Madeira, 39 anos, desenvolve a sua carreira em quatro vertentes síncronas. Médico Psiquiatra, vice-presidente da Sociedade Portuguesa de Psiquiatria e Saúde Mental, licenciado em Medicina pela Universidade de Lisboa em 2008, trabalha no Centro Hospitalar Lisboa Norte (CHLN) e Hospital CUF Descobertas. <br>

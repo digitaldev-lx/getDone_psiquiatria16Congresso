@@ -11,7 +11,7 @@
                     <div class="shadow-img-individual">
                         <img alt="Amelia Fiske" class="doctor-img-individual" src="{{asset("images/convidados/AMELIA_FISKE.jpg")}}"/>
                     </div>
-                    <img src="{{asset("images/sppsm_logo.png")}}" style="width: 150px; float: left; margin-top: 60vh" alt="sppsm" class="sppsm-logo-comissoes"/>
+                    <img src="{{asset("images/sppsm_logo_cinza.png")}}" style="width: 150px; float: left; margin-top: 60vh" alt="sppsm" class="sppsm-logo-comissoes"/>
                 </div>
 
                 <div class="col-xs-12 col-md-6">

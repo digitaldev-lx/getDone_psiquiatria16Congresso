@@ -9,7 +9,7 @@
             <div class="row">
                 <div class="col-xs-12 col-md-2 col-md-offset-1">
                     <img alt="Amelia Fiske" class="doctor-img-individual" src="{{asset("images/comissoes/cientifica/luismadeira.jpg")}}"/>
-                    <img src="{{asset("images/sppsm_logo.png")}}" style="width: 150px; float: left; margin-top: 20vh" alt="sppsm"/>
+                    <img src="{{asset("images/sppsm_logo_cinza.png")}}" style="width: 150px; float: left; margin-top: 20vh" alt="sppsm"/>
                 </div>
                 <div class="col-xs-12 col-md-6">
                     <h2 class="fh5co-section-convidados">Luís Madeira</h2>

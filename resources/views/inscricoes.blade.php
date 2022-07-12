@@ -13,7 +13,7 @@
                     <hr class="underline-title-bv" style="margin-left: 32px">
                 </div>
                 <div class="hidden-xs col-xs-12 col-md-2">
-                    <img src="{{asset("images/sppsm_logo.png")}}"
+                    <img src="{{asset("images/sppsm_logo_cinza.png")}}"
                          style="width: 100px; float: right; margin: 120px -120px 0 0" alt="sppsm" class="sppsm-logo-comissoes"/>
                 </div>
             </div>
@@ -25,10 +25,10 @@
                          alt="Sociedade Portuguesa de Psiquiatria"/>
                 </div>
 
-                <div class="col-xs-12 col-md-10 col-md-offset-1" style="margin-top: 25px;">
+                <div class="col-xs-12 col-md-10 col-md-offset-1" style="margin-top: -25px;">
 
                     <div class="row">
-                        <div class="col-xs-12 col-md-12">
+                        <div class="col-xs-12 col-md-12" style="margin-left: -50px">
                             <table class="tabela">
                                 <thead>
                                 <tr>
@@ -72,7 +72,7 @@
                 <div class="col-xs-12 col-md-10 col-md-offset-1">
 
                     <div class="row">
-                        <div class="col-xs-12 col-md-12">
+                        <div class="col-xs-12 col-md-12" style="margin-left: -50px">
                             <table class="tabela">
                                 <thead>
                                 <tr>
@@ -116,7 +116,7 @@
 
                     <div class="row">
                         <div class="col-xs-12 col-md-12 slider-container-button" style="margin: unset!important;">
-                            <a href="https://www.eventbase.pt/EventBase/Inscricoes/PaginaInscricaoIndividual.aspx?Params=RXZlbnRvSUQ9NjUy" class="btn btn-primary" style="background: #237088ff">EFECTUAR INSCRIÇÃO <i class="fa-solid fa-angle-right fa-xl"></i></a>
+                            <a href="https://www.eventbase.pt/EventBase/Inscricoes/PaginaInscricaoIndividual.aspx?Params=RXZlbnRvSUQ9NjUy" class="btn btn-primary" style="float:left;background: #237088ff; margin-left: -50px">EFECTUAR INSCRIÇÃO <i class="fa-solid fa-angle-right fa-xl"></i></a>
                         </div>
                     </div>
                 </div>
@@ -131,38 +131,38 @@
 
                     <div class="row">
                         <div class="col-xs-12 col-md-12">
-                            <h3 class="inscricoes-sub-lead-title">Notas:</h3>
+                            <h3 class="inscricoes-sub-lead-title-nv">Notas:</h3>
                             <h3 class="inscricoes-sub-lead">
                                 A inscrição inclui:
-                                <ul>
-                                    <li>Documentação de apoio à reunião; </li>
-                                    <li>Acesso às sessões científicas;</li>
-                                    <li>Almoços de trabalho;</li>
-                                    <li>Certificado de participação.</li>
+                                <ul style="margin-top: 10px;list-style-type: none" class="ul-info-inscricoes">
+                                    <li>- Documentação de apoio à reunião; </li>
+                                    <li>- Acesso às sessões científicas;</li>
+                                    <li>- Almoços de trabalho;</li>
+                                    <li>- Certificado de participação.</li>
                                 </ul>
                             </h3>
-                            <h3 class="inscricoes-sub-lead-title">Pagamentos</h3>
-                            <h3 class="inscricoes-sub-lead">
+                            <h3 class="inscricoes-sub-lead-title-nv" style="margin-top: 40px">Pagamentos</h3>
+                            <h3 class="inscricoes-sub-lead" style="margin-top: 0px">
                                 Todos os pagamentos deverão ser efectuados por transferência bancária para a conta:
                             </h3>
-                            <h3 class="inscricoes-sub-lead-title">
+                            <h3 class="bank-details">
                                 Bankinter<br>
                                 IBAN: PT50 0269 0104 00200066726 82 <br>
                                 SWIFT: BKBKPTPL<br>
                                 GETDONE, LDA<br>
                             </h3>
-                            <h3 class="inscricoes-sub-lead-title">Notas:</h3>
-                            <h3 class="inscricoes-sub-lead">
-                                O comprovativo do pagamento deverá ser enviado por email para o Secretariado do Congresso, <b>meetings@getdone.pt</b>, <br>
+                            <h3 class="inscricoes-sub-lead-title-nv" style="margin-top: 40px">Notas:</h3>
+                            <h3 class="inscricoes-sub-lead"  style="margin-top: 0px; line-height: 30px">
+                                O comprovativo do pagamento deverá ser enviado por email para o Secretariado do Congresso, <b style='font-family: "jost-bold", arial, sans-serif'>meetings@getdone.pt</b>, <br>
                                 mencionando sempre o nome do inscrito.<br>
                                 Por favor notar que todos os comprovativos sem indicação do nome do inscrito não serão considerados.<br>
                                 Todas as taxas bancárias inerentes desta transação, serão imputadas ao participante.<br>
                                 A inscrição apenas será considerada como definitiva após recepção do comprovativo de pagamento.<br>
                                 Caso o envio dos comprovativos não se verifiquem até 48 horas após a submissão da inscrição, a mesma será cancelada sem aviso prévio.<br>
                             </h3>
-                            <h3 class="inscricoes-sub-lead-title">ALOJAMENTO:</h3>
-                            <h3 class="inscricoes-sub-lead">
-                                Para reservas nos hotéis do Congressos , por favor contactar o secretariado, através do e-mail <b>meetings@getdone.pt</b>
+                            <h3 class="inscricoes-sub-lead-title-nv" style="margin-top: 30px">ALOJAMENTO:</h3>
+                            <h3 class="inscricoes-sub-lead" style="margin-top: 0">
+                                Para reservas nos hotéis do Congressos , por favor contactar o secretariado, através do e-mail <b style='font-family: "jost-bold", arial, sans-serif'>meetings@getdone.pt</b>
                             </h3>
                         </div>
                     </div>

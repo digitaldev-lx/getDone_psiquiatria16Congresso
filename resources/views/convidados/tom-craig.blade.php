@@ -9,7 +9,7 @@
             <div class="row">
                 <div class="col-xs-12 col-md-2 col-md-offset-1">
                     <img alt="Amelia Fiske" class="doctor-img-individual" src="{{asset("images/convidados/TOM_CRAIG.jpg")}}"/>
-                    <img src="{{asset("images/sppsm_logo.png")}}" style="width: 150px; float: left; margin-top:35vh" alt="sppsm"/>
+                    <img src="{{asset("images/sppsm_logo_cinza.png")}}" style="width: 150px; float: left; margin-top:35vh" alt="sppsm"/>
                 </div>
                 <div class="col-xs-12 col-md-6">
                     <h2 class="fh5co-section-convidados">Tom K J Craig</h2>
