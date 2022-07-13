@@ -36,14 +36,14 @@
 
                         @foreach ($nacionais as $convidado)
                             <div class="col-xs-6 col-md-2" style="margin-bottom: 40px">
-                                <a  data-toggle="modal" data-target="#modal-{{$convidado["url"]}}" class="convidado">
+                                <a data-toggle="modal" data-target="#modal-{{$convidado["url"]}}" class="convidado">
                                     <div class="col-xs-12 convidado text-center">
                                         <div class="shadow-img-convidado">
                                             <img alt="{{$convidado["name"]}}" src="{{asset("images/pessoas/".$convidado["image"])}}"/></div>
                                         </div>
                                     <div class="col-xs-12 convidado"><h5>{{$convidado["name"]}}</h5>
                                     </div>
-                                    <div class="col-xs-12 convidado"><h6>{{$convidado["country"]}}</h6></div>
+{{--                                    <div class="col-xs-12 convidado"><h6>{{$convidado["country"]}}</h6></div>--}}
                                 </a>
                             </div>
 

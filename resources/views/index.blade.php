@@ -86,53 +86,33 @@
             <div class="col-md-8">
                 <h2 class="fh5co-section-lead">Patrocinadores</h2>
                 <hr class="underline-title-bv">
-
+                <p class="texto">Brevemente Disponível</p>
             </div>
             <div class="fh5co-spacer fh5co-spacer-md"></div>
         </div>
         <div class="row">
-            <div class="col-lg-2 col-md-3 col-sm-6 col-xs-6 col-xxs-12 fh5co-mb30">
-                <div class="fh5co-product">
-                    <img src="images/slide_4.jpg" alt="codeboys.pt Free HTML5 Template Bootstrap" class="img-responsive img-rounded to-animate">
+            <div class="col-md-3 col-sm-6 col-xs-6 col-xxs-12 fh5co-mb30">
+                <div class="patrocinador">
+                    <img src="images/slide_4.jpg" alt="codeboys.pt Free HTML5 Template Bootstrap" class="img-responsive img-rounded to-animate" style="width: 230px">
                 </div>
             </div>
-            <div class="col-lg-2 col-md-3 col-sm-6 col-xs-6 col-xxs-12 fh5co-mb30">
-                <div class="fh5co-product">
+            <div class="col-md-3 col-sm-6 col-xs-6 col-xxs-12 fh5co-mb30">
+                <div class="patrocinador">
                     <img src="images/slide_2.jpg" alt="codeboys.pt Free HTML5 Template Bootstrap" class="img-responsive img-rounded to-animate">
                 </div>
             </div>
             <div class="visible-sm-block visible-xs-block clearfix"></div>
-            <div class="col-lg-2 col-md-3 col-sm-6 col-xs-6 col-xxs-12 fh5co-mb30">
-                <div class="fh5co-product">
+            <div class="col-md-3 col-sm-6 col-xs-6 col-xxs-12 fh5co-mb30">
+                <div class="patrocinador">
                     <img src="images/slide_3.jpg" alt="codeboys.pt Free HTML5 Template Bootstrap" class="img-responsive img-rounded to-animate">
                 </div>
             </div>
-            <div class="col-lg-2 col-md-3 col-sm-6 col-xs-6 col-xxs-12 fh5co-mb30">
-                <div class="fh5co-product">
+            <div class="col-md-3 col-sm-6 col-xs-6 col-xxs-12 fh5co-mb30">
+                <div class="patrocinador">
                     <img src="images/slide_4.jpg" alt="codeboys.pt Free HTML5 Template Bootstrap" class="img-responsive img-rounded to-animate">
                 </div>
             </div>
-            <div class="col-lg-2 col-md-3 col-sm-6 col-xs-6 col-xxs-12 fh5co-mb30">
-                <div class="fh5co-product">
-                    <img src="images/slide_4.jpg" alt="codeboys.pt Free HTML5 Template Bootstrap" class="img-responsive img-rounded to-animate">
-                </div>
-            </div>
-            <div class="col-lg-2 col-md-3 col-sm-6 col-xs-6 col-xxs-12 fh5co-mb30">
-                <div class="fh5co-product">
-                    <img src="images/slide_2.jpg" alt="codeboys.pt Free HTML5 Template Bootstrap" class="img-responsive img-rounded to-animate">
-                </div>
-            </div>
-            <div class="visible-sm-block visible-xs-block clearfix"></div>
-            <div class="col-lg-2 col-md-3 col-sm-6 col-xs-6 col-xxs-12 fh5co-mb30">
-                <div class="fh5co-product">
-                    <img src="images/slide_3.jpg" alt="codeboys.pt Free HTML5 Template Bootstrap" class="img-responsive img-rounded to-animate">
-                </div>
-            </div>
-            <div class="col-lg-2 col-md-3 col-sm-6 col-xs-6 col-xxs-12 fh5co-mb30">
-                <div class="fh5co-product">
-                    <img src="images/slide_4.jpg" alt="codeboys.pt Free HTML5 Template Bootstrap" class="img-responsive img-rounded to-animate">
-                </div>
-            </div>
+
         </div>
     </div>
     <!-- Products -->

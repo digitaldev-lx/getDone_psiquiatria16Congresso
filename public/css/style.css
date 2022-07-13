@@ -1813,38 +1813,38 @@ blockquote p:last-child, blockquote ul:last-child, blockquote ol:last-child {
     margin-bottom: 0;
 }
 
-
 .fh5co-lead-footer {
-    font-weight: 300;
     color: #237088ff;
+    font-size: 48px;
     text-transform: uppercase;
-    letter-spacing: 1px;
-    font-family: "jost-bold", arial, sans-serif;
+    letter-spacing: 0.5px;
+    font-family: "jost-semi-bold", arial, sans-serif;
 }
 
 .fh5co-sub-lead-footer {
-    font-size: 24px;
+    font-size: 28px;
     margin-top: -15px;
-    letter-spacing: .4rem;
     color: #237088ff;
     font-weight: bold;
-    font-family: "jost-regular", arial, sans-serif;
+    font-family: "jost-light", arial, sans-serif;
+    letter-spacing: 1px;
 }
 
 .getdone-logo {
-    float: right;
+    display: flex;
+    align-items: start;
+    justify-content: end;
 }
 .getdone-logo img {
     margin-top: 45px;
-    width: 200px;
+    width: 140px!important;
 }
-.getdone-logo h6 {
-    margin-right: 85px;
+.getdone-logo + h6 {
+    float: right;
+    margin-top: 25px;
     font-family: "jost-regular", arial, sans-serif;
     color: #fff;
-    font-size: 10px;
-
-
+    font-size: 13px;
 }
 
 blockquote footer, blockquote small, blockquote .small {
@@ -5703,7 +5703,7 @@ a.badge:hover, a.badge:focus {
     }
 
     .slider-container-button a{
-        font-size: 1.3rem!important;
+        font-size: 1.5rem!important;
         width: 270px!important;
     }
 
@@ -7932,15 +7932,15 @@ h1, h2, h3, h4, h5, h6 {
 .texto *, .texto{
     text-align: justify!important;
     font-size: 15px!important;
-    color: grey!important;
+    color: #717070!important;
     font-family: "jost-light", arial, "sans-serif"!important;
     line-height: 22px!important;
 }
 
 .abstracts-title {
-    font-family: "jost-bold", serif;
+    font-family: "jost-semi-bold", serif;
     text-align: left;
-    font-size: 25px;
+    font-size: 18px;
     font-weight: bolder;
     color: #237088ff;
     letter-spacing: 2px;
@@ -7950,8 +7950,8 @@ h1, h2, h3, h4, h5, h6 {
 .abstracts-title span{
     font-family: "jost-semi-bold", serif;
     text-align: left;
-    font-size: 22px;
-    color: darkgrey;
+    font-size: 20px;
+    color: #717070;
     letter-spacing: 2px;
 }
 
@@ -8046,9 +8046,25 @@ hr.underline-title-bv{
     line-height: 20px;
 }
 
+.modal-title-abstract{
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+    font-family: "jost-bold", arial, sans-serif;
+    line-height: 20px;
+}
+
+.modal-text-abstract{
+    text-align: justify;
+    font-size: 15px;
+    color: #717070;
+    font-family: "jost-light", arial, sans-serif;
+    line-height: 22px;
+}
+
 .bank-details {
     text-align: left;
-    font-size: 20px;
+    font-size: 17px;
     color: #848484;
     font-family: "jost-regular", arial, sans-serif;
     line-height: 28px;
@@ -8056,10 +8072,6 @@ hr.underline-title-bv{
 
 .ul-info li{
     margin-left: -40px;
-}
-
-.ul-info-inscricoes{
-    line-height: 14px;
 }
 
 .ul-info-inscricoes li{
@@ -8168,14 +8180,14 @@ hr.underline-title-bv{
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 30px;
-    height: 30px;
+    width: 52px!important;
+    height: 52px!important;
     border: solid #fff 1px;
     border-radius: 50%;
 }
 
 .icon-container-outlined i{
-    font-size: 15px!important;
+    font-size: 20px!important;
 }
 
 .convidado{
@@ -8183,7 +8195,18 @@ hr.underline-title-bv{
     flex-wrap: wrap;
     justify-content: center;
     padding: unset;
+    text-decoration: none!important;
 }
+
+a.convidado:link { text-decoration: none; }
+
+a.convidado:visited { text-decoration: none; }
+
+a.convidado:hover { text-decoration: none; }
+
+a.convidado:active { text-decoration: none; }
+
+
 
 section#comissoes{
     height: auto;
@@ -8222,15 +8245,18 @@ section#inscricoes{
     background: #979874ff;
 }
 
-.convidado div h5{
-    font-family: 'jost-bold', serif;
+.convidado h5{
+    font-family: 'jost-regular', serif;
     text-align: center;
+    color: #717070;
 }
 
-.convidado div h6{
-    font-family: 'jost-regular';
+.convidado h6{
+    font-family: 'jost-regular', serif;
     text-align: center;
     margin-top: -8px;
+    color: #717070;
+
 }
 
 .doctor-img-container h5{
@@ -8622,7 +8648,7 @@ pre {
 }
 .tabela {
     display: table;
-    width: 60%;
+    width: 50%;
 }
 
 .tabela-row {
@@ -8634,6 +8660,7 @@ pre {
     font-family: "jost-bold", arial, sans-serif;
     background: #e8e6e6;
     color: #237088ff;
+    font-size: 13px;
     padding: 7px;
     border: white solid 7px;
 }
@@ -8645,17 +8672,42 @@ pre {
 .tabela-cell-30 {
     width: 30%;
     text-align: right;
+    color: #717070;
 }
 
 .tabela-cell-title {
     display: table-cell;
     width: 100%;
-    font-family: "jost-extra-bold", arial, sans-serif;
-    color: #717070;
     padding: 7px;
-
+    font-family: "jost-bold", arial, sans-serif;
+    color: #717070;
+    font-size: 13px;
 }
 
+.info-titles {
+    font-family: "jost-bold", arial, sans-serif;
+    color: #717070;
+    font-size: 17px;
+}
+
+.info-text ul li:before{
+    content:'\00b7';
+    font-size:15px;
+    margin-right: 5px;
+}
+.info-text, .info-text ul li{
+    text-align: left;
+    margin-top: 10px;
+    font-size: 15px;
+    color: #717070;
+    font-family: "jost-light", arial, sans-serif;
+    line-height: 22px;
+    list-style-type: none;
+}
+
+.info-text ul li i{
+    vertical-align: middle;
+}
 
 .fh5co-social li a:hover, .fh5co-social li a:active, .fh5co-social li a:focus {
     outline: none;
@@ -8701,6 +8753,16 @@ pre {
     color: white;
 }
 
+.patrocinador{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.patrocinador img{
+    width: 230px;
+}
+
 .fh5co-copyright{
     margin-top: 40px;
 }
@@ -8708,8 +8770,24 @@ pre {
 .fh5co-copyright div a, .fh5co-copyright div{
     color: #fff;
     font-family: "jost-regular", arial, sans-serif;
-    font-size: 1.1rem;
+    font-size: 1.4rem;
 
+}
+
+.fh5co-copyright .policy{
+    color: #fff;
+    font-family: "jost-regular", arial, sans-serif;
+    font-size: 1.4rem;
+    text-align: right;
+    margin-top: -25px;
+}
+
+
+.fh5co-copyright .copy{
+    color: #fff;
+    font-family: "jost-regular", arial, sans-serif;
+    font-size: 1.4rem;
+    text-align: center
 }
 
 #fh5co-footer .fh5co-footer-logo {
@@ -9288,6 +9366,7 @@ img.fh5co-align-right {
 
     .slider-container-button a{
         width: 35%!important;
+        font-size: 1.5rem;
     }
 }
 
@@ -9345,6 +9424,7 @@ img.fh5co-align-right {
 
     .slider-container-button a{
         width: 35%!important;
+        font-size: 1.5rem;
     }
 }
 
@@ -9493,7 +9573,7 @@ img.fh5co-align-right {
 
     .slider-container-button a{
         font-family: "jost-regular", serif;
-        font-size: 1rem;
+        font-size: 1.5rem;
         text-align: left;
         letter-spacing: 1px;
         width: 250px!important;
@@ -9781,9 +9861,12 @@ i.red{
     justify-content: center;*/
     /*flex-wrap: wrap;*/
     background-image: url("../images/bg.jpg")!important;
-    background-repeat: no-repeat!important;
+    /*background-repeat: no-repeat!important;
     background-attachment: fixed!important;
-    background-size: cover!important;
+    background-size: cover!important;*/
+    background-size: cover;
+    background-position: 50%;
+    background-attachment: fixed;
 
 }
 
@@ -9794,7 +9877,7 @@ i.red{
     padding-top: 0px;
     width: 460px;
     height: 460px;
-    background: #237088ff;
+    background: #1e7088;
     border-radius: 50%;
 }
 
@@ -9807,10 +9890,10 @@ i.red{
 
 .slider-container-button a{
     font-family: "jost-regular", serif;
-    font-size: 1rem;
+    font-size: 1.4rem!important;
     text-align: left;
     letter-spacing: 1px;
-    width: 250px;
+    width: 300px;
     -webkit-box-shadow: 5px 5px 15px 5px #7E7E7E;
     box-shadow: 5px 5px 15px 5px #7E7E7E;
 }
@@ -9820,10 +9903,35 @@ i.red{
     font-size: 20px;
 }
 
+
+
+.slider-container-button-i{
+    margin: -100px auto;
+    text-align: center!important;
+
+}
+
+.slider-container-button-i a{
+    font-family: "jost-regular", serif;
+    font-size: 10px!important;
+    text-align: left;
+    letter-spacing: 1px;
+    width: 250px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    -webkit-box-shadow: 5px 5px 15px 5px #7E7E7E;
+    box-shadow: 5px 5px 15px 5px #7E7E7E;
+}
+
+.slider-container-button-i a i{
+    margin-left: 10px;
+    font-size: 20px;
+}
+
 .lettering-logo-container{
-    margin-top: -90px;
+    margin-top: -115px;
     padding-left: 30px!important;
-    padding-right: 55px;
+    padding-right: 60px;
     margin-right: 20px;
 }
 
@@ -9834,14 +9942,14 @@ i.red{
     position: relative;
     top:-20px;
     left: -10px;
-    width: 143px;
-    height: 143px;
+    width: 173px;
+    height: 173px;
     background: #fff;
     border-radius: 50%;
 }
 
 .slider-sppsm-logo img{
-    width: 100px;
+    width: 120px;
 }
 
 .slider-container

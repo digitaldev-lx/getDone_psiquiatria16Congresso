@@ -28,7 +28,7 @@
                     <div class="row">
 
                         <div class="col-xs-6 col-md-2">
-                            <a href="{{route("profile", "luis-madeira")}}" class="convidado">
+                            <a data-toggle="modal" data-target="#modal-luismadeira" class="convidado">
                                 <div class="col-xs-12 convidado text-center">
                                     <div class="shadow-img-convidado">
                                         <img alt="Luis Madeira" src="{{asset("images/pessoas/luismadeira.jpg")}}"/></div>
@@ -38,17 +38,80 @@
                                 <div class="col-xs-12 convidado"><h6>Presidente</h6></div>
                             </a>
                         </div>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="modal-luismadeira" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-lg">
+                                <div class="modal-content">
+                                    <div class="modal-body">
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true"><i class="fa-solid fa-times fa-lg"></i></span>
+                                        </button>
+                                        <div class="container" style="padding-left: 50px">
+                                            <div class="row">
+                                                <div class="col-xs-12 col-md-3" style="padding-top: 40px">
+                                                    <div class="shadow-img-individual-modal" >
+                                                        <img alt="Amelia Fiske" class="doctor-img-individual-modal" src="{{asset("images/pessoas/luismadeira.png")}}"/>
+                                                    </div>
+                                                    <img src="{{asset("images/sppsm_logo_cinza.png")}}" style="width: 80px; float: left; margin-top: 40vh; margin-bottom: 20px" alt="sppsm" class="sppsm-logo-comissoes"/>
+                                                </div>
+                                                <div class="col-xs-12 col-md-9" style="padding-top: 40px; padding-left: 50px">
+                                                    <h2 class="fh5co-section-convidados" style="color:#5d5d5d;margin-top: 0px">Luis Madeira</h2>
+                                                    <h4>Presidente</h4>
+                                                    <p class="texto"><br>
+                                                        Luís Madeira, 39 anos, desenvolve a sua carreira em quatro vertentes síncronas. Médico Psiquiatra, vice-presidente da Sociedade Portuguesa de Psiquiatria e Saúde Mental, licenciado em Medicina pela Universidade de Lisboa em 2008, trabalha no Centro Hospitalar Lisboa Norte (CHLN) e Hospital CUF Descobertas. <br>
+                                                        É titular de grau de Mestrado em Filosofia pela Universidade de Central Lancashire e de Doutoramento na área da Filosofia da Psiquiatria. <br>
+                                                        É Professor Auxiliar de Ética e Deontologia médica e de Psiquiatria na Faculdade de Medicina da Universidade de Lisboa. É Membro do Conselho Nacional de Ética para as Ciências da Vida. É ainda Psicoterapeuta pela Sociedade Portuguesa de Psicoterapia Centrada no Cliente e Abordagem Centrada na Pessoa</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
                         @foreach ($organizadora as $convidado)
                             <div class="col-xs-6 col-md-2" style="margin-bottom: 40px">
-                                <a href="{{route("profile", $convidado["url"])}}" class="convidado">
+                                <a data-toggle="modal" data-target="#modal-{{$convidado["url"]}}" class="convidado">
                                     <div class="col-xs-12 convidado text-center">
                                         <div class="shadow-img-convidado">
                                             <img alt="{{$convidado["name"]}}" src="{{asset("images/pessoas/".$convidado["image"])}}"/></div>
-                                        </div>
+                                    </div>
                                     <div class="col-xs-12 convidado"><h5>{{$convidado["name"]}}</h5>
                                     </div>
-                                    <div class="col-xs-12 convidado"><h6>{{$convidado["country"]}}</h6></div>
+                                    {{--                                    <div class="col-xs-12 convidado"><h6>{{$convidado["country"]}}</h6></div>--}}
                                 </a>
+                            </div>
+
+                            <!-- Modal -->
+                            <div class="modal fade" id="modal-{{$convidado["url"]}}" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog modal-lg">
+                                    <div class="modal-content">
+                                        <div class="modal-body">
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true"><i class="fa-solid fa-times fa-lg"></i></span>
+                                            </button>
+                                            <div class="container" style="padding-left: 50px">
+                                                <div class="row">
+                                                    <div class="col-xs-12 col-md-3" style="padding-top: 40px">
+                                                        <div class="shadow-img-individual-modal" >
+                                                            <img alt="Amelia Fiske" class="doctor-img-individual-modal" src="{{asset("images/pessoas/".$convidado["image"])}}"/>
+                                                        </div>
+                                                        <img src="{{asset("images/sppsm_logo_cinza.png")}}" style="width: 80px; float: left; margin-top: 40vh; margin-bottom: 20px" alt="sppsm" class="sppsm-logo-comissoes"/>
+                                                    </div>
+                                                    <div class="col-xs-12 col-md-9" style="padding-top: 40px; padding-left: 50px">
+                                                        <h2 class="fh5co-section-convidados" style="color:#5d5d5d;margin-top: 0px">{{$convidado["name"]}}</h2>
+                                                        <h4>{{$convidado["country"]}}</h4>
+                                                        <p class="texto">{!! $convidado["description"] !!}</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         @endforeach
                     </div>
@@ -68,7 +131,7 @@
                     <div class="row">
                         @foreach ($cientifica as $convidado)
                             <div class="col-xs-6 col-md-2" style="margin-bottom: 40px">
-                                <a href="{{route("profile", $convidado["url"])}}" class="convidado">
+                                <a data-toggle="modal" data-target="#modal-{{$convidado["url"]}}" class="convidado">
                                     <div class="col-xs-12 convidado text-center">
                                         <div class="shadow-img-convidado">
                                             <img alt="{{$convidado["name"]}}" src="{{asset("images/pessoas/".$convidado["image"])}}"/></div>
@@ -77,6 +140,35 @@
                                     </div>
                                     <div class="col-xs-12 convidado"><h6>{{$convidado["country"]}}</h6></div>
                                 </a>
+                            </div>
+
+                            <!-- Modal -->
+                            <div class="modal fade" id="modal-{{$convidado["url"]}}" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog modal-lg">
+                                    <div class="modal-content">
+                                        <div class="modal-body">
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true"><i class="fa-solid fa-times fa-lg"></i></span>
+                                            </button>
+                                            <div class="container" style="padding-left: 50px">
+                                                <div class="row">
+                                                    <div class="col-xs-12 col-md-3" style="padding-top: 40px">
+                                                        <div class="shadow-img-individual-modal" >
+                                                            <img alt="Amelia Fiske" class="doctor-img-individual-modal" src="{{asset("images/pessoas/".$convidado["image"])}}"/>
+                                                        </div>
+                                                        <img src="{{asset("images/sppsm_logo_cinza.png")}}" style="width: 80px; float: left; margin-top: 40vh; margin-bottom: 20px" alt="sppsm" class="sppsm-logo-comissoes"/>
+                                                    </div>
+                                                    <div class="col-xs-12 col-md-9" style="padding-top: 40px; padding-left: 50px">
+                                                        <h2 class="fh5co-section-convidados" style="color:#5d5d5d;margin-top: 0px">{{$convidado["name"]}}</h2>
+                                                        <h4>{{$convidado["country"]}}</h4>
+                                                        <p class="texto">{!! $convidado["description"] !!}</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         @endforeach
                     </div>

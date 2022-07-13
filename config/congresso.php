@@ -174,7 +174,7 @@ return [
             [
                 "name" => "Joel Krueger",
                 "country" => "MEXICO",
-                "image" => "bg_white_logo.png",
+                "image" => "bg_white.png",
                 "url" => "joel-krueger",
                 "description" => ""
             ],
@@ -292,7 +292,7 @@ return [
             [
                 "name" => "Carolina Perdigoto",
                 "country" => "PORTUGAL",
-                "image" => "bg_white_logo.png",
+                "image" => "bg_white.png",
                 "url" => "carolina-perdigoto",
                 "description" => ""
 
@@ -308,7 +308,7 @@ return [
             [
                 "name" => "Gonçalo Graça Pereira",
                 "country" => "PORTUGAL",
-                "image" => "bg_white_logo.png",
+                "image" => "bg_white.png",
                 "url" => "goncalo-graca-pereira",
                 "description" => ""
 
@@ -378,7 +378,7 @@ return [
             [
                 "name" => "Tiago Maia",
                 "country" => "PORTUGAL",
-                "image" => "bg_white_logo.png",
+                "image" => "bg_white.png",
                 "url" => "tiago-maia",
                 "description" => ""
 
@@ -401,7 +401,7 @@ return [
             [
                 "name" => "Ciro Oliveiro",
                 "country" => "PORTUGAL",
-                "image" => "bg_white_logo.png",
+                "image" => "bg_white.png",
                 "url" => "ciro-oliveiro",
                 "description" => ""
 
@@ -417,7 +417,7 @@ return [
             [
                 "name" => "João Bessa",
                 "country" => "PORTUGAL",
-                "image" => "bg_white_logo.png",
+                "image" => "bg_white.png",
                 "url" => "joao-bessa",
                 "description" => ""
 
@@ -433,7 +433,7 @@ return [
             [
                 "name" => "Joaquim Cerejeira",
                 "country" => "PORTUGAL",
-                "image" => "bg_white_logo.png",
+                "image" => "bg_white.png",
                 "url" => "joaquim-cerejeira",
                 "description" => ""
 
