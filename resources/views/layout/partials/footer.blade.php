@@ -11,7 +11,7 @@
                 <div class="fh5co-footer-widget" style="margin-top: 20px">
                     <ul class="fh5co-social">
                         <li>
-                            <a href="#">
+                            <a href="https://www.sppsm.org/">
                                 <span class="icon-container-outlined">
                                     <i class="fa-solid fa-globe white"></i>
                                 </span>
@@ -37,7 +37,7 @@
             </div>
             <div class="col-md-8 col-xs-12">
                 <div class="getdone-logo">
-                    <img src="{{asset("images/getdone.png")}}"/>
+                    <img src="{{asset("images/getdone_final.png")}}"/>
                 </div>
                 <h6>T.: +351 21 752 54 19 meetings@getdone.pt</h6>
 

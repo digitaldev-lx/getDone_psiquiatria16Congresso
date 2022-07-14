@@ -12,6 +12,12 @@ class HomeController extends Controller
     {
         $organizadora = config("congresso.comissoes.organizadora");
         $cientifica = config("congresso.comissoes.cientifica");
+        usort($cientifica, function ($item1, $item2) {
+            return $item1['name'] <=> $item2['name'];
+        });
+        usort($organizadora, function ($item1, $item2) {
+            return $item1['name'] <=> $item2['name'];
+        });
         return view("comissoes", compact("organizadora", "cientifica"));
     }
 
@@ -19,6 +25,12 @@ class HomeController extends Controller
     {
         $estrangeiros = config("congresso.convidados.estrangeiros");
         $nacionais = config("congresso.convidados.nacionais");
+        usort($estrangeiros, function ($item1, $item2) {
+            return $item1['name'] <=> $item2['name'];
+        });
+        usort($nacionais, function ($item1, $item2) {
+            return $item1['name'] <=> $item2['name'];
+        });
         return view("convidados", compact("estrangeiros", "nacionais"));
     }
 

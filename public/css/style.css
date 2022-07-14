@@ -1837,7 +1837,7 @@ blockquote p:last-child, blockquote ul:last-child, blockquote ol:last-child {
 }
 .getdone-logo img {
     margin-top: 45px;
-    width: 140px!important;
+    width: 90px!important;
 }
 .getdone-logo + h6 {
     float: right;

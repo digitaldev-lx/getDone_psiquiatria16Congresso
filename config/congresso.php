@@ -16,11 +16,32 @@ return [
     'convidados' => [
         'estrangeiros' => [
             [
-                "name" => "Alfredo Barboza",
-                "country" => "GERMANY",
+                "name" => "Roland Van Oostveen",
+                "country" => "CANADA",
                 "image" => "bg_white.png",
-                "url" => "alfredo-cuellar-barboza",
+                "url" => "roland-van-oostveen",
                 "description" => ""
+            ],
+            [
+                "name" => "Sohail Jannesari",
+                "country" => "UK",
+                "image" => "bg_white.png",
+                "url" => "sohail-jannesari",
+                "description" => ""
+            ],
+            [
+                "name" => "Becci Strawbridge",
+                "country" => "UK",
+                "image" => "bg_white.png",
+                "url" => "becci-strawbridge",
+                "description" => ""
+            ],
+            [
+                "name" => "Alfredo Barboza",
+                "country" => "MÉXICO",
+                "image" => "alfredobarboza.png",
+                "url" => "alfredo-cuellar-barboza",
+                "description" => "Dr. Cuéllar-Barboza is the Vice-Chair of Education of the Department of Psychiatry of the Universidad Autónoma de Nuevo León (UANL) in Monterrey, México; and Director of UANL's Center of Affective Health. He was appointed Adjunct Assistant Professor of the Department of Psychiatry and Psychology of the Mayo Clinic, Rochester, MN, in 2015 and Scientific Collaborator since 2018. As an active member of the Mayo Clinic Individualized Bipolar Biobank, he has focused his research on bipolar disorder (BD) genetics, especially understanding BD subphenotypes such as obesity and binge eating, with essential findings in novel genetic risk variants. He is an active collaborator of the Psychiatric Genomics Consortium, the Consortium on Lithium Genetics, and the Latin American Genomics Consortium. He has received international awards such as the Samuel Gershon Junior Investigator Award by the International Society of Bipolar Disorders and the Eli Lilly Bipolar Disorders Fellowship Award. His publications have over 1600 citations."
             ],
             [
                 "name" => "Amelia Fiske",
@@ -59,7 +80,7 @@ return [
             ],
             [
                 "name" => "Ana Ciaunica",
-                "country" => "GERMANY",
+                "country" => "UK",
                 "image" => "bg_white.png",
                 "url" => "ana-ciaunica",
                 "description" => ""
@@ -67,7 +88,7 @@ return [
             ],
             [
                 "name" => "Axel Seemann",
-                "country" => "UK",
+                "country" => "USA",
                 "image" => "Axel_Seemann.jpg",
                 "url" => "axel-seemann",
                 "description" => ""
@@ -173,7 +194,7 @@ return [
             ],
             [
                 "name" => "Joel Krueger",
-                "country" => "MEXICO",
+                "country" => "UK",
                 "image" => "bg_white.png",
                 "url" => "joel-krueger",
                 "description" => ""
@@ -269,10 +290,10 @@ return [
             ],
             [
                 "name" => "Swapnil Gupta",
-                "country" => "UK",
-                "image" => "bg_white.png",
+                "country" => "USA",
+                "image" => "swapnilgupta.png",
                 "url" => "swapnil-gupta",
-                "description" => ""
+                "description" => "Swapnil Gupta is Associate Professor of psychiatry and Director of outpatient psychiatry at Mount Sinai Hospital in NYC USA. She was trained as a psychiatrist both in India as well as the United States, at SUNY Downstate Medical Center and Yale University. he started her career as an academic psychiatrist researching the role of the endocannabinoid system in the pathophysiology of schizophrenia. Her subsequent scholarship has focused on the application of deprescribing, or the systematic reduction of superfluous medications, to the discipline of psychiatry by rooting it in the principles of recovery-oriented care. She has authored numerous peer-reviewed papers on the topic of deprescribing including a book published by OUP (2019). She serves on the boards of two organizations dedicated to increasing stakeholder participation in psychiatric research and is on the editorial board of the Community Mental Health Journal. Her current projects include developing educational materials on deprescribing psychotropics and eliciting knowledge and attitudes about deprescribing among psychiatrists."
 
             ],
             [
@@ -298,10 +319,10 @@ return [
 
             ],
             [
-                "name" => "Ciro Oliveiro",
+                "name" => "Ciro Oliveira",
                 "country" => "PORTUGAL",
                 "image" => "bg_white.png",
-                "url" => "ciro-oliveiro",
+                "url" => "ciro-oliveira",
                 "description" => ""
 
             ],
@@ -399,10 +420,10 @@ return [
 
             ],*/
             [
-                "name" => "Ciro Oliveiro",
+                "name" => "Ciro Oliveira",
                 "country" => "PORTUGAL",
                 "image" => "bg_white.png",
-                "url" => "ciro-oliveiro",
+                "url" => "ciro-oliveira",
                 "description" => ""
 
             ],
@@ -478,14 +499,339 @@ return [
                         Assistente Convidado na Faculdade de Medicina de Lisboa.<br>
                         Doutorando do Centro Académico de Medicina de Lisboa.<br>
                         Mestrado em Neurociências Afetivas, Universidade de Maastricht, Holanda. "
-
             ]
         ],
         'cientifica' => [
             [
-                "name" => "António Bento",
+                "name" => "Albino Oliveira-Maia",
+                "country" => "PORTUGAL",
+                "image" => "albinooliveiramaia.png",
+                "url" => "albino-oliveira-maia",
+                "description" => "
+                    Albino Oliveira Maia completou a sua formação em medicina na Universidade do Porto
+                    e o Doutoramento, desenvolvido na Duke University, sob supervisão do Prof. Miguel
+                    Nicolelis e Sidney Simon. Após o seu regresso a Portugal, enquanto completava o seu
+                    treino em psiquiatria, iniciou um programa Pós-doutoral no Champalimaud
+                    Neuroscience Programme, sob supervisão do Prof. Rui Costa, e completou um
+                    mestrado em Saúde Pública no Harvard Scool of Public Heath, em Boston, onde foi
+                    supervisionado pelo Prof. Álvaro Pascual-Leone. Atualmente, é diretor da Unidade de
+                    Neuropsiquiatria no Centro Clínico e de Investigação da Fundação Champalimaud e
+                    Professor de Psiquiatria e Neurociências na NOVA Medical School. O seu trabalho de
+                    investigação é dedicado à compreensão de sistemas de recompensa em
+                    comportamento alimentar no cérebro e na periferia, e os métodos utilizado no seu
+                    laboratório variam entre estimulação optogenética do nervo vago em ratinhos e
+                    imagiologia molecular de recetores dopaminérgicos em doentes com obesidade.
+                    Albino foi recentemente galardoado com um projeto do European Research Council
+                    para dar continuidade ao seu trabalho sobre a modulação de comportamento alimentar
+                    em humanos por estimulação pós-ingestiva atraves alimentos calóricos. "
+            ],
+            [
+                "name" => "Alice Lopes",
                 "country" => "PORTUGAL",
                 "image" => "bg_white.png",
+                "url" => "alice-lopes",
+                "description" => ""
+            ],
+            [
+                "name" => "Ana Matos Pires",
+                "country" => "PORTUGAL",
+                "image" => "bg_white.png",
+                "url" => "ana-matos-pires",
+                "description" => ""
+            ],
+            [
+                "name" => "Ana Sofia Pinto",
+                "country" => "PORTUGAL",
+                "image" => "bg_white.png",
+                "url" => "ana-sofia-pinto",
+                "description" => ""
+            ],
+            [
+                "name" => "António Leuschner",
+                "country" => "PORTUGAL",
+                "image" => "bg_white.png",
+                "url" => "antonio-leuschner",
+                "description" => ""
+            ],
+            [
+                "name" => "António Palha",
+                "country" => "PORTUGAL",
+                "image" => "bg_white.png",
+                "url" => "antonio-palha",
+                "description" => ""
+            ],
+            [
+                "name" => "Carlos Ramalheira",
+                "country" => "PORTUGAL",
+                "image" => "carlosramalheira.png",
+                "url" => "carlos-ramalheira",
+                "description" => "LOCAL DE TRABALHO:<br>
+                    Centro de Responsabilidade Integrada de Psiquiatria e Saúde Mental do CHUC – Centro Hospitalar Universitário de Coimbra<br><br>
+                    FUNÇÕES ACTUAIS:<br>
+                    Médico Psiquiatra, com o grau de Consultor <br><br>
+                    HABILITAÇÕES LITERÁRIAS:<br>
+                    Licenciatura em Medicina / Especialização em Psiquiatria (Univ. de Coimbra); Curso de Pós-graduação em Gestão de Unidades de Saúde (Univ. Católica); Curso de Alta Direcção em Administração Pública (INA); Mestre em Gestão e Administração Pública (Univ. Aveiro)<br><br>
+                    ACTIVIDADE HOSPITALAR:<br>
+                    Assistência a doentes internadas na enfermaria de Psiquiatria A (Mulheres). Consulta de Psiquiatria Geral. Consulta de Gerontopsiquiatria.<br><br>
+                    ACTIVIDADE DOCENTE:<br>
+                    Até 2016, e ao longo de 29 anos, docente convidado das disciplinas de Introdução à Saúde Comunitária, Epidemiologia I e Epidemiologia II, do MIM da Fac. Medicina de Coimbra, e docente das disciplinas de Bioestatística e Informática, e das Unidades de Estatística, dos Mestrados em Saúde Pública e em Saúde Ocupacional, respectivamente, da mesma escola.<br><br>
+                    ÁREAS DE INTERESSE CIENTÍFICO:<br>
+                    Psiquiatria geral, dependências, metodologia científica, análise de dados, gestão de serviços de saúde."
+            ],
+            [
+                "name" => "Carlos Vasconcelos",
+                "country" => "PORTUGAL",
+                "image" => "bg_white.png",
+                "url" => "carlos-vasconcelos",
+                "description" => ""
+            ],
+            [
+                "name" => "Ciro Oliveira",
+                "country" => "PORTUGAL",
+                "image" => "bg_white.png",
+                "url" => "ciro-oliveira",
+                "description" => ""
+
+            ],
+            [
+                "name" => "Ema Conde",
+                "country" => "PORTUGAL",
+                "image" => "bg_white.png",
+                "url" => "ema-conde",
+                "description" => ""
+
+            ],
+            [
+                "name" => "Fernando Medeiros Paiva",
+                "country" => "PORTUGAL",
+                "image" => "fernandomedeirospaiva.png",
+                "url" => "fernando-medeiros-paiva",
+                "description" => "
+                    1969 – Licenciatura em Medicina pela Faculdade de Medicina da Universidade do Porto<br>
+                    1978 – Especialista em Psiquiatria pela Ordem dos Médicos<br>
+                    1986 – Mestre em Psiquiatria pela Faculdade de Medicina da Universidade do Porto<br>
+                    1993-2011 – Membro do Conselho de Administração e da Direcção Clínica da Casa de Saúde St Catarina, Porto<br>
+                    1995 – 2003 - Chefe de Serviço Hospitalar (Hospital de S. João)<br>
+                    2001-2006 – Direcção do Colégio de Especialidade de Psiquiatria da Ordem dos Médicos<br>
+                    2003-2006 – Delegado Regional do Norte do Instituto da Droga e da Toxicodependência<br>
+                    2006 – Aposentado da função pública<br>
+                    2006-2012 - Vogal do Norte da Sociedade Portuguesa de Psiquiatria e Saúde Mental (SPPSM)<br>
+                    2007-2008 – Presidente da Associação Portuguesa de Psiquiatria Biológica (APPB)<br>
+                    2012 – Atividade privada na Clínica Medeiros Paiva, Lda.<br>
+                    2016-2017 – Presidente da Seção de Psiquiatria Biológica da Sociedade Portuguesa de Psiquiatria e Saúde Mental<br>
+                    2017 – Atividade privada no Hospital Lusíadas, S.A. Porto<br>
+                    2018 – Responsável pela Seção de Psiquiatria Biológica da Sociedade Portuguesa de Psiquiatria e Saúde Mental<br>
+                    2019 – Atividade privada na Clínica Médica da Foz<br>
+                    55 trabalhos publicados em revistas de especialidade nacionais e internacionais<br>
+                    Variadas entrevistas a jornais, emissoras de rádio e televisão bem como alguns artigos publicados na imprensa diária e semanal."
+            ],
+            [
+                "name" => "Joana Ramos",
+                "country" => "PORTUGAL",
+                "image" => "bg_white.png",
+                "url" => "joana-ramos",
+                "description" => ""
+            ],
+            [
+                "name" => "João Bessa",
+                "country" => "PORTUGAL",
+                "image" => "bg_white.png",
+                "url" => "",
+                "description" => "joao-bessa"
+            ],
+            [
+                "name" => "João Hipólito",
+                "country" => "PORTUGAL",
+                "image" => "bg_white.png",
+                "url" => "joao-hipolito",
+                "description" => ""
+            ],
+            [
+                "name" => "João Marques",
+                "country" => "PORTUGAL",
+                "image" => "joaomarques.pngg",
+                "url" => "joao-marques",
+                "description" => "Licenciado em Medicina pela Faculdade Medicina da Universidade Lisboa<br>
+                        Medico Psiquiatra na Casa de Saúde de Santa Catarina e Instituto Cuf Porto<br>
+                        Diretor Clínico da Comunidade Terapêutica Clínica do Outeiro<br>
+                        Presidente da Sociedade Portuguesa de Alcoologia<br>
+                        Vice-Presidente da Secção de Psiquiatria da Adição da SPPSM<br>
+                        Membro da Direção da Sociedade Portuguesa de Psiquiatria e Saúde Mental"
+            ],
+            [
+                "name" => "João Marques Teixeira",
+                "country" => "PORTUGAL",
+                "image" => "bg_white.png",
+                "url" => "joao-marques-teixeira",
+                "description" => ""
+            ],
+            [
+                "name" => "João Redondo",
+                "country" => "PORTUGAL",
+                "image" => "bg_white.png",
+                "url" => "joao-redondo",
+                "description" => "João Redondo, psiquiatra, terapeuta familiar e supervisor da SPTF, director de Psicodrama Moreniano. Coordenador da Unidade de Violência Familiar/ Centro de Prevenção e Tratamento do Trauma Psicológico, CRI de Psiquiatria - CHUC. Co-fundador das redes <i>Grupo Violência: Informação, Investigação, Intervenção</i> e <i>Escola Contra a Violência</i>. Coordenador Executivo da Agência para a Prevenção do Trauma e da Violação dos Direitos Humanos. Coordenador Regional de Saúde Mental, ARS Centro. Integra a equipa da Coordenação Nacional das Políticas de Saúde Mental, MS. Membro da Comissão de Análise Integrada da Delinquência Juvenil e da Criminalidade Violenta. "
+            ],
+            [
+                "name" => "João Reis",
+                "country" => "PORTUGAL",
+                "image" => "bg_white.png",
+                "url" => "joao-reis",
+                "description" => ""
+            ],
+            [
+                "name" => "João Relvas",
+                "country" => "PORTUGAL",
+                "image" => "bg_white.png",
+                "url" => "joao-relvas",
+                "description" => ""
+            ],
+            [
+                "name" => "Joaquim Cerejeira",
+                "country" => "PORTUGAL",
+                "image" => "bg_white.png",
+                "url" => "joaquim-cerejeira",
+                "description" => ""
+            ],
+            [
+                "name" => "José Luís Pio Abreu",
+                "country" => "PORTUGAL",
+                "image" => "joseluispioabreu.png",
+                "url" => "jose-luis-pio-abreu",
+                "description" => "José Luís Pio Abreu (1944-), MD, PhD, é psiquiatra clínico e membro do Centro de Filosofia das Ciências da Universidade de Lisboa. Até 2013, foi professor de Psiquiatria da Faculdade de Medicina da Universidade de Coimbra e leccionou Psiquiatria, Psicopatologia e Teorias da Comunicação em diversas universidades portuguesas e brasileiras. Tem uma longa carreira de investigação, com cerca de uma centena de artigos publicados em revistas científicas nacionais e internacionais (e capítulos de livros internacionais), para além de 11 livros publicados em Portugal, alguns também também traduzidos e publicados no Brasil, Espanha, América Latina e Itália. Dois destes livros e uma tradução que coordenou foram premiados em Portugal e Itália. Pertenceu aos corpos gerentes de associações ligadas à Psiquiatria e Psicoterapias (psicodrama) em Portugal, bem como à Ordem dos Médicos. É sócio honorário da Associação Brasileira de Psiquiatria.<br><br>
+                    O seu livro mais conhecido é Como Tornar-se Doente Mental (Dom Quixote/Leya), com 22 edições em Portugal<br>
+                    Publicou ainda:<br>
+                    <ul>
+                        <li><i>O Modelo do Psicodrama Moreniano</i>, 3ª. Edição: Lisboa: Climepsi, 2006.</li>
+                        <li><i>O Comportamento Como Sistema de Estados</i>, Ed. De Autor/Lilly, 1993.</li>
+                        <li><i>Comunicação e Medicina. Coimbra</i>: Virtualidade, 1998.</li>
+                        <li><i>O Tempo Aprisionado: Ensaios Não Espiritualistas sobre o Espírito Humano</i>. Coimbra: Quarteto Editora, 2000</li>
+                        <li><i>Quem Nos Faz Como Somos: Genes, Signos, Identidades.</i> Lisboa: Dom Quixote/Leya. 4ª. Ed.: 2007.</li>
+                        <li><i>Estranho Quotidiano.</i> Lisboa: Dom Quixote/Leya, 2009.</li>
+                        <li><i>O Bailado da Alma: O que é a Mente para além do Cérebro?</i>. Lisboa: Dom Quixote/Leya, 2014.</li>
+                        <li><i>A Queda dos Machos: Vinte Cartas às Minhas Amigas.</i> Lisboa: Dom Quixote/Leya, 2016.</li>
+                        <li><i>Pequena História da Psiquiatria. O Desafio das Doenças Mentais.</i> Lisboa: Dom Quixote/Leya, 2021.</li>
+                        <li><i>Introdução à Psicopatologia Compreensiva,</i> Lisboa: Fundação Calouste Gulbenkian, 1994. 7ª Edição: 2015.</li>
+                        <li><i>Elementos de Psiquiatria Explicativa.</i> Lisboa: Gulbenkian, 2013. 2a. Ed revista, 2014.</li>
+                        <li><i>Tradução de Neurofisiologia sem Lágrimas</i>, de William McKay, Gulbenkian, 1999, 6a. Ed. Revista e actualizada, 2016.</li>
+                    </ul><br><br>
+                    Desde os tempos de estudante, antes do 25 de Abril, até hoje, foi  um cidadão activo com diversas intervenções em organizações, fóruns e meios de comunicação social, incluindo colunas de opinião em jornais nacionais e regionais."
+            ],
+            [
+                "name" => "Lurdes Santos",
+                "country" => "PORTUGAL",
+                "image" => "bg_white.png",
+                "url" => "lurdes-santos",
+                "description" => "Nº da Ordem dos Médicos – 22728<br><br>
+                     Profissional<br>
+                    1979 - Licenciatura em Medicina pela F.M. Universidade do Porto<br>
+                    1982-96 – Colocada no H.C.S Januário em Macau<br>
+                    1984-85 - Bolseira da O. M.S. em Melbourne (Austrália)<br>
+                    1988-89 - Estágio na Universidade René Descart_Paris em Etnopsiquiatria.<br>
+                    1990 - Especialista em Psiquiatria<br>
+                    2000 - Chefe de Serviço de Psiquiatria<br>
+                    2008- 2014 Coordenou a Unidade de Psiquiatria/Psicologia do Hospital dos Lusíadas.<br><br>
+                    Actividade Clínica:<br>
+                    Na qualidade de psiquiatra acompanha doentes de diferentes áreas clínicas mas tem-se interessado por Doença Afectiva e Psicoses  Esquizofreniformes, 1º surto psicótico.<br><br>
+                    Responsabilidades :<br>
+                    Assumiu a coordenação do: Hospital de Dia, Psiquiatria de Ligação com H.Stª Marta, no HMB,  Unidade de Psiquiatria e Psicologia do Hospital dos Lusíadas. Mantém-se como consultora para a área clínica do Instituto das irmãs Hospitaleiras do Sagrada Coração de Jesus. Em 2006 foi nomeada pelo Ministério da Saúde como colaboradora no Projecto de Reestruturação dos Serviços de Saúde Mental.<br>
+                    Em 2009 - Nomeada coordenadora do Grupo de Trabalho para Acreditação do 	Hospital dos Lusíadas pela International Joint Commission.<br>
+                    Secretária da Assembleia Geral da SPPSM<br><br>
+                    Investigação :<br>
+                    Investigadora Principal em Portugal, do “Estudo do Primeiro – Episódio de Esquizofrenia e de Perturbações Psicóticas Terapia Cognitivo-comportamental/Gestão de caso EPPIC/Euro” (2005-2009), Estudo Multicêntrico coordenado pelos investigadores Jane Edwards, Patrick D. McGorry, G. Paul Amminger, Glynn L. Harrison que envolveu oito países Europeus."
+            ],
+            [
+                "name" => "Maria Carmo Rosa Cruz",
+                "country" => "PORTUGAL",
+                "image" => "bg_white.png",
+                "url" => "maria-carmo-rosa-cruz",
+                "description" => ""
+            ],
+            [
+                "name" => "Maria Manuela Abreu",
+                "country" => "PORTUGAL",
+                "image" => "bg_white.png",
+                "url" => "maria-manuela-abreu",
+                "description" => ""
+            ],
+            [
+                "name" => "Pedro Morgado",
+                "country" => "PORTUGAL",
+                "image" => "pedromorgado.png",
+                "url" => "pedro-morgado",
+                "description" => "PEDRO MORGADO é Professor Associado de Psiquiatria e Comunicação Clínica na Escola de Medicina da Universidade do Minho. É Coordenador Regional de Saúde Mental da ARS Norte desde janeiro de 2022. É médico especialista do Serviço de Psiquiatria do Hospital de Braga e investigador no Instituto de Investigação em Ciências da Vida e Saúde (ICVS) e no Centro Clínico Académico 2CA-Braga. É membro da Direção do Colégio de Especialidade de Psiquiatria da Ordem dos Médicos e da Direção da Sociedade Portuguesa de Comunicação Clínica."
+            ],
+            [
+                "name" => "Pedro Varandas",
+                "country" => "PORTUGAL",
+                "image" => "bg_white.png",
+                "url" => "pedro-varandas",
+                "description" => ""
+            ],
+            [
+                "name" => "Ricardo Coentre",
+                "country" => "PORTUGAL",
+                "image" => "ricardocoentre.png",
+                "url" => "ricardo-coentre",
+                "description" => "<br>
+                        Assistente Graduado Hospitalar de Psiquiatria no Hospital de Santa Maria, Centro Hospitalar Universitário Lisboa Norte EPE.<br>
+                        Assistente Convidado na Faculdade de Medicina de Lisboa.<br>
+                        Doutorando do Centro Académico de Medicina de Lisboa.<br>
+                        Mestrado em Neurociências Afetivas, Universidade de Maastricht, Holanda. "
+            ],
+            [
+                "name" => "Ricardo Gusmão",
+                "country" => "PORTUGAL",
+                "image" => "bg_white.png",
+                "url" => "ricardo-gusmão",
+                "description" => ""
+            ],
+            [
+                "name" => "Rui Coelho",
+                "country" => "PORTUGAL",
+                "image" => "bg_white.png",
+                "url" => "rui-coelho",
+                "description" => ""
+            ],
+            [
+                "name" => "Sílvia Ouakinin",
+                "country" => "PORTUGAL",
+                "image" => "bg_white.png",
+                "url" => "silvia-ouakinin",
+                "description" => ""
+            ],
+            [
+                "name" => "Sónia Fernandes",
+                "country" => "PORTUGAL",
+                "image" => "bg_white.png",
+                "url" => "sonia-fernandes",
+                "description" => ""
+            ],
+            [
+                "name" => "Sónia Ramos",
+                "country" => "PORTUGAL",
+                "image" => "bg_white.png",
+                "url" => "sonia-ramos",
+                "description" => ""
+            ],
+            [
+                "name" => "Teresa Maia",
+                "country" => "PORTUGAL",
+                "image" => "bg_white.png",
+                "url" => "teresa-maia",
+                "description" => ""
+            ],
+            [
+                "name" => "Vítor Santos",
+                "country" => "PORTUGAL",
+                "image" => "bg_white.png",
+                "url" => "vitor-santos",
+                "description" => ""
+            ],
+            [
+                "name" => "António Bento",
+                "country" => "PORTUGAL",
+                "image" => "antoniobento.png",
                 "url" => "antonio-bento",
                 "description" => "<br>
                         Natural de Lisboa (nascido em 13 de agosto de 1954).<br>
@@ -586,8 +932,7 @@ return [
                         Responsável por peritagens médico-legais psiquiátricas do Seguro Nacional de Acidentes na Suiça (SUVA), 2015 - 2021<br>
                         Participação e organização de Grupo de Intervisão, existente desde 2004<br>
                         <br>
-                        Contactos:<br>
-                        f_gysin@yahoo.com              TM: 962853497"
+                        "
 
             ],
             [
@@ -732,7 +1077,6 @@ return [
                 "description" => "<br>
                         Médico psiquiatra. Internato complementar de psiquiatria realizado no Hospital Júlio de Matos (2001), tendo mantido funções clínicas neste hospital até 2014. Mestre em Ciências do Sono e Doutorado em Psiquiatria e Saúde Mental pela Faculdade de Medicina de Lisboa. <br>
                         Foi Professor convidado no Instituto de Ciências da Saúde da Universidade Católica Portuguesa, tendo sido o coordenador da Pós-Graduação em Saúde Mental (2011-2017) e Professor Auxiliar de Psiquiatria na Faculdade de Medicina da Universidade de Lisboa (2011-2022). <br><br>
-                         
                         Coordenador e autor de vários artigos científicos e livros, dos quais se destacam: Manual de Psiquiatria Clínica, Manual de Psicofarmacologia na Prática Clínica e Dicionário de Psicopatologia. <br>
                         Actualmente, é Senior Teaching Fellow na AESE — Business school, na área de desenvolvimento humano. 
                          "
