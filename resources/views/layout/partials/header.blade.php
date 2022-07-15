@@ -4,7 +4,7 @@
         <div class="container-fluid">
             <div class="navbar-header">
                 <!-- Mobile Toggle Menu Button -->
-                <a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle hidden-md hidden-lg" data-toggle="collapse" data-target="#fh5co-navbar" aria-expanded="false" aria-controls="navbar"><i></i></a>
+                <a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle hidden-lg hidden-md" data-toggle="collapse" data-target="#fh5co-navbar" aria-expanded="false" aria-controls="navbar"><i></i></a>
                 <a class="navbar-brand" href="{{route("home")}}">
                     <img class="logo" src="{{asset("images/site_logo.png")}}" />
                 </a>
@@ -19,7 +19,7 @@
                     <li class="{{Route::currentRouteName() == "inscricoes" ? "active": ""}}"><a href="{{route("inscricoes")}}"><span>Inscrições <span class="border"></span></span></a></li>
                     <li class="{{Route::currentRouteName() == "call-for-abstracts" ? "active": ""}}"><a href="{{route("call.for.abstracts")}}"><span>Call for Abstracts <span class="border"></span></span></a></li>
                     <li class="{{Route::currentRouteName() == "informacoes" ? "active": ""}}"><a href="{{route("informacoes")}}"><span>Informações <span class="border"></span></span></a></li>
-                    <li><a class="btn btn-primary btn-sm btn-inscricoes" href="https://www.eventbase.pt/EventBase/Inscricoes/PaginaInscricaoIndividual.aspx?Params=RXZlbnRvSUQ9NjUy"><i class="fa-regular fa-file fa-xl" style="margin-right: 8px"></i> INSCRIÇÕES</a></li>
+                    <li><a class="btn btn-primary btn-sm btn-inscricoes" style="border-radius: unset!important;box-shadow: unset!important;" href="https://www.eventbase.pt/EventBase/Inscricoes/PaginaInscricaoIndividual.aspx?Params=RXZlbnRvSUQ9NjUy"><i class="fa-regular fa-file fa-xl" style="margin-right: 8px;border-radius: unset!important;box-shadow: unset!important;"></i> INSCRIÇÕES</a></li>
                 </ul>
             </div>
         </div>

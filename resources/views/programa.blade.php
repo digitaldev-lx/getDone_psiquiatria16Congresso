@@ -30,7 +30,9 @@
                     <div class="row">
                         <div class="col-xs-12 col-md-4 col-md-offset-1 text-center" style="margin-left: 40px">
                             <img src="{{asset("images/programa.png")}}" style="width: 360px;" alt="XVI Congresso Nacional de Psiquiatria"/><br>
-                            <img src="{{asset("images/download-icon.png")}}" style="width: 80px;margin-top: 1em" alt="XVI Congresso Nacional de Psiquiatria"/>
+                            <a href="{{asset("images/Programa.pdf")}}" target="_blank">
+                                <img src="{{asset("images/download-icon.png")}}" style="width: 80px;margin-top: 1em"
+                                    alt="XVI Congresso Nacional de Psiquiatria"/></a>
                         </div>
                     </div>
                 </div>

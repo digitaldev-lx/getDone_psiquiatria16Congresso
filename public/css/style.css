@@ -249,6 +249,8 @@ td, th {
     padding: 0;
 }
 
+
+
 /*! Source: https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css */
 @media print {
     *, *:before, *:after {
@@ -1577,6 +1579,9 @@ p {
 }
 
 @media (min-width: 1180px) {
+    .fh5co-nav-toggle {
+        display: none!important;
+    }
     .lead {
         font-size: 21px;
     }
@@ -1774,6 +1779,9 @@ dd {
 }
 
 @media (min-width: 1180px) {
+    .fh5co-nav-toggle {
+        display: none!important;
+    }
     .dl-horizontal dt {
         float: left;
         width: 160px;
@@ -1814,7 +1822,7 @@ blockquote p:last-child, blockquote ul:last-child, blockquote ol:last-child {
 }
 
 .fh5co-lead-footer {
-    color: #237088ff;
+    color: #237088;
     font-size: 48px;
     text-transform: uppercase;
     letter-spacing: 0.5px;
@@ -1824,11 +1832,12 @@ blockquote p:last-child, blockquote ul:last-child, blockquote ol:last-child {
 .fh5co-sub-lead-footer {
     font-size: 28px;
     margin-top: -15px;
-    color: #237088ff;
+    color: #237088;
     font-weight: bold;
     font-family: "jost-light", arial, sans-serif;
     letter-spacing: 1px;
 }
+
 
 .getdone-logo {
     display: flex;
@@ -1841,6 +1850,7 @@ blockquote p:last-child, blockquote ul:last-child, blockquote ol:last-child {
 }
 .getdone-logo + h6 {
     float: right;
+    text-align: right;
     margin-top: 25px;
     font-family: "jost-regular", arial, sans-serif;
     color: #fff;
@@ -1959,6 +1969,9 @@ pre code {
     .fh5co-parallax{
         background-size: cover!important;
     }
+    .fh5co-nav-toggle {
+        display: none!important;
+    }
 }
 
 @media (min-width: 992px) {
@@ -1972,6 +1985,9 @@ pre code {
     }
     .fh5co-parallax{
         background-size: cover!important;
+    }
+    .fh5co-nav-toggle {
+        display: block!important;
     }
 }
 
@@ -3763,8 +3779,9 @@ a.btn.disabled, fieldset[disabled] a.btn {
     color: #ffffff !important;
     margin-top: 10px !important;
     margin-left: 30px !important;
-    -webkit-box-shadow: 5px 5px 15px 5px #7E7E7E;
-    box-shadow: 5px 5px 15px 5px #7E7E7E;
+    border-radius: unset!important;
+    /*-webkit-box-shadow: 5px 5px 15px 5px #7E7E7E;
+    box-shadow: 5px 5px 15px 5px #7E7E7E;*/
 }
 
 .btn-inscricoes:hover {
@@ -5665,7 +5682,7 @@ a.badge:hover, a.badge:focus {
 
     .title-tablet{
         /*padding-left: 90px!important;*/
-        padding-right: 90px!important;
+        padding-right: 30px!important;
         /*margin-top: -160px!important;*/
         /*padding: 0 0 0 75%!important;*/
     }
@@ -5692,7 +5709,7 @@ a.badge:hover, a.badge:focus {
         padding-top: 0px;
         width: 560px!important;
         height: 560px!important;
-        background: #237088ff;
+        background: #237088;
         border-radius: 50%;
     }
 
@@ -6815,6 +6832,9 @@ button.close {
     .modal-lg {
         width: 900px;
     }
+    .fh5co-nav-toggle {
+        display: block!important;
+    }
 }
 
 .tooltip {
@@ -7499,6 +7519,7 @@ button.close {
     th.visible-md, td.visible-md {
         display: table-cell !important;
     }
+
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
@@ -7751,7 +7772,7 @@ h1, h2, h3, h4, h5, h6 {
     left: 0;
     right: 0;
     bottom: 0;
-    background: #237088ff;
+    background: #237088;
     -webkit-transform: scaleX(0);
     transform: scaleX(0);
     -webkit-transform-origin: 0 50%;
@@ -7782,7 +7803,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #fh5co-header > .navbar li.active a > span .border-active {
-    background: #237088ff;
+    background: #237088;
 }
 
 #fh5co-header .navbar-brand {
@@ -7893,10 +7914,10 @@ h1, h2, h3, h4, h5, h6 {
     font-family: "jost-medium", serif;
     text-align: left;
     font-size: 32px;
-    color: #237088ff;
+    color: #237088;
     /*letter-spacing: 2px;*/
     /*line-height: 22px;*/
-    /* text-decoration: underline solid #237088ff 10%; */
+    /* text-decoration: underline solid #237088 10%; */
 }
 
 .bv-aligment{
@@ -7922,11 +7943,11 @@ h1, h2, h3, h4, h5, h6 {
     text-align: left;
     font-size: 28px;
     font-weight: bolder;
-    color: #237088ff;
+    color: #237088;
     letter-spacing: 2px;
     margin-top: 150px;
     margin-left: 30px;
-    /* text-decoration: underline solid #237088ff 10%; */
+    /* text-decoration: underline solid #237088 10%; */
 }
 
 .texto *, .texto{
@@ -7942,10 +7963,10 @@ h1, h2, h3, h4, h5, h6 {
     text-align: left;
     font-size: 18px;
     font-weight: bolder;
-    color: #237088ff;
+    color: #237088;
     letter-spacing: 2px;
-    margin-left: -63px;
-    /* text-decoration: underline solid #237088ff 10%; */
+    /*margin-left: -63px;*/
+    /* text-decoration: underline solid #237088 10%; */
 }
 .abstracts-title span{
     font-family: "jost-semi-bold", serif;
@@ -7966,7 +7987,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .fh5co-section-convidados-cm {
-    font-family: "Arial", serif;
+    font-family: "jost-regular", serif;
     text-align: left;
     font-size: 20px;
     font-weight: bold;
@@ -7979,14 +8000,14 @@ h1, h2, h3, h4, h5, h6 {
 hr.underline-title{
     margin: 0 0 0 0;
     width: 7%;
-    border-top: 5px solid #237088ff;
+    border-top: 5px solid #237088;
 }
 
 
 hr.underline-title-bv{
     margin: -10px 0 0 0;
     width: 35px;
-    border-top: 3px solid #237088ff;
+    border-top: 3px solid #237088;
 }
 
 
@@ -8013,7 +8034,7 @@ hr.underline-title-bv{
     height: 20px;
     width: 100%;
 
-    background: #237088ff;
+    background: #237088;
 }
 
 @media (max-width: 1180px) {
@@ -8659,7 +8680,7 @@ pre {
     display: table-cell;
     font-family: "jost-bold", arial, sans-serif;
     background: #e8e6e6;
-    color: #237088ff;
+    color: #237088;
     font-size: 13px;
     padding: 7px;
     border: white solid 7px;
@@ -9258,9 +9279,7 @@ img.fh5co-align-right {
 
 /*tablets maiores*/
 @media only screen and (min-width:481px) and (max-width:1180px){
-    .fh5co-section-convidados{
-        margin-top: 175px!important;
-    }
+
 
     .shadow-img-individual{
         position: absolute;
@@ -9307,18 +9326,11 @@ img.fh5co-align-right {
         height: 130px!important;
     }
 
-    .sppsm-logo-comissoes, .sppsm-logo-convidados{
-        display: none!important;
-    }
     .fh5co-parallax{
         height: 95vh!important;
         background-repeat: no-repeat!important;
         background-attachment: fixed!important;
         background-size: cover!important;
-    }
-
-    .side-banner-comissoes, .side-banner-convidados{
-        display: none!important;
     }
 
     .cta-parallax{
@@ -9357,7 +9369,7 @@ img.fh5co-align-right {
     }
 
     .slider-container{
-        margin-top: 180px!important;
+        margin-top: 110px!important;
     }
 
     .slider-container-button{
@@ -9365,8 +9377,9 @@ img.fh5co-align-right {
     }
 
     .slider-container-button a{
-        width: 35%!important;
+        width: 250px!important;
         font-size: 1.5rem;
+        margin-top: -90px!important;
     }
 }
 
@@ -9415,7 +9428,7 @@ img.fh5co-align-right {
     }
 
     .slider-container{
-        margin-top: 180px!important;
+        margin-top: 110px!important;
     }
 
     .slider-container-button{
@@ -9423,8 +9436,9 @@ img.fh5co-align-right {
     }
 
     .slider-container-button a{
-        width: 35%!important;
+        width: 250px!important;
         font-size: 1.5rem;
+        margin-top: -70px!important;
     }
 }
 
@@ -9495,7 +9509,7 @@ img.fh5co-align-right {
         padding-top: 0px!important;
         width: 300px!important;
         height: 300px!important;
-        background: #237088ff!important;
+        background: #237088!important;
         border-radius: 50%!important;
     }
 
@@ -9856,18 +9870,10 @@ i.red{
 }
 
 .fh5co-parallax{
-    /*display: flex;
-    align-items: center;
-    justify-content: center;*/
-    /*flex-wrap: wrap;*/
     background-image: url("../images/bg.jpg")!important;
-    /*background-repeat: no-repeat!important;
-    background-attachment: fixed!important;
-    background-size: cover!important;*/
     background-size: cover;
     background-position: 50%;
     background-attachment: fixed;
-
 }
 
 .slider-container{
@@ -9877,7 +9883,7 @@ i.red{
     padding-top: 0px;
     width: 460px;
     height: 460px;
-    background: #1e7088;
+    background: #237088;
     border-radius: 50%;
 }
 
@@ -10005,7 +10011,7 @@ i.red{
 .logo-title{
     font-family: "jost-semi-bold", serif;
     font-weight: bolder;
-    color: #237088ff;
+    color: #237088;
     font-size: 4rem;
     display: flex;
     justify-content: flex-end;
@@ -10015,7 +10021,7 @@ i.red{
 .logo-sub-title{
     font-family: "jost-regular", serif;
     /*font-weight: bold;*/
-    color: #237088ff;
+    color: #237088;
     margin-top: 0;
     flex-wrap: wrap;
     text-align: right;
@@ -10026,7 +10032,7 @@ i.red{
 
 .logo-bold-text{
     font-family: "jost-medium", serif;
-    color: #237088ff;
+    color: #237088;
     /*flex-wrap: wrap;*/
     text-align: right;
     font-size: 1.1rem;
@@ -10035,12 +10041,29 @@ i.red{
 }
 .logo-normal-text{
     font-family: "jost-light-italic", serif;
-    color: #237088ff;
+    color: #237088;
     /*flex-wrap: wrap;*/
     text-align: right;
     font-size: 1rem;
     display: flex;
     justify-content: flex-end;
+}
+
+.side-banner-convidados{
+    position: absolute;
+    float: left;
+    left: 0;
+    margin-left: -40px;
+    width: 130px;
+}
+
+.side-banner-comissoes, .side-banner-abstracts, .side-banner-info{
+    position: absolute;
+    float: left;
+    left: 0;
+    margin-left: -40px;
+    top: -8vhvh;
+    width: 130px;
 }
 /************************************/
 
@@ -10070,23 +10093,6 @@ i.red{
     top: 125vh;
     width: 130px;
     /*height: 570px;*/
-}
-
-.side-banner-convidados{
-    position: absolute;
-    float: left;
-    left: 0;
-    margin-left: -40px;
-    width: 130px;
-}
-
-.side-banner-comissoes{
-    position: absolute;
-    float: left;
-    left: 0;
-    margin-left: -40px;
-    top: -8vhvh;
-    width: 130px;
 }
 
 /*mobile phones*/
@@ -10194,4 +10200,207 @@ i.red{
 .cta-text a i{
     margin-left: 20px;
     font-size: 20px;
+}
+
+@media (max-width: 1200px){
+    .fh5co-section-lead{
+        margin-top: -85px!important;
+        margin-left: -85px!important;
+
+    }
+
+    .tabela {
+        display: table;
+        width: 100%!important;
+    }
+
+    .fh5co-copyright .policy{
+        text-align: center!important;
+        margin-top: 0px!important;
+    }
+
+    .shadow-img-individual-modal{
+        width: 180px!important;
+        height: 180px!important;
+    }
+
+    .doctor-img-individual-modal{
+        width: 180px!important;
+        height: 180px!important;
+    }
+}
+
+@media (max-width: 1180px){
+    .fh5co-parallax{
+        background-image: url("../images/bg.jpg")!important;
+        background-size: cover!important;
+        background-position: 50%!important;
+        background-attachment: fixed!important;
+    }
+
+}
+
+
+@media (max-width: 992px){
+    .side-banner-convidados {
+        display: none!important;
+    }
+
+    .side-banner-info{
+        display: none!important;
+    }
+}
+
+@media (max-width: 768px){
+    .tabela {
+        display: table;
+        width: 100%!important;
+    }
+
+    .shadow-img-convidado img{
+        width: 130px!important;
+        height: 130px!important;
+        border-radius: 50%!important;
+        margin: -8px 0 0 -20px!important;
+    }
+
+    .shadow-img-convidado{
+        position: relative;
+        width: 130px!important;
+        height: 130px!important;
+        border-radius: 50%!important;
+        background: #979874ff!important;
+    }
+}
+
+@media (max-width: 480px){
+    .fh5co-section-lead {
+        margin-top: 10px!important;
+        margin-left: 0!important;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .getdone-logo img {
+        margin-top: 45px;
+        width: 90px!important;
+        margin-right: -70px!important;
+    }
+
+    .mobile-align{
+        margin-left: -50px!important;
+    }
+
+    .shadow-img-convidado img{
+        width: 120px!important;
+        height: 120px!important;
+        border-radius: 50%!important;
+        margin: -8px 0 0 -20px!important;
+
+    }
+
+    .shadow-img-convidado{
+        position: relative;
+        width: 120px!important;
+        height: 120px!important;
+        border-radius: 50%!important;
+        background: #979874ff!important;
+    }
+
+}
+
+
+
+@media (min-width: 768px) and (max-width: 992px) {
+
+    .sppsm-logo-comissoes, .sppsm-logo-convidados{
+        display: none!important;
+    }
+
+    .modal-text-container{
+        margin-top: 150px!important;
+    }
+
+    .fh5co-section-convidados {
+        margin-top: 130px!important;
+    }
+
+    .info-text, .abstracts-title{margin-left: 100px!important;}
+}
+
+@media (min-width: 992px) and (max-width: 1180px) {
+
+    .fh5co-nav-toggle {
+        display: block!important;
+    }
+
+    .shadow-img-convidado img{
+        width: 160px!important;
+        height: 160px!important;
+        border-radius: 50%!important;
+        margin: -8px 0 0 -20px!important;
+
+    }
+
+    .shadow-img-convidado{
+        position: relative;
+        width: 160px!important;
+        height: 160px!important;
+        border-radius: 50%!important;
+        background: #979874ff!important;
+    }
+
+    .slider-container {
+        margin-top: 120px!important;
+    }
+    .side-banner-abstracts{
+        display: block!important;
+        margin-top: -50px!important;
+        position: absolute!important;
+        float: left!important;
+        left: 0!important;
+        margin-left: -40px!important;
+        top: -8vh!important;
+        width: 130px!important;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .tabela {
+        display: table;
+        width: 100%!important;
+    }
+
+    .side-banner-comissoes, .side-banner-convidados{
+        display: none!important;
+    }
+
+    .sppsm-logo-comissoes, .sppsm-logo-convidados{
+        display: none!important;
+    }
+
+    .shadow-img-convidado img{
+        width: 160px!important;
+        height: 160px!important;
+        border-radius: 50%!important;
+        margin: -8px 0 0 -20px!important;
+
+    }
+
+    .shadow-img-convidado{
+        position: relative;
+        width: 160px!important;
+        height: 160px!important;
+        border-radius: 50%!important;
+        background: #979874ff!important;
+    }
+
+    .fh5co-section-convidados {
+        margin-top: 150px!important;
+    }
+
+    .cvd-ncn-sm{
+        margin-top: 50px!important;
+    }
 }

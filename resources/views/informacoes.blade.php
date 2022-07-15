@@ -7,11 +7,11 @@
 
         <div class="container">
             <div class="row">
-                <div class="col-xs-12 col-md-8 col-md-offset-1">
+                <div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-9 col-md-offset-1">
                     <h2 class="fh5co-section-convidados">Informações</h2>
                     <hr class="underline-title-bv" style="margin-left: 32px">
                 </div>
-                <div class="hidden-xs col-xs-12 col-md-2">
+                <div class="hidden-xs col-sm-1 col-md-1" >
                     <img src="{{asset("images/sppsm_logo_cinza.png")}}"
                          style="width: 100px; float: right; margin: 120px -120px 0 0" alt="sppsm" class="sppsm-logo-comissoes"/>
                 </div>
@@ -21,14 +21,14 @@
             <div class="row" style="margin-top: 45px;">
                 <div class="hidden-xs col-md-1">
                     <img src="{{asset("images/side-banner.png")}}"
-                         class="side-banner-comissoes hidden-xs hidden-sm hidden-md"
+                         class="side-banner-info hidden-xs hidden-sm hidden-md"
                          alt="Sociedade Portuguesa de Psiquiatria"/>
                 </div>
 
 
-                <div class="col-xs-12 col-md-10 col-md-offset-1">
+                <div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-11 col-md-offset-1">
                     <div class="row">
-                        <div class="col-xs-12 col-md-12">
+                        <div class="col-xs-12 col-md-12" style="margin-left: 20px">
                             <h3 class="info-titles">AGÊNCIA OFICIAL / PCO:</h3>
                             <img src="{{asset("images/getdone_dark.png")}}" style="width: 110px"/>
                             <h3 class="info-text">
@@ -46,7 +46,7 @@
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-xs-12 col-md-12">
+                        <div class="col-xxs-12 col-md-12" style="margin-left: 20px">
                             <h3 class="info-titles" style="margin-top: 50px">COMO CHEGAR</h3>
                             <h3 class="info-titles" style="margin-top: 40px">Vindo do Porto</h3>
                                 <iframe src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d3170198.853873642!2d-10.656231524182186!3d39.10880784146251!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e0!4m5!1s0xd2465abc4e153c1%3A0xa648d95640b114bc!2sPorto!3m2!1d41.1579438!2d-8.629105299999999!4m5!1s0xd1ad1f79c7ce5d5%3A0x96020206e9bf67cd!2sPal%C3%A1cio%20de%20Congressos%20do%20Algarve%2C%20Travessa%20do%20Golfe%2C%20Albufeira!3m2!1d37.09318!2d-8.321021!5e0!3m2!1spt-PT!2spt!4v1657408119281!5m2!1spt-PT!2spt" style="border:0;width: 70%; height: 300px" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>

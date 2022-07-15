@@ -21,7 +21,7 @@
 
             <div class="row">
                 <div class="col-xs-12 col-md-8 col-md-offset-1">
-                    <h2 class="fh5co-section-convidados" style="margin-top: -30px">Nacionais</h2>
+                    <h2 class="fh5co-section-convidados cvd-ncn-sm" style="margin-top: -30px">Nacionais</h2>
                 </div>
             </div>
             <div class="row">
@@ -35,7 +35,7 @@
                     <div class="row">
 
                         @foreach ($nacionais as $convidado)
-                            <div class="col-xs-6 col-md-2" style="margin-bottom: 40px">
+                            <div class="col-xs-6 col-md-4 col-lg-2" style="margin-bottom: 40px">
                                 <a data-toggle="modal" data-target="#modal-{{$convidado["url"]}}" class="convidado">
                                     <div class="col-xs-12 convidado text-center">
                                         <div class="shadow-img-convidado">
@@ -55,15 +55,15 @@
                                             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                                 <span aria-hidden="true"><i class="fa-solid fa-times fa-lg"></i></span>
                                             </button>
-                                            <div class="container" style="padding-left: 50px">
+                                            <div class="container-fluid">
                                                 <div class="row">
-                                                    <div class="col-xs-12 col-md-3" style="padding-top: 40px">
+                                                    <div class="col-xxs-12 col-xs-12 col-sm-4 col-md-3" style="padding-top: 40px">
                                                         <div class="shadow-img-individual-modal" >
-                                                            <img alt="Amelia Fiske" class="doctor-img-individual-modal" src="{{asset("images/pessoas/".$convidado["image"])}}"/>
+                                                            <img alt="{{$convidado["name"]}}" class="doctor-img-individual-modal" src="{{asset("images/pessoas/".$convidado["image"])}}"/>
                                                         </div>
-                                                        <img src="{{asset("images/sppsm_logo_cinza.png")}}" style="width: 80px; float: left; margin-top: 40vh; margin-bottom: 20px" alt="sppsm" class="sppsm-logo-comissoes"/>
+                                                        <img src="{{asset("images/sppsm_logo_cinza.png")}}" style="width: 80px; float: left; margin-top: 60vh; margin-bottom: 20px" alt="sppsm" class="sppsm-logo-comissoes"/>
                                                     </div>
-                                                    <div class="col-xs-12 col-md-9" style="padding-top: 40px; padding-left: 50px">
+                                                    <div class="col-xxs-12 col-xs-12 col-sm-7 col-md-9 modal-text-container" style="padding-top: 40px;">
                                                         <h2 class="fh5co-section-convidados" style="color:#5d5d5d;margin-top: 0px">{{$convidado["name"]}}</h2>
                                                         <h4>{{$convidado["country"]}}</h4>
                                                         <p class="texto">{!! $convidado["description"] !!}</p>
@@ -91,7 +91,8 @@
                     <div class="row">
 
                         @foreach ($estrangeiros as $convidado)
-                            <div class="col-xs-6 col-md-2" style="margin-bottom: 40px">
+                            <div class="col-xs-6 col-md-4 col-lg-2" style="margin-bottom: 40px">
+
                                 <a data-toggle="modal" data-target="#modal-{{$convidado["url"]}}" class="convidado">
                                     <div class="col-xs-12 convidado text-center">
                                         <div class="shadow-img-convidado">
@@ -111,15 +112,15 @@
                                             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                                 <span aria-hidden="true"><i class="fa-solid fa-times fa-lg"></i></span>
                                             </button>
-                                            <div class="container" style="padding-left: 50px">
+                                            <div class="container-fluid">
                                                 <div class="row">
-                                                    <div class="col-xs-12 col-md-3" style="padding-top: 40px">
+                                                    <div class="col-xxs-12 col-xs-12 col-sm-4 col-md-3" style="padding-top: 40px">
                                                         <div class="shadow-img-individual-modal" >
-                                                            <img alt="Amelia Fiske" class="doctor-img-individual-modal" src="{{asset("images/pessoas/".$convidado["image"])}}"/>
+                                                            <img alt="{{$convidado["name"]}}" class="doctor-img-individual-modal" src="{{asset("images/pessoas/".$convidado["image"])}}"/>
                                                         </div>
-                                                        <img src="{{asset("images/sppsm_logo_cinza.png")}}" style="width: 80px; float: left; margin-top: 40vh; margin-bottom: 20px" alt="sppsm" class="sppsm-logo-comissoes"/>
+                                                        <img src="{{asset("images/sppsm_logo_cinza.png")}}" style="width: 80px; float: left; margin-top: 60vh; margin-bottom: 20px" alt="sppsm" class="sppsm-logo-comissoes"/>
                                                     </div>
-                                                    <div class="col-xs-12 col-md-9" style="padding-top: 40px; padding-left: 50px">
+                                                    <div class="col-xxs-12 col-xs-12 col-sm-7 col-md-9 modal-text-container" style="padding-top: 40px;">
                                                         <h2 class="fh5co-section-convidados" style="color:#5d5d5d;margin-top: 0px">{{$convidado["name"]}}</h2>
                                                         <h4>{{$convidado["country"]}}</h4>
                                                         <p class="texto">{!! $convidado["description"] !!}</p>

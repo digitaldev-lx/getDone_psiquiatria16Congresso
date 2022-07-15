@@ -20,16 +20,17 @@
             <div class="row">
                 <div class="hidden-xs col-md-1">
                     <img src="{{asset("images/side-banner.png")}}"
-                         class="side-banner-comissoes hidden-xs hidden-sm hidden-md"
+                         class="side-banner-abstracts hidden-xs hidden-sm hidden-md"
                          alt="Sociedade Portuguesa de Psiquiatria"/>
                 </div>
 
-                <div class="col-xs-12 col-md-9 col-md-offset-1" style="text-align: left">
+                <div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-11 col-md-offset-1" style="text-align: left">
                     <h2 class="abstracts-title">Deadline para submissão de trabalhos: <span>30 de setembro de 2022</span></h2>
                 </div>
             </div>
             <div class="row">
-                <div class="col-xs-12 col-md-8 col-md-offset-2" style="margin-left: 200px">
+                <div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-11 col-md-offset-1">
+
                     <h3 class="info-text" style="font-family: jost-medium">Guidelines para submissão de Abstrats:</h3>
                     <h3 class="info-text">
                         <ul style="margin-top: 10px; line-height: 20px" class="ul-info">
@@ -75,7 +76,7 @@
                         </ul>
                     </h3>
                     <div class="col-xs-12 col-md-12 slider-container-button-i" style="margin: unset!important;">
-                        <a data-toggle="modal" data-target="#submit-abstract" class="btn btn-primary" style="float:left;background: #237088ff; margin-left: -25px">SUBMETER ABSTRACT <i class="fa-solid fa-angle-right fa-xl"></i></a>
+                        <a data-toggle="modal" data-target="#submit-abstract" class="btn btn-primary" style="float:left;background: #237088; margin-left: -25px;border-radius: unset!important;box-shadow: unset!important;">SUBMETER ABSTRACT <i class="fa-solid fa-angle-right fa-xl"></i></a>
                     </div>
 
                 </div>

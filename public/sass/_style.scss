@@ -4,7 +4,7 @@ $font-monsterrat: 'Montserrat', arial, sans-serif;
 $font-roboto: 'Roboto', arial, sans-serif;
 
 // Overrides
-$grid-gutter-width: 40px !default; 
+$grid-gutter-width: 40px !default;
 $border-radius-base:  4px !default;
 $padding-base-vertical: 14px !default;
 
@@ -55,7 +55,7 @@ $navbar-height:                  60px !default;
 }
 
 @mixin icomoon() {
-	
+
 	font-family: 'icomoon';
 	speak: none;
 	font-style: normal;
@@ -67,7 +67,7 @@ $navbar-height:                  60px !default;
 	/* Better Font Rendering =========== */
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
-	
+
 }
 
 // Import Bootstrap
@@ -125,7 +125,7 @@ h1, h2, h3, h4, h5, h6 {
 	top: 0;
 	> .navbar {
 		@include border-radius(0px);
-		
+
 		padding-left: 40px;
 		padding-right: 40px;
 		margin-bottom: 0;
@@ -146,9 +146,9 @@ h1, h2, h3, h4, h5, h6 {
 				color: $brand-black;
 				font-weight: normal;
 				font-family: $font-monsterrat;
-				
+
 				> span {
-					
+
 					.border {
 						display: block;
 						height: 3px;
@@ -198,7 +198,7 @@ h1, h2, h3, h4, h5, h6 {
 							}
 						}
 					}
-					
+
 				}
 			}
 			&.active {
@@ -206,7 +206,7 @@ h1, h2, h3, h4, h5, h6 {
 					background: transparent;
 					> span {
 						.border {
-							background: $brand-primary;	
+							background: $brand-primary;
 						}
 					}
 				}
@@ -263,7 +263,7 @@ h1, h2, h3, h4, h5, h6 {
 		.fh5co-hero-intro {
 			display: table-cell;
 			vertical-align: middle;
-			
+
 			.fh5co-lead, .fh5co-sub-lead {
 				color: $brand-white;
 				margin: 0;
@@ -304,7 +304,7 @@ h1, h2, h3, h4, h5, h6 {
 	text-transform: uppercase;
 	letter-spacing: 2px;
 	line-height: 22px;
-	text-decoration: underline solid #237088ff 50%;
+	text-decoration: underline solid #237088 50%;
 }
 
 .fh5co-section-sub-lead {
@@ -317,10 +317,10 @@ h1, h2, h3, h4, h5, h6 {
 // List Images
 .fh5co-post {
 	padding: 0;
-	margin: 0;	
+	margin: 0;
 	li {
 		padding: 0;
-		margin: 0;	
+		margin: 0;
 		display: block;
 		float: left;
 		width: 100%;
@@ -346,7 +346,7 @@ h1, h2, h3, h4, h5, h6 {
 		}
 		.fh5co-post-blurb {
 			float: right;
-			width: 75%;	
+			width: 75%;
 			color: $brand-black;
 			line-height: 1.5;
 		}
@@ -435,18 +435,18 @@ pre {
 	background: $brand-warning;
 	border: 2px solid $brand-warning;
 }
-.btn-primary, 
-.btn-success, 
-.btn-info, 
-.btn-warning, 
+.btn-primary,
+.btn-success,
+.btn-info,
+.btn-warning,
 .btn-danger {
 	border-color: transparent;
 }
-.btn-default, 
-.btn-primary, 
-.btn-success, 
-.btn-info, 
-.btn-warning, 
+.btn-default,
+.btn-primary,
+.btn-success,
+.btn-info,
+.btn-warning,
 .btn-danger {
 	&:hover, &:active, &:focus {
 		background: $brand-darker;
@@ -454,11 +454,11 @@ pre {
 	}
 }
 
-// Input Text 
+// Input Text
 .form-control {
 	box-shadow: none!important;
 	border: 2px solid #ccc;
-	&:hover, 
+	&:hover,
 	&:focus,
 	&:active {
 		outline: none;
@@ -574,7 +574,7 @@ pre {
 		@media screen and (max-width: $screen-sm) {
 			border-bottom: 1px solid $brand-lighter;
 		}
-		
+
 	}
 	.fh5co-feature-icon,
 	.fh5co-feature-text {
@@ -644,7 +644,7 @@ pre {
 #fh5co-footer {
 	padding: 5em 0;
 	border-top: 1px solid $brand-lighter;
-	
+
 	.fh5co-footer-widget {
 		float: left;
 		width: 100%;
@@ -723,12 +723,12 @@ pre {
 			position: absolute;
 		}
 	}
-	
-	
+
+
 }
 
 .fh5co-sidebox {
-	
+
 	float: left;
 	width: 100%;
 	.fh5co-sidebox-lead {
@@ -742,7 +742,7 @@ pre {
 	}
 }
 
-	
+
 
 /* Helper Classes */
 
@@ -849,7 +849,7 @@ pre {
 		margin-top: 5px;
 		i:before {
 			color: $brand-primary;
-		
+
 		}
 	}
 }
@@ -862,7 +862,7 @@ pre {
 	}
 	&:hover {
 		i {
-			color: $brand-black;		
+			color: $brand-black;
 		}
 	}
 }
@@ -901,7 +901,7 @@ pre {
 	text-align: center;
 }
 .owl-carousel-fullwidth.owl-theme .owl-dots {
-	bottom: 0;	
+	bottom: 0;
 	margin-bottom: 2.5em;
 }
 .owl-theme .owl-dots .owl-dot span {
@@ -928,7 +928,7 @@ pre {
 		width: 100%;
 	}
 	.item {
-		
+
 		background-repeat: no-repeat;
 		background-size: cover;
 		background-position: top left;
@@ -1019,7 +1019,7 @@ pre {
 
 img {
 	&.fh5co-align-right {
-		float:right; 
+		float:right;
 		margin:0 0 .5em 1em;
 		@media screen and (max-width: $screen-xs) {
 			width: 100%;

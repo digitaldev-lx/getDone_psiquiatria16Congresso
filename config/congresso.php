@@ -79,7 +79,7 @@ return [
 
             ],
             [
-                "name" => "Ana Ciaunica",
+                "name" => "Anna Ciaunica",
                 "country" => "UK",
                 "image" => "bg_white.png",
                 "url" => "ana-ciaunica",
@@ -348,7 +348,7 @@ return [
             [
                 "name" => "Inês Cargaleiro",
                 "country" => "PORTUGAL",
-                "image" => "Brendan_Kelly.jpg",
+                "image" => "bg_white.png",
                 "url" => "ines-cargaleiro",
                 "description" => ""
 
@@ -399,9 +399,9 @@ return [
             [
                 "name" => "Tiago Maia",
                 "country" => "PORTUGAL",
-                "image" => "bg_white.png",
+                "image" => "tiagomaia.png",
                 "url" => "tiago-maia",
-                "description" => ""
+                "description" => "Tiago Maia é Professor Associado na Faculdade de Medicina da Universidade de Lisboa. Fez toda a sua formação pós-graduada nos EUA e, antes de regressar a Portugal, era Professor Auxiliar na Columbia University em Nova Iorque. O seu grupo estuda a síndrome de Tourette, perturbação obsessivo-compulsiva e perturbação de hiperactividade e défice de atenção, integrando perspectivas neurobiológicas e psicológicas. Para o efeito, usa uma combinação sinérgica de metodologias que incluem modelos computacionais, experiências comportamentais e imagiologia cerebral. Tem artigos de primeira autoria em muitas das mais prestigiadas revistas científicas da área e multidisciplinares, incluindo, por exemplo, a Nature Neuroscience e os Proceedings of the National Academy of Sciences."
 
             ],
         ]
@@ -530,7 +530,23 @@ return [
                 "country" => "PORTUGAL",
                 "image" => "bg_white.png",
                 "url" => "alice-lopes",
-                "description" => ""
+                "description" => "Médica psiquiatra, assistente graduada sénior.<br><br>
+                    Diretora do Serviço de Psiquiatria e Saúde Mental do Centro Hospitalar Universitário do Porto. Responsável pela criação, estruturação e organização deste serviço bem como das suas Unidades de Psiquiatria de Ligação e Psicologia da Saúde e Unidade de Psiquiatria Comunitária de Gondomar (ELSM).<br>
+                    Doutorada em Ciências Médicas pelo Instituto de Ciências Biomédicas Abel Salazar, Universidade do  Porto, Portugal.<br>
+                    Professora Catedrática Convidada do Instituto de Ciências Biomédicas Abel Salazar, Universidade do Porto (ICBAS).<br>
+                    Regente da Unidade Curricular de Psiquiatria do 5º ano do Mestrado Integrado em Medicina (MIM) do ICBAS; Docente da Unidade Curricular de Psicologia Médica do 3º ano do MIM do ICBAS.<br>
+                    Orientadora de teses de mestrado e doutoramento.<br>
+                    Tem desenvolvido o seu trabalho institucional na área da psiquiatria de ligação, nomeadamente nas doenças neurológicas e transplantação.<br>
+                    Responsável por projetos de investigação clínica nas referidas áreas de ligação. <br>
+                    Foi colaboradora do Instituto de Biologia Molecular e Celular (IBMC, agora incluído no i3S/UP) nas áreas das doenças genéticas de início tardio.<br>
+                    Tem interesse particular nas psicoterapias. É psicanalista, membro associado da Sociedade Portuguesa de Psicanálise e do Instituto de Formação e Terapêutica Psicanalítica onde é formadora.<br>
+                    Membro da International Psychoanalytic Association e da EFP (European Federaration of Psychoanalysis).<br>
+                    É Psicodramatista, Membro da Sociedade Portuguesa de Psicodrama Psicanalítico de Grupo.<br>
+                    Membro da FEPTO.<br>
+                    Membro da Sociedade Portuguesa de Transplantação.<br>
+                    Autora de artigos científicos publicados em revistas portuguesas e estrangeiras.<br>
+                    Apresentou numerosos trabalhos em eventos científicos nacionais e internacionais.<br>
+                    Colaboradora em ações de formação na área da psiquiatria de ligação, nacionais e internacionais."
             ],
             [
                 "name" => "Ana Matos Pires",
@@ -649,7 +665,7 @@ return [
             [
                 "name" => "João Marques",
                 "country" => "PORTUGAL",
-                "image" => "joaomarques.pngg",
+                "image" => "joaomarques.png",
                 "url" => "joao-marques",
                 "description" => "Licenciado em Medicina pela Faculdade Medicina da Universidade Lisboa<br>
                         Medico Psiquiatra na Casa de Saúde de Santa Catarina e Instituto Cuf Porto<br>

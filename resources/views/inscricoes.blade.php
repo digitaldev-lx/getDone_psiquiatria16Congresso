@@ -8,27 +8,27 @@
 
         <div class="container">
             <div class="row">
-                <div class="col-xs-12 col-md-8 col-md-offset-1">
+                <div class="col-xs-8 col-md-8 col-lg-8 col-lg-offset-1">
                     <h2 class="fh5co-section-convidados">Inscrições</h2>
                     <hr class="underline-title-bv" style="margin-left: 32px">
                 </div>
-                <div class="hidden-xs col-xs-12 col-md-2">
+                <div class="hidden-xs hidden-sm col-xs-4 col-md-4 col-lg-2">
                     <img src="{{asset("images/sppsm_logo_cinza.png")}}"
-                         style="width: 100px; float: right; margin: 120px -120px 0 0" alt="sppsm" class="sppsm-logo-comissoes"/>
+                         style="width: 100px; float: right; margin: 120px 0 0 0" alt="sppsm" class="sppsm-logo-comissoes"/>
                 </div>
             </div>
 
             <div class="row">
                 <div class="hidden-xs col-md-1">
                     <img src="{{asset("images/side-banner.png")}}"
-                         class="side-banner-comissoes hidden-xs hidden-sm hidden-md"
+                         class="side-banner-convidados hidden-xs hidden-sm hidden-md"
                          alt="Sociedade Portuguesa de Psiquiatria"/>
                 </div>
 
-                <div class="col-xs-12 col-md-10 col-md-offset-1" style="margin-top: -25px;">
+                <div class="col-xs-10 col-md-8 col-lg-8 col-lg-offset-1">
 
                     <div class="row">
-                        <div class="col-xs-12 col-md-12" style="margin-left: -50px">
+                        <div class="col-xs-12 col-md-12">
                             <table class="tabela">
                                 <thead>
                                 <tr>
@@ -69,10 +69,10 @@
 
                 </div>
 
-                <div class="col-xs-12 col-md-10 col-md-offset-1">
+                <div class="col-xs-10 col-md-8 col-lg-8 col-lg-offset-1">
 
                     <div class="row">
-                        <div class="col-xs-12 col-md-12" style="margin-left: -50px">
+                        <div class="col-xs-12 col-md-12">
                             <table class="tabela">
                                 <thead>
                                 <tr>
@@ -116,7 +116,7 @@
 
                     <div class="row">
                         <div class="col-xs-12 col-md-12 slider-container-button-i" style="margin: unset!important;">
-                            <a href="https://www.eventbase.pt/EventBase/Inscricoes/PaginaInscricaoIndividual.aspx?Params=RXZlbnRvSUQ9NjUy" class="btn btn-primary" style="float:left;background: #237088ff; margin-left: -50px">EFECTUAR INSCRIÇÃO <i class="fa-solid fa-angle-right fa-xl"></i></a>
+                            <a href="https://www.eventbase.pt/EventBase/Inscricoes/PaginaInscricaoIndividual.aspx?Params=RXZlbnRvSUQ9NjUy" class="btn btn-primary" style="float:left;background: #237088;border-radius: unset!important;box-shadow: unset!important;">EFECTUAR INSCRIÇÃO <i class="fa-solid fa-angle-right fa-xl"></i></a>
                         </div>
                     </div>
                 </div>
