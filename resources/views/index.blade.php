@@ -74,7 +74,7 @@
             <h2>NOV 2022</h2>
             <h5>PALÁCIO DE CONGRESSOS</h5>
             <h4>DO ALGARVE</h4>
-            <a style="border-radius: unset!important;box-shadow: unset!important;" href="https://www.eventbase.pt/EventBase/Inscricoes/PaginaInscricaoIndividual.aspx?Params=RXZlbnRvSUQ9NjUy" class="btn btn-primary">EFECTUAR INSCRIÇÃO <i class="fa-solid fa-angle-right fa-xl"></i></a>
+            <a style="border-radius: unset!important;box-shadow: unset!important;" href="https://www.eventbase.pt/EventBase/Inscricoes/PaginaInscricaoIndividual.aspx?Params=RXZlbnRvSUQ9NjUy" class="btn btn-primary">EFETUAR INSCRIÇÃO <i class="fa-solid fa-angle-right fa-xl"></i></a>
         </span>
         </div>
     </div>

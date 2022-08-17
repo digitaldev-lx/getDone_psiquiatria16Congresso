@@ -116,7 +116,7 @@
 
                     <div class="row">
                         <div class="col-xs-12 col-md-12 slider-container-button-i" style="margin: unset!important;">
-                            <a href="https://www.eventbase.pt/EventBase/Inscricoes/PaginaInscricaoIndividual.aspx?Params=RXZlbnRvSUQ9NjUy" class="btn btn-primary" style="float:left;background: #237088;border-radius: unset!important;box-shadow: unset!important;">EFECTUAR INSCRIÇÃO <i class="fa-solid fa-angle-right fa-xl"></i></a>
+                            <a href="https://www.eventbase.pt/EventBase/Inscricoes/PaginaInscricaoIndividual.aspx?Params=RXZlbnRvSUQ9NjUy" class="btn btn-primary" style="float:left;background: #237088;border-radius: unset!important;box-shadow: unset!important;">EFETUAR INSCRIÇÃO <i class="fa-solid fa-angle-right fa-xl"></i></a>
                         </div>
                     </div>
                 </div>

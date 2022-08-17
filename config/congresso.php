@@ -329,9 +329,17 @@ return [
             [
                 "name" => "Gonçalo Graça Pereira",
                 "country" => "PORTUGAL",
-                "image" => "bg_white.png",
+                "image" => "goncalogracapereira.png",
                 "url" => "goncalo-graca-pereira",
-                "description" => ""
+                "description" => "<br>Licenciado pela Faculdade de Medicina Veterinária da Universidade Técnica de Lisboa. <br>
+                                    Mestre em Etologia Clínica e Bem-estar Animal pela Universidade Complutense de Madrid.<br>
+                                    Doutorado em Ciências Veterinária pelo Instituto de Ciências Biomédicas Abel Salazar da Universidade do Porto. <br>
+                                    Especialista Europeu em Medicina Comportamental e Diplomado pelo Colégio Europeu de Bem-Estar Animal e Medicina do Comportamento (ECAWBM) nas sub-especialidades Medicina Comportamental (BM) e Bem-estar Animal, Ética e Lei (AWSEL).<br>
+                                    Professor Convidado no Mestrado Integrado em Medicina Veterinária e na Licenciatura de Enfermagem Veterinária da Universidade Egas Moniz. <br>
+                                    Pas-President do European College of Animal Welfare and Behavioural Medicine (ECAWBM) e Vice-Presidente da European Society of Veterinary Clinical Ethology (ESVCE).<br>
+                                    Membro Fundador da Associação Portuguesa de Terapia do Comportamento e Bem-estar Animal (PsiAnimal).<br>
+                                    Formador e palestrante em Cursos, Seminários, Conferências e Congressos nacionais e internacionais. <br>
+                                    Autor, Co-autor e Coordenador de diversos estudos em Comportamento e Bem-estar Animal. "
 
             ],
             [
@@ -350,7 +358,21 @@ return [
                 "country" => "PORTUGAL",
                 "image" => "bg_white.png",
                 "url" => "ines-cargaleiro",
-                "description" => ""
+                "description" => "<br>Inês Cargaleiro, licenciada em Medicina pela Universidade Nova de Lisboa, fez o
+                            Internato Complementar de Psiquiatria no Centro Hospitalar de Lisboa Ocidental, o
+                            qual terminou em 2014. <br>Trabalhou na Equipa de Psiquiatria de Ligação do Hospital
+                            Egas Moniz durante 1 ano e meio, enquanto aguardava conclusão do concurso para
+                            recém-especialistas. Foi admitida no Centro Hospitalar Psiquiátrico de Lisboa em
+                            Novembro de 2015 e, desde então, trabalha num dos Serviços de Internamento de
+                            Agudos desse centro hospitalar, assim como na Consulta Externa e Serviço de Urgência.
+                            <br>É tutora de internos no âmbito do Internato Complementar de Psiquiatria, assistindo
+                            também internos de outras especialidades que, no decurso da sua formação, estagiem
+                            nos serviços onde está alocada. Recebe alunos de Medicina das Universidades de
+                            Lisboa e Nova de Lisboa durante o estágio prático da cadeira de Saúde Mental. <br>Foi
+                            convidada a fazer parte do curso da Harvard Medical School em parceria com a FCT
+                            (Portugal Clinical Scholars Research Training) como tutora de uma médica interna de
+                            Psiquiatria, entre 2017 e 2019. Membro da Sociedade Portuguesa de Psicanálise desde
+                            2018."
 
             ],
             [
@@ -736,7 +758,7 @@ return [
             [
                 "name" => "Lurdes Santos",
                 "country" => "PORTUGAL",
-                "image" => "bg_white.png",
+                "image" => "lurdessantos.png",
                 "url" => "lurdes-santos",
                 "description" => "Nº da Ordem dos Médicos – 22728<br><br>
                      Profissional<br>
@@ -833,9 +855,14 @@ return [
             [
                 "name" => "Teresa Maia",
                 "country" => "PORTUGAL",
-                "image" => "bg_white.png",
+                "image" => "teresamaia.png",
                 "url" => "teresa-maia",
-                "description" => ""
+                "description" => "<br>Chefe de Serviço de Psiquiatria<br>
+                        Diretora do Departamento de Saúde Mental do Hospital Prof Doutor Fernando Fonseca<br>
+                        Professora Convidada na Escola Nacional de Saúde Pública<br>
+                        Coordenadora do Programa Semente – Promoção da saúde mental nos filhos de pessoas com doença psiquiátrica<br>
+                        Coordenadora do Programa Gravidez e primeiros anos de vida<br>
+                        Coordenadora Regional de Saúde Mental da ARSLVT"
             ],
             [
                 "name" => "Vítor Santos",

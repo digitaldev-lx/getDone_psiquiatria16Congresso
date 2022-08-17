@@ -62,7 +62,7 @@
                                 Por favor assegure-se de que no seu abstract não existem erros científicos, de escrita ou gramática uma vez que serão avaliados exatamente como estão submetidos.
                             </li>
                             <li>
-                                Para avaliação do trabalho, é imprescindível que o autor dos trabalhos esteja inscrito na Reunião.
+                                Para avaliação do trabalho, é imprescindível que o primeiro autor esteja inscrito na Reunião.
                             </li>
                             <li>
                                 Não serão aceites resumos que não estejam de acordo com as regras estabelecidas.
