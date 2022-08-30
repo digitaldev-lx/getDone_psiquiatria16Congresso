@@ -86,33 +86,65 @@
             <div class="col-md-8">
                 <h2 class="fh5co-section-lead">Patrocinadores</h2>
                 <hr class="underline-title-bv">
-                <p class="texto">Brevemente Disponível</p>
+{{--                <p class="texto">Brevemente Disponível</p>--}}
             </div>
             <div class="fh5co-spacer fh5co-spacer-md"></div>
+        </div>
+
+        <div class="row text-left">
+            <div class="col-md-8">
+                <h2 class="fh5co-section-sublead-sponsor">Platina</h2>
+            </div>
+        </div>
+        <div class="row">
+
+            <div class="col-md-6 col-sm-6 col-xs-6 col-xxs-12 fh5co-mb30">
+                <div class="patrocinador">
+                    <img src="{{asset("images/jabarecordati.jpg")}}" alt="Jaba Recordati" class="img-responsive img-rounded to-animate" style="width: 70%">
+                </div>
+            </div>
+        </div>
+        <div class="row text-left">
+            <div class="col-md-8">
+                <h2 class="fh5co-section-sublead-sponsor">Prata</h2>
+            </div>
         </div>
         <div class="row">
             <div class="col-md-3 col-sm-6 col-xs-6 col-xxs-12 fh5co-mb30">
                 <div class="patrocinador">
-                    <img src="images/slide_4.jpg" alt="codeboys.pt Free HTML5 Template Bootstrap" class="img-responsive img-rounded to-animate" style="width: 230px">
-                </div>
-            </div>
-            <div class="col-md-3 col-sm-6 col-xs-6 col-xxs-12 fh5co-mb30">
-                <div class="patrocinador">
-                    <img src="images/slide_2.jpg" alt="codeboys.pt Free HTML5 Template Bootstrap" class="img-responsive img-rounded to-animate">
+                    <img src="{{asset("images/angelinipharma.png")}}" alt="Angelini Pharma" class="img-responsive img-rounded to-animate">
                 </div>
             </div>
             <div class="visible-sm-block visible-xs-block clearfix"></div>
             <div class="col-md-3 col-sm-6 col-xs-6 col-xxs-12 fh5co-mb30">
                 <div class="patrocinador">
-                    <img src="images/slide_3.jpg" alt="codeboys.pt Free HTML5 Template Bootstrap" class="img-responsive img-rounded to-animate">
-                </div>
-            </div>
-            <div class="col-md-3 col-sm-6 col-xs-6 col-xxs-12 fh5co-mb30">
-                <div class="patrocinador">
-                    <img src="images/slide_4.jpg" alt="codeboys.pt Free HTML5 Template Bootstrap" class="img-responsive img-rounded to-animate">
+                    <img src="{{asset("images/lundbeck.png")}}" alt="Lundbeck" class="img-responsive img-rounded to-animate">
                 </div>
             </div>
 
+            <div class="col-md-3 col-sm-6 col-xs-6 col-xxs-12 ">
+                <div class="patrocinador">
+                    <img src="{{asset("images/viatris.png")}}" alt="Viatris" class="img-responsive img-rounded to-animate">
+                </div>
+            </div>
+            {{--<div class="col-md-3 col-sm-6 col-xs-6 col-xxs-12 fh5co-mb30">
+                <div class="patrocinador">
+                    <img src="{{asset("images/neuraxpharm.png")}}" alt="Neurax Pharma" class="img-responsive img-rounded to-animate">
+                </div>
+            </div>--}}
+        </div>
+        <div class="row text-left">
+            <div class="col-md-8">
+                <h2 class="fh5co-section-sublead-sponsor">Outros Apoios</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-3 col-sm-6 col-xs-6 col-xxs-12 fh5co-mb30">
+                <h4>AZENTIS</h4>
+                <h4>BIAL</h4>
+                <h4>SOOMA</h4>
+                <h4>TECNIFAR</h4>
+            </div>
         </div>
     </div>
     <!-- Products -->

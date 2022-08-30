@@ -7920,6 +7920,16 @@ h1, h2, h3, h4, h5, h6 {
     /* text-decoration: underline solid #237088 10%; */
 }
 
+.fh5co-section-sublead-sponsor {
+    font-family: "jost-medium", serif;
+    text-align: left;
+    font-size: 22px;
+    color: #237088!important;
+    /*letter-spacing: 2px;*/
+    /*line-height: 22px;*/
+    /* text-decoration: underline solid #237088 10%; */
+}
+
 .bv-aligment{
     margin-top: 10px;
 }

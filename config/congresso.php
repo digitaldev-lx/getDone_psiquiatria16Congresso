@@ -452,9 +452,12 @@ return [
             [
                 "name" => "Ema Conde",
                 "country" => "PORTUGAL",
-                "image" => "bg_white.png",
+                "image" => "emaconde.png",
                 "url" => "ema-conde",
-                "description" => ""
+                "description" => "Assistente Hospitalar de Psiquiatria no Hospital Garcia de Orta - Almada<br>
+                    Competência em Sexologia Clínica pela Ordem dos Médicos <br>
+                    Fellow em Medicina Sexual pelo European Committee of Sexual Medicine<br>
+                    Pós-Graduação em Psiquiatria e Psicologia da Justiça pelo Instituto Nacional de Medicina Legal e Ciências Forenses"
 
             ],
             [
@@ -506,9 +509,13 @@ return [
             [
                 "name" => "Maria Manuela Abreu",
                 "country" => "PORTUGAL",
-                "image" => "bg_white.png",
+                "image" => "mariamanuelaabreu.jpg",
                 "url" => "maria-manuela-abreu",
-                "description" => ""
+                "description" => "Assistente Hospitalar Graduada de Psiquiatria no Centro Hospitalar Universitário Lisboa Norte<br>
+                        Especialidade de Cardiologia (1996)<br>
+                        Mestrado em Psiquiatria pela Faculdade de Medicina de Lisboa (2004)<br>
+                        Assistente da Faculdade de Medicina de Lisboa de Psiquiatria<br>
+                        Vogal da zona Sul da Direcção da SPPSM (2020-2023)"
 
             ],
             [
@@ -578,11 +585,25 @@ return [
                 "description" => ""
             ],
             [
-                "name" => "Ana Sofia Pinto",
+                "name" => "Ana Silva Pinto",
                 "country" => "PORTUGAL",
-                "image" => "bg_white.png",
-                "url" => "ana-sofia-pinto",
-                "description" => ""
+                "image" => "anasilvapinto.png",
+                "url" => "ana-silva-pinto",
+                "description" => "Assistente Hospitalar Graduada de Psiquiatria, no Serviço de Psiquiatria e Saúde Mental do
+                        Centro Hospitalar Universitário do Porto (CHUPorto).<br>
+                        Membro titular do Colégio da Especialidade de Psiquiatria da Ordem dos Médicos<br>
+                        Sócia titular da SPPSM e secretária da Secção da Saúde da Mulher da SPPSM<br>
+                        Docente convidada, na cadeira de Saúde Mental do Curso de Medicina do Instituto de
+                        Ciências Biomédicas Abel Salazar da Universidade do Porto<br>
+                        Docente na cadeira de Psicologia Médica do Curso de Medicina do Instituto de Ciências
+                        Biomédicas Abel Salazar.<br>
+                        Membro da Coordenação Regional de Saúde Mental da ARS Norte<br>
+                        Terapeuta Cognitivo-comportamental e Psicodramatista faz parte da atual Direção da
+                        Sociedade Portuguesa de Psicodrama.<br>
+                        Docente convidada, nas cadeiras de Psicologia Médica e de Saúde Mental do Mestrado
+                        integrado em Medicina do Instituto de Ciências Biomédicas Abel Salazar da Universidade do
+                        Porto<br>
+                        Psiquiatra Colaboradora da Casa de Saúde de Santa Catarina no Porto "
             ],
             [
                 "name" => "António Leuschner",
@@ -634,9 +655,12 @@ return [
             [
                 "name" => "Ema Conde",
                 "country" => "PORTUGAL",
-                "image" => "bg_white.png",
+                "image" => "emaconde.png",
                 "url" => "ema-conde",
-                "description" => ""
+                "description" => "Assistente Hospitalar de Psiquiatria no Hospital Garcia de Orta - Almada<br>
+                    Competência em Sexologia Clínica pela Ordem dos Médicos <br>
+                    Fellow em Medicina Sexual pelo European Committee of Sexual Medicine<br>
+                    Pós-Graduação em Psiquiatria e Psicologia da Justiça pelo Instituto Nacional de Medicina Legal e Ciências Forenses"
 
             ],
             [
@@ -788,9 +812,14 @@ return [
             [
                 "name" => "Maria Manuela Abreu",
                 "country" => "PORTUGAL",
-                "image" => "bg_white.png",
+                "image" => "mariamanuelaabreu.jpg",
                 "url" => "maria-manuela-abreu",
-                "description" => ""
+                "description" => "Assistente Hospitalar Graduada de Psiquiatria no Centro Hospitalar Universitário Lisboa Norte<br>
+                        Especialidade de Cardiologia (1996)<br>
+                        Mestrado em Psiquiatria pela Faculdade de Medicina de Lisboa (2004)<br>
+                        Assistente da Faculdade de Medicina de Lisboa de Psiquiatria<br>
+                        Vogal da zona Sul da Direcção da SPPSM (2020-2023)"
+
             ],
             [
                 "name" => "Pedro Morgado",
