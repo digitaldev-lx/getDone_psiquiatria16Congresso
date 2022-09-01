@@ -7915,7 +7915,6 @@ h1, h2, h3, h4, h5, h6 {
     text-align: left;
     font-size: 32px;
     color: #237088;
-    margin-left: 90px!important;
     /*letter-spacing: 2px;*/
     /*line-height: 22px;*/
     /* text-decoration: underline solid #237088 10%; */
@@ -7926,7 +7925,6 @@ h1, h2, h3, h4, h5, h6 {
     text-align: left;
     font-size: min(22px, 2vw);
     color: #237088!important;
-    margin-left: 90px!important;
     /*letter-spacing: 2px;*/
     /*line-height: 22px;*/
     /* text-decoration: underline solid #237088 10%; */
@@ -10216,11 +10214,11 @@ i.red{
 }
 
 @media (max-width: 1200px){
-    /*.fh5co-section-lead{
+    .fh5co-section-lead{
         margin-top: -85px!important;
         margin-left: -85px!important;
 
-    }*/
+    }
 
     .fh5co-section-sublead-sponsor {
         font-family: "jost-semi-bold", serif;

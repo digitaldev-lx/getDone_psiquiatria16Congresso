@@ -84,8 +84,8 @@
     <div class="container" id="fh5co-features">
         <div class="row text-left">
             <div class="col-md-8">
-                <h2 class="fh5co-section-lead" style="margin-left: 50px">Patrocinadores</h2>
-                <hr class="underline-title-bv" style="margin-left: 50px">
+                <h2 class="fh5co-section-lead" style="">Patrocinadores</h2>
+                <hr class="underline-title-bv" style="">
 {{--                <p class="texto">Brevemente Disponível</p>--}}
             </div>
             <div class="fh5co-spacer fh5co-spacer-xs"></div>
@@ -93,43 +93,43 @@
 
         <div class="row text-left">
             <div class="col-md-8">
-                <h2 class="fh5co-section-lead" style="font-family: jost-semi-bold; font-size: max(12px, 1.5vw);margin-left: 50px">PLATINA</h2>
+                <h2 class="fh5co-section-lead" style="font-family: jost-semi-bold; font-size: max(12px, 1.5vw);">PLATINA</h2>
             </div>
         </div>
 
         <div class="row">
             <div class="col-md-3 col-sm-6 col-xs-6 col-xxs-12">
                 <div class="patrocinador">
-                    <img src="{{asset("images/neuraxpharm.png")}}" alt="Jaba Recordati" class="img-responsive img-rounded to-animate" style="width: 70%">
+                    <img src="{{asset("images/sponsors/neuraxpharm.jpg")}}" alt="Jaba Recordati" class="img-responsive img-rounded to-animate" style="width: 70%">
                 </div>
             </div>
             <div class="col-md-3 col-sm-6 col-xs-6 col-xxs-12">
                 <div class="patrocinador">
-                    <img src="{{asset("images/jabarecordati.jpg")}}" alt="Jaba Recordati" class="img-responsive img-rounded to-animate" style="width: 70%">
+                    <img src="{{asset("images/sponsors/jabarecordati.jpg")}}" alt="Jaba Recordati" class="img-responsive img-rounded to-animate" style="width: 70%">
                 </div>
             </div>
         </div>
         <div class="row text-left">
             <div class="col-md-8">
-                <h2 class="fh5co-section-lead" style="font-family: jost-semi-bold; font-size: max(12px, 1.5vw);margin-left: 50px">PRATA</h2>
+                <h2 class="fh5co-section-lead" style="font-family: jost-semi-bold; font-size: max(12px, 1.5vw);">PRATA</h2>
             </div>
         </div>
         <div class="row">
             <div class="col-md-3 col-sm-6 col-xs-6 col-xxs-12">
                 <div class="patrocinador">
-                    <img src="{{asset("images/angelinipharma.png")}}" alt="Angelini Pharma" class="img-responsive img-rounded to-animate">
+                    <img src="{{asset("images/sponsors/angelinipharma.png")}}" alt="Angelini Pharma" class="img-responsive img-rounded to-animate">
                 </div>
             </div>
             <div class="visible-sm-block visible-xs-block clearfix"></div>
             <div class="col-md-3 col-sm-6 col-xs-6 col-xxs-12">
                 <div class="patrocinador">
-                    <img src="{{asset("images/lundbeck.png")}}" alt="Lundbeck" class="img-responsive img-rounded to-animate">
+                    <img src="{{asset("images/sponsors/lundbeck.jpg")}}" alt="Lundbeck" class="img-responsive img-rounded to-animate">
                 </div>
             </div>
 
             <div class="col-md-3 col-sm-6 col-xs-6 col-xxs-12 ">
                 <div class="patrocinador">
-                    <img src="{{asset("images/viatris.png")}}" alt="Viatris" class="img-responsive img-rounded to-animate">
+                    <img src="{{asset("images/sponsors/viatris.jpg")}}" alt="Viatris" class="img-responsive img-rounded to-animate">
                 </div>
             </div>
             {{--<div class="col-md-3 col-sm-6 col-xs-6 col-xxs-12 fh5co-mb30">
@@ -140,11 +140,11 @@
         </div>
         <div class="row text-left">
             <div class="col-md-8">
-                <h2 class="fh5co-section-lead" style="font-family: jost-semi-bold; font-size: max(12px, 1.5vw);margin-left: 50px">OUTROS APOIOS</h2>
+                <h2 class="fh5co-section-lead" style="font-family: jost-semi-bold; font-size: max(12px, 1.5vw);">OUTROS APOIOS</h2>
             </div>
         </div>
         <div class="row">
-            <div class="col-md-3 col-sm-6 col-xs-6 col-xxs-12 " style="margin-left: 50px">
+            <div class="col-md-3 col-sm-6 col-xs-6 col-xxs-12 ">
                 <h4>AZENTIS</h4>
                 <h4>BIAL</h4>
                 <h4>SOOMA</h4>
