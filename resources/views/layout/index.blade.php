@@ -32,7 +32,7 @@
     <link rel="shortcut icon" href="{{asset("images/sppsm_logo.png")}}">
 
     <!-- Google Webfonts -->
-    <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,100,500' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,100,500' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="{{asset("css/animate.css")}}">
     <link rel="stylesheet" href="{{asset("css/icomoon.css")}}">
@@ -63,6 +63,15 @@
 
 @include("layout.partials.footer")
 
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-EB9WGL6Y0K"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-EB9WGL6Y0K');
+</script>
 
 <!-- jQuery -->
 <script src="{{asset("js/jquery.min.js")}}"></script>
