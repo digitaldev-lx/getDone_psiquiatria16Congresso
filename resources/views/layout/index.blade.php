@@ -29,22 +29,22 @@
     <meta name="twitter:card" content=""/>
 
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-    <link rel="shortcut icon" href="{{asset("favicon.ico")}}">
+    <link rel="shortcut icon" href="{{asset("images/sppsm_logo.png")}}">
 
     <!-- Google Webfonts -->
-    <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,100,500' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,100,500' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
-
     <link rel="stylesheet" href="{{asset("css/animate.css")}}">
     <link rel="stylesheet" href="{{asset("css/icomoon.css")}}">
     <link rel="stylesheet" href="{{asset("css/owl.carousel.min.css")}}">
     <link rel="stylesheet" href="{{asset("css/owl.theme.default.min.css")}}">
     <link rel="stylesheet" href="{{asset("css/magnific-popup.css")}}">
     <link rel="stylesheet" href="{{asset("css/style.css")}}">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="{{asset("js/modernizr-2.6.2.min.js")}}"></script>
     <!-- FOR IE9 below -->
     <!--[if lt IE 9]>
+
     <script src="{{asset("js/respond.min.js")}}"></script>
     <![endif]-->
 
@@ -63,6 +63,15 @@
 
 @include("layout.partials.footer")
 
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-EB9WGL6Y0K"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-EB9WGL6Y0K');
+</script>
 
 <!-- jQuery -->
 <script src="{{asset("js/jquery.min.js")}}"></script>
@@ -107,6 +116,8 @@
 
     });
 </script>
+<script>
 
+</script>
 </body>
 </html>

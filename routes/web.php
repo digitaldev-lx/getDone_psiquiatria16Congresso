@@ -1,5 +1,7 @@
 <?php
 
+use App\Http\Controllers\HomeController;
+use Illuminate\Support\Arr;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -17,7 +19,16 @@ Route::get('/', function () {
     return view('index');
 })->name("home");
 
-Route::view('/gallery', "gallery")->name("gallery");
+
+Route::get('/comissoes', [HomeController::class, "comissoes"])->name("comissoes");
+Route::get('/convidados', [HomeController::class, "convidados"])->name("convidados");
+Route::get('/profile/{url}', [HomeController::class, "profile"])->name("profile");
+
+Route::view('/programa', "programa")->name("programa");
+Route::view('/inscricoes', "inscricoes")->name("inscricoes");
+Route::view('/call-for-abstracts', "call-for-abstracts")->name("call.for.abstracts");
+Route::view('/informacoes', "informacoes")->name("informacoes");
+
 Route::view('/downloads', "downloads")->name("downloads");
 Route::view('/local', "local")->name("local");
 Route::view('/congresso', "congresso")->name("congresso");
