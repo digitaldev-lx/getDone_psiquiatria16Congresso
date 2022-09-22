@@ -100,7 +100,7 @@
         <div class="row">
             <div class="col-md-3 col-sm-6 col-xs-6 col-xxs-12">
                 <div class="patrocinador">
-                    <img src="{{asset("images/sponsors/neuraxpharm.jpg")}}" alt="Jaba Recordati" class="img-responsive img-rounded to-animate" style="width: 70%">
+                    <img src="{{asset("images/sponsors/neuraxpharm2.png")}}" alt="Jaba Recordati" class="img-responsive img-rounded to-animate" style="width: 70%">
                 </div>
             </div>
             <div class="col-md-3 col-sm-6 col-xs-6 col-xxs-12">
