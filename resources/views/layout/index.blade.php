@@ -47,9 +47,32 @@
 
     <script src="{{asset("js/respond.min.js")}}"></script>
     <![endif]-->
+    <style>
+        .modal-content {
+            /*background-color: #0099FF;*/
+            position: relative;
+            border-radius: 50%;
+            /*width: 75%;*/
+            /*height: 100vw;*/
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            max-height: 600px;
+        }
 
+        .modal-content img{
+            width: 101%;
+        }
+    </style>
 </head>
 <body>
+<div class="modal fade" id="modalPrograma" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <img src="{{asset("images/BOLA-PROGRAMA.png")}}" />
+        </div>
+    </div>
+</div>
 @include("layout.partials.header")
 <!-- END .header -->
 
@@ -71,6 +94,8 @@
     gtag('js', new Date());
 
     gtag('config', 'G-EB9WGL6Y0K');
+
+
 </script>
 
 <!-- jQuery -->
@@ -83,6 +108,19 @@
 <script src="{{asset("js/main.js")}}"></script>
 <script>
     $(document).ready(function () {
+
+        if(document.cookie.indexOf('showProgram=') === -1){
+            var now = new Date();
+            var minutes = 5 //minutos para expirar
+            // now.setTime(now.getTime() + 1 * 3600 * 1000);
+            now.setTime(now.getTime() + minutes * 60 * 1000);
+
+            document.cookie="showProgram=true"+";"+"expires=" + now.toUTCString() + ";"
+            $('#modalPrograma').modal('show');
+
+        }
+
+
         if ($(window).width() <= 768) {
             let slide1 = "images/slide_1_mobile.png"
             $('#slide1').css('background-image', 'url(' + slide1 + ')');
