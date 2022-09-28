@@ -48,7 +48,7 @@
     <script src="{{asset("js/respond.min.js")}}"></script>
     <![endif]-->
     <style>
-        .modal-content {
+        .modal-content1 {
             /*background-color: #0099FF;*/
             position: relative;
             border-radius: 50%;
@@ -60,7 +60,7 @@
             max-height: 600px;
         }
 
-        .modal-content img{
+        .modal-content1 img{
             width: 101%;
         }
     </style>
@@ -68,7 +68,7 @@
 <body>
 <div class="modal fade" id="modalPrograma" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
     <div class="modal-dialog" role="document">
-        <div class="modal-content">
+        <div class="modal-content1">
             <img src="{{asset("images/BOLA-PROGRAMA.png")}}" />
         </div>
     </div>

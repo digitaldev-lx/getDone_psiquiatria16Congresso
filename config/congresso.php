@@ -15,13 +15,13 @@ return [
 
     'convidados' => [
         'estrangeiros' => [
-            [
+            /*[
                 "name" => "Roland Van Oostveen",
                 "country" => "CANADA",
                 "image" => "bg_white.png",
                 "url" => "roland-van-oostveen",
                 "description" => ""
-            ],
+            ],*/
             [
                 "name" => "Sohail Jannesari",
                 "country" => "UK",
@@ -32,9 +32,10 @@ return [
             [
                 "name" => "Becci Strawbridge",
                 "country" => "UK",
-                "image" => "bg_white.png",
+                "image" => "beccistrawbridge.jpg",
                 "url" => "becci-strawbridge",
-                "description" => ""
+                "description" => "Dr Strawbridge is a researcher in affective disorders within the Centre for Affective Disorders at the Institute of Psychiatry, Psychology and Neuroscience (King's College London).
+                <br>While eclectic in modality and focus, her research broadly aims to optimise the future treatment of major depression and bipolar disorders, for example through multidisciplinary clinical trials and observational studies, targeting cognitive functions, examining biological and non-biological markers of treatment response and treatment resistance and synthesising clinical evidence through systematic reviews and meta-analyses."
             ],
             [
                 "name" => "Alfredo Barboza",
@@ -195,9 +196,10 @@ return [
             [
                 "name" => "Joel Krueger",
                 "country" => "UK",
-                "image" => "bg_white.png",
+                "image" => "joelkrueger.jpg",
                 "url" => "joel-krueger",
-                "description" => ""
+                "description" => "Joel Krueger is Associate Professor in Philosophy at the University of Exeter.
+                <br>He works primarily in phenomenology, philosophy of mind, and philosophy of cognitive science: specifically, issues in 4E (embodied, embedded, enacted, extended) cognition, including emotions, social cognition, and psychopathology. He also does work in comparative philosophy and philosophy of music."
             ],
 
             [
@@ -441,14 +443,14 @@ return [
                         É Professor Auxiliar de Ética e Deontologia médica e de Psiquiatria na Faculdade de Medicina da Universidade de Lisboa. É Membro do Conselho Nacional de Ética para as Ciências da Vida. É ainda Psicoterapeuta pela Sociedade Portuguesa de Psicoterapia Centrada no Cliente e Abordagem Centrada na Pessoa"
 
             ],*/
-            [
+            /*[
                 "name" => "Ciro Oliveira",
                 "country" => "PORTUGAL",
                 "image" => "bg_white.png",
                 "url" => "ciro-oliveira",
                 "description" => ""
 
-            ],
+            ],*/
             [
                 "name" => "Ema Conde",
                 "country" => "PORTUGAL",
@@ -580,9 +582,17 @@ return [
             [
                 "name" => "Ana Matos Pires",
                 "country" => "PORTUGAL",
-                "image" => "bg_white.png",
+                "image" => "anamatospires.jpg",
                 "url" => "ana-matos-pires",
-                "description" => ""
+                "description" => "Médica Psiquiatra<br><br>
+                    Licenciada em Medicina pelo Instituto de Ciências Biomédicas (ICBAS) da Universidade do Porto<br>
+                    Mestre em Psiquiatria e Saúde Mental pela Faculdade de Medicina da Universidade de Lisboa (FMUL)<br><br>
+
+                    Diretora do Departamento de Saúde Mental da Unidade Local de Saúde do Baixo Alentejo (ULSBA)<br>
+                    Coordenadora Regional da Saúde Mental do Alentejo<br>
+                    Membro da Coordenação Nacional das Políticas de Saúde Mental (CNPSM) do Ministério da Saúde<br><br>
+
+                    Membro da Direção do Colégio de Psiquiatria da Ordem dos Médicos."
             ],
             [
                 "name" => "Ana Silva Pinto",
@@ -778,6 +788,13 @@ return [
                         <li><i>Tradução de Neurofisiologia sem Lágrimas</i>, de William McKay, Gulbenkian, 1999, 6a. Ed. Revista e actualizada, 2016.</li>
                     </ul><br><br>
                     Desde os tempos de estudante, antes do 25 de Abril, até hoje, foi  um cidadão activo com diversas intervenções em organizações, fóruns e meios de comunicação social, incluindo colunas de opinião em jornais nacionais e regionais."
+            ],
+            [
+                "name" => "José Salgado",
+                "country" => "PORTUGAL",
+                "image" => "bg_white.png",
+                "url" => "jose-salgado",
+                "description" => ""
             ],
             [
                 "name" => "Lurdes Santos",
