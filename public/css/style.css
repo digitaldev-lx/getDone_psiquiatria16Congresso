@@ -1578,6 +1578,23 @@ p {
     line-height: 1.4;
 }
 
+.presidencia{
+    position: absolute;
+    bottom: -20px;
+    right: 40px;
+    width: 230px!important;
+}
+
+.presidencia-pages{
+    position: relative;
+    /*border: solid black 1px;*/
+    top: 10px;
+    display: flex;
+    justify-self: end;
+    float: right;
+    width: 230px!important;
+}
+
 @media (min-width: 1180px) {
     .fh5co-nav-toggle {
         display: none!important;

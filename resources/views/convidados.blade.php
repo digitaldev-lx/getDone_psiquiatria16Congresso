@@ -8,6 +8,8 @@
         <img src="{{asset("images/img-top-convidados.png")}}" class="img-top-convidados"
              alt="Sociedade Portuguesa de Psiquiatria"/>
         <div class="container">
+            <img src="{{asset("images/LOGO_AC.svg")}}" class="presidencia-pages"/>
+
             <div class="row">
                 <div class="col-xs-12 col-md-8 col-md-offset-1">
                     <h2 class="fh5co-section-convidados">Convidados</h2>

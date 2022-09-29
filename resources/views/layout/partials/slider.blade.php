@@ -19,6 +19,7 @@
             </div>
 
         </div>
+        <img src="{{asset("images/LOGO_AC.svg")}}" class="presidencia"/>
     </div>
 
 <div class="bottom-shape"></div>

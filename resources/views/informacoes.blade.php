@@ -6,6 +6,8 @@
              alt="Sociedade Portuguesa de Psiquiatria"/>
 
         <div class="container">
+            <img src="{{asset("images/LOGO_AC.svg")}}" class="presidencia-pages"/>
+
             <div class="row">
                 <div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-9 col-md-offset-1">
                     <h2 class="fh5co-section-convidados">Informações</h2>

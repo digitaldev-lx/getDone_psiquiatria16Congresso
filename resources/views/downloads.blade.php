@@ -8,6 +8,8 @@
     <div class="separador-galeria"></div>
     <div id="fh5co-features" style="margin-top: 100px">
         <div class="container">
+            <img src="{{asset("images/LOGO_AC.svg")}}" class="presidencia-pages"/>
+
             <div class="row text-center">
                 <div class="col-md-8 col-md-offset-2 col-xs-12 text-left">
                     <h2 class="fh5co-section-lead text-left">Download de Materiais</h2>

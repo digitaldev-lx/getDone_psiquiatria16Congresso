@@ -69,7 +69,7 @@
 <div class="modal fade" id="modalPrograma" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
     <div class="modal-dialog" role="document">
         <div class="modal-content1">
-            <img src="{{asset("images/BOLA-PROGRAMA.png")}}" />
+            <img src="{{asset("images/BOLA_DEAD-LINE.png")}}" />
         </div>
     </div>
 </div>
