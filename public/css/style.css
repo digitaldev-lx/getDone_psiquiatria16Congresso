@@ -1578,9 +1578,13 @@ p {
     line-height: 1.4;
 }
 
+.slider-container{
+    display: block;
+}
+
 .presidencia{
     position: absolute;
-    bottom: -20px;
+    bottom: 10px;
     right: 40px;
     width: 230px!important;
 }
@@ -1588,14 +1592,22 @@ p {
 .presidencia-pages{
     position: relative;
     /*border: solid black 1px;*/
-    top: 10px;
+    top: 20px;
     display: flex;
     justify-self: end;
     float: right;
-    width: 230px!important;
+    width: 200px!important;
 }
 
 @media (min-width: 1180px) {
+    .img-top-convidados{
+        top: 100px;
+    }
+
+    .presidencia-pages{
+        top: 30px;
+    }
+
     .fh5co-nav-toggle {
         display: none!important;
     }
@@ -3562,6 +3574,9 @@ textarea.input-lg, .input-group-lg > textarea.form-control, .input-group-lg > te
     .fh5co-parallax{
         background-size: cover!important;
     }
+    .container{
+        width: 100%!important;
+    }
 }
 
 .form-horizontal .has-feedback .form-control-feedback {
@@ -3706,6 +3721,20 @@ a.btn.disabled, fieldset[disabled] a.btn {
 }
 
 @media (max-width: 1180px) {
+    .container{
+        width: 100%!important;
+    }
+
+    .img-top-convidados{
+        top: 60px!important;
+    }
+
+    .presidencia-pages{
+        top: 0px!important;
+        right: -20px!important;
+        width: 180px!important;
+    }
+
     .fh5co-parallax{
         background-size: cover!important;
     }
@@ -5681,8 +5710,37 @@ a.badge:hover, a.badge:focus {
     max-width: 100%;
 }
 
+
+
+@media (max-width: 1800px){
+    .presidencia{
+        bottom: 90px!important;
+    }
+}
+
+@media (max-width: 1680px){
+    .presidencia{
+        bottom: 120px!important;
+    }
+}
+
+@media (max-width: 1550px){
+    .presidencia{
+        bottom: 170px!important;
+    }
+}
+
+@media (max-width: 1280px){
+    .presidencia{
+        bottom: 210px!important;
+    }
+}
 /* imac */
 @media screen and (min-width: 1800px) {
+
+    .presidencia{
+        bottom: -20px!important;
+    }
 
     .side-banner{
         top: 105vh!important;
@@ -7540,6 +7598,11 @@ button.close {
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
+    .presidencia-pages{
+        top: 30px;
+        right: -40px;
+    }
+
     .visible-md-block {
         display: block !important;
     }
@@ -7552,6 +7615,12 @@ button.close {
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
+    .presidencia-pages{
+        top: 30px;
+        right: -20px;
+        width: 180px;
+    }
+
     .visible-md-inline-block {
         display: inline-block !important;
     }
@@ -8658,6 +8727,12 @@ pre {
 }
 
 @media screen and (max-width: 992px) {
+    .presidencia-pages{
+        top: 20px!important;
+        right: 0px!important;
+        width: 120px!important;
+    }
+
     .shadow-img{
         width: 200px!important;
         height: 200px!important;
@@ -9884,6 +9959,14 @@ a > img.fh5co-align-center {
     }
 }
 @media (max-width: 768px) {
+    .img-top-convidados {
+        height: 60px!important;
+    }
+
+    .presidencia-pages{
+        top: 10px!important;
+    }
+
     .gal-container .modal-content{
         height:250px;
     }
@@ -10125,6 +10208,15 @@ i.red{
 
 /*mobile phones*/
 @media screen and (max-width: 480px) {
+    .img-top-convidados {
+        height: 60px!important;
+    }
+
+    .presidencia-pages{
+        top: 10px!important;
+        width: 120px!important;
+    }
+
     .cta-parallax{
         padding: 0;
         margin: 0;
@@ -10233,7 +10325,7 @@ i.red{
 @media (max-width: 1200px){
     .fh5co-section-lead{
         margin-top: -85px!important;
-        margin-left: -85px!important;
+        /*margin-left: -85px!important;*/
 
     }
 
@@ -10280,6 +10372,8 @@ i.red{
 
 
 @media (max-width: 992px){
+    .letters-right{display: none!important;}
+
     .side-banner-convidados {
         display: none!important;
     }
@@ -10312,6 +10406,15 @@ i.red{
 }
 
 @media (max-width: 480px){
+    .img-top-convidados {
+        height: 60px!important;
+    }
+
+    .presidencia-pages{
+        top: 10px!important;
+        width: 120px!important;
+    }
+
     .fh5co-section-lead {
         margin-top: 10px!important;
         margin-left: 0!important;
@@ -10452,3 +10555,5 @@ i.red{
         margin-top: 50px!important;
     }
 }
+
+

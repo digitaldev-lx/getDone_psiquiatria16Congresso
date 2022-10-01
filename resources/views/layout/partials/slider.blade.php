@@ -1,5 +1,5 @@
 
-    <div class="container fh5co-parallax">
+    <div class="container fh5co-parallax ">
         <div class="row slider-container">
             <div class="slider-sppsm-logo">
                 <img src="{{asset("images/sppsm_logo.png")}}" alt="sppsm" />

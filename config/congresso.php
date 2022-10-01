@@ -1196,7 +1196,8 @@ return [
             [
                 "name" => "Pedro Ribeiro Branco",
                 "country" => "PORTUGAL",
-                "image" => "pedroribeirobranco.jpg",
+                "image" => "bg_white.png",
+//                "image" => "pedroribeirobranco.jpg",
                 "url" => "pedro-ribeiro-branco",
                 "description" => "<br>
                         Médico Psiquiatra<br><br>

@@ -27,7 +27,7 @@
                 </div>
 
                 <div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-11 col-md-offset-1" style="text-align: left">
-                    <h2 class="abstracts-title">Deadline para submissão de trabalhos: <span>30 de setembro de 2022</span></h2>
+                    <h2 class="abstracts-title">Deadline para submissão de trabalhos: <span>17 de outubro de 2022</span></h2>
                 </div>
             </div>
             <div class="row">

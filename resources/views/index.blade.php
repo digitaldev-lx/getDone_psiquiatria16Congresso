@@ -9,7 +9,7 @@
                     <h2 class="fh5co-section-lead">Boas-vindas</h2>
                     <hr class="underline-title-bv">
                 </div>
-                <div class="col-xs-12 col-sm-6 col-md-3 hidden-xs hidden-md " style="margin-top: -95px; padding-left: 120px">
+                <div class="col-xs-12 col-sm-6 col-md-3 hidden-xs hidden-md hidden-sm letters-right" style="margin-top: -95px; padding-left: 120px">
                     <h2 class="logo-title">XVI</h2>
                     <h4 class="logo-sub-title">Congresso Nacional de Psiquiatria</h4>
                     <h6 class="logo-bold-text">O Natural e o Artificial na Psiquiatria:</h6>
