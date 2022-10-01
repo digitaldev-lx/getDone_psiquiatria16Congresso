@@ -84,7 +84,7 @@
     <div class="container" id="fh5co-features">
         <div class="row text-left">
             <div class="col-md-8">
-                <h2 class="fh5co-section-lead" style="">Patrocinadores</h2>
+                <h2 class="fh5co-section-lead-sponsors" style="">Patrocinadores</h2>
                 <hr class="underline-title-bv" style="">
 {{--                <p class="texto">Brevemente Disponível</p>--}}
             </div>
@@ -93,7 +93,7 @@
 
         <div class="row text-left">
             <div class="col-md-8">
-                <h2 class="fh5co-section-lead" style="font-family: jost-semi-bold; font-size: max(12px, 1.5vw);">PLATINA</h2>
+                <h2 class="fh5co-section-lead-sponsors" style="font-family: jost-semi-bold; font-size: max(12px, 1.5vw);">PLATINA</h2>
             </div>
         </div>
 
@@ -113,7 +113,7 @@
 
         <div class="row text-left">
             <div class="col-md-8">
-                <h2 class="fh5co-section-lead" style="font-family: jost-semi-bold; font-size: max(12px, 1.5vw);">OURO</h2>
+                <h2 class="fh5co-section-lead-sponsors" style="font-family: jost-semi-bold; font-size: max(12px, 1.5vw);">OURO</h2>
             </div>
         </div>
         <div class="row">
@@ -144,7 +144,7 @@
 
         <div class="row text-left">
             <div class="col-md-8">
-                <h2 class="fh5co-section-lead" style="font-family: jost-semi-bold; font-size: max(12px, 1.5vw);">PRATA</h2>
+                <h2 class="fh5co-section-lead-sponsors" style="font-family: jost-semi-bold; font-size: max(12px, 1.5vw);">PRATA</h2>
             </div>
         </div>
         <div class="row">
@@ -173,7 +173,7 @@
         </div>
         <div class="row text-left">
             <div class="col-md-8">
-                <h2 class="fh5co-section-lead" style="font-family: jost-semi-bold; font-size: max(12px, 1.5vw);">OUTROS APOIOS</h2>
+                <h2 class="fh5co-section-lead-sponsors" style="font-family: jost-semi-bold; font-size: max(12px, 1.5vw);">OUTROS APOIOS</h2>
             </div>
         </div>
         <div class="row">
