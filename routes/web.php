@@ -15,6 +15,11 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+Route::get('optimize', function () {
+    Artisan::call('optimize:clear');
+    return "Artisan Optimize";
+})->name("optimize");
+
 Route::get('/', function () {
     return view('index');
 })->name("home");

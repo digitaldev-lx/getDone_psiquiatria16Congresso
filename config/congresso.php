@@ -150,6 +150,28 @@ return [
 
             ],
             [
+                "name" => "Daniele Marcotulli",
+                "country" => "Italy",
+                "image" => "danielemarcotulli.jpg",
+                "url" => "daniele-marcotulli",
+                "description" => "<br>
+                        I am currently a 3rd year fellow in the child and adolescent neuropsychiatry training
+                        program at the University of Turin. I obtained a PhD in Neuroscience at the
+                        Polytechnic University of Marche (Italy), while I conducted part of my Ph.D. project as
+                        a research fellow in the Bajjalieh Lab at University of Washington (Seattle). Indeed, I
+                        have been interested in neurobiology and brain development since the early days of
+                        medical school and have cultivated this interest during the PhD years, when I had the
+                        opportunity to study both the mechanism of action of an antiepileptic drug
+                        (levetiracetam) and the basic neurobiological mechanisms of approach-avoidance
+                        behavior.<br><br>
+                         As a neuropsychiatry fellow at the University of Turin, I have developed a keen interest
+                        in neurodevelopmental disorders, and I have participated in research projects about
+                        the mental health impact of chronic stress, suicidality, safety-related aspects of
+                        pediatric neuropsychopharmacology, and neurodevelopmental disorders. During the
+                        last few years, I had hands-on clinical experience about the challenges of transitioning
+                        care, and I had the opportunity of collaborating with a work-group of child and adult
+                        psychiatrists examining the main aspects of transitioning care in schizophrenia. "            ],
+            [
                 "name" => "Gerhard Gründer",
                 "country" => "GERMANY",
                 "image" => "GERHARD_GRUNDER.jpg",
@@ -344,7 +366,7 @@ return [
                                     Autor, Co-autor e Coordenador de diversos estudos em Comportamento e Bem-estar Animal. "
 
             ],
-            [
+            /*[
                 "name" => "Guilherme Queiroz",
                 "country" => "PORTUGAL",
                 "image" => "guilhermequeiroz.jpg",
@@ -354,7 +376,7 @@ return [
                         Atualmente colaborador no Instituto de Salud Global em Barcelona, onde trabalha em projetos na área da saúde planetária. <br>
                         Completou o Curso de Especialização em Saúde Pública na Escola Nacional de Saúde Pública da Universidade Nova de Lisboa em 2021, e o Mestrado Integrado em Medicina da Faculdade de Medicina da Universidade de Coimbra em 2017."
 
-            ],
+            ],*/
             [
                 "name" => "Inês Cargaleiro",
                 "country" => "PORTUGAL",
