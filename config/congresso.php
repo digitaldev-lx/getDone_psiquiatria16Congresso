@@ -22,13 +22,7 @@ return [
                 "url" => "roland-van-oostveen",
                 "description" => ""
             ],*/
-            [
-                "name" => "Sohail Jannesari",
-                "country" => "UK",
-                "image" => "bg_white.png",
-                "url" => "sohail-jannesari",
-                "description" => ""
-            ],
+
             [
                 "name" => "Becci Strawbridge",
                 "country" => "UK",
@@ -310,6 +304,14 @@ return [
                 "description" => "Dr Richard Gipps is a philosopher and clinical psychologist with a private psychotherapy practice in Oxford, UK. He is the author of “On Madness: Understanding the Psychotic Mind”, to be published by Bloomsbury in October 2022. <br>
                         He is also a co-editor of the <i>Oxford Handbook of Philosophy and Psychoanalysis</i> and the <i>Oxford Handbook of Philosophy and Psychiatry</i>. <br>
                         More recently his attention has turned to understanding what it is: to be lonely, to consider oneself loveable, to live with dignity, and to deploy the virtues as regulative ideals for a mentally healthy life."
+
+            ],
+            [
+                "name" => "Sohail Jannesari",
+                "country" => "UK",
+                "image" => "sohailjannesari.png",
+                "url" => "sohail-jannesari",
+                "description" => "Sohail Jannesari is a post-doctoral researcher working on outcomes for survivors of human trafficking and modern slavery. He is also the project lead on the Stolen Tools anti-racism journal, convener of the Inspiring Ethics group and led on developing a guide for mental health professionals working with Afghan sanctuary seekers. He founded the Migrant Connections Festival and Walk and Talk Migrant Welcome Tour charities, and has completed consultancy projects for High Trees, Citizens Advice and Global Justice Now. You can find out more about his work at <a href='www.sohailj.com'>www.sohailj.com</a>."
 
             ],
             [

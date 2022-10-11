@@ -31,6 +31,8 @@
                 <div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-11 col-md-offset-1">
                     <div class="row">
                         <div class="col-xs-12 col-md-12" style="margin-left: 20px">
+                            <h3 class="info-titles">ORGANIZAÇÃO / ORGANIZATION</h3>
+                            <img src="{{asset("images/sppsm_logo_cinza.png")}}" style="width: 80px"/>
                             <h3 class="info-titles">AGÊNCIA OFICIAL / PCO:</h3>
                             <img src="{{asset("images/getdone_dark.png")}}" style="width: 110px"/>
                             <h3 class="info-text">
