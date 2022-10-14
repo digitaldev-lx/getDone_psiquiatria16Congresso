@@ -33,6 +33,11 @@
                         <div class="col-xs-12 col-md-12" style="margin-left: 20px">
                             <h3 class="info-titles">ORGANIZAÇÃO / ORGANIZATION</h3>
                             <img src="{{asset("images/sppsm_logo_cinza.png")}}" style="width: 80px"/>
+                            <h3 class="info-text">
+                                Ana Fernandes<br>
+                                Email: sppsm.secretariado@gmail.com
+                            </h3>
+                            
                             <h3 class="info-titles">AGÊNCIA OFICIAL / PCO:</h3>
                             <img src="{{asset("images/getdone_dark.png")}}" style="width: 110px"/>
                             <h3 class="info-text">
