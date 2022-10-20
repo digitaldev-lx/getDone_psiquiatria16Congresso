@@ -336,22 +336,22 @@ return [
 
         ],
         'nacionais' => [
-            [
+            /*[
                 "name" => "Carolina Perdigoto",
                 "country" => "PORTUGAL",
                 "image" => "bg_white.png",
                 "url" => "carolina-perdigoto",
                 "description" => ""
 
-            ],
-            [
+            ],*/
+            /*[
                 "name" => "Ciro Oliveira",
                 "country" => "PORTUGAL",
                 "image" => "bg_white.png",
                 "url" => "ciro-oliveira",
                 "description" => ""
 
-            ],
+            ],*/
             [
                 "name" => "Gonçalo Graça Pereira",
                 "country" => "PORTUGAL",
@@ -379,7 +379,7 @@ return [
                         Completou o Curso de Especialização em Saúde Pública na Escola Nacional de Saúde Pública da Universidade Nova de Lisboa em 2021, e o Mestrado Integrado em Medicina da Faculdade de Medicina da Universidade de Coimbra em 2017."
 
             ],*/
-            [
+            /*[
                 "name" => "Inês Cargaleiro",
                 "country" => "PORTUGAL",
                 "image" => "bg_white.png",
@@ -400,7 +400,7 @@ return [
                             Psiquiatria, entre 2017 e 2019. Membro da Sociedade Portuguesa de Psicanálise desde
                             2018."
 
-            ],
+            ],*/
             [
                 "name" => "João Pedro Frois",
                 "country" => "PORTUGAL",
@@ -413,7 +413,7 @@ return [
                         Atualmente desenvolve o projeto de investigação: «A Arte da Infância não é a Infância da Arte: Coleção de Desenhos de Crianças Portuguesas», centrado na atividade do Professor Doutor Vítor Fontes (1893-1979), diretor do Instituto de Anatomia da Faculdade de Medicina da Universidade de Lisboa, organizador e diretor do Instituto António Aurélio da Costa Ferreira (IAACF-1940-1989) e percursor em Portugal da Psiquiatria da Criança e do Adolescente."
 
             ],
-            [
+            /*[
                 "name" => "Miguel Nascimento",
                 "country" => "PORTUGAL",
                 "image" => "miguelnascimento.jpg",
@@ -422,7 +422,7 @@ return [
                         Formado em Medicina pela Faculdade de Medicina da Universidade de Lisboa, realizou a especialidade em Psiquiatria e Saúde Mental no Centro Hospitalar Psiquiátrico de Lisboa, onde atualmente exerce, não só em consulta comunitária, como internamento de agudos. <br>
                         Adicionalmente, tem desenvolvido trabalho como da direção clínica e coordenação do Núcleo Comunitário de Torres Vedras, além de participar na ECL de Saúde Mental de Lisboa Central relativamente à Rede de Cuidados Continuados Integrados. Encontra-se a realizar doutoramento em Neurociências, focado na melhoria dos sintomas cognitivos e incapacidade funcional em utentes com doença Bipolar."
 
-            ],
+            ],*/
             [
                 "name" => "Pedro Gamito",
                 "country" => "PORTUGAL",
@@ -436,22 +436,22 @@ return [
                         In 2018, he was awarded with the Lifetime Achievement Award of the International Association of CyberPsychology, Training & Rehabilitation. "
 
             ],
-            [
+            /*[
                 "name" => "Rui Henriques",
                 "country" => "PORTUGAL",
                 "image" => "bg_white.png",
                 "url" => "rui-henriques",
                 "description" => ""
 
-            ],
-            [
+            ],*/
+            /*[
                 "name" => "Tiago Maia",
                 "country" => "PORTUGAL",
                 "image" => "tiagomaia.png",
                 "url" => "tiago-maia",
                 "description" => "Tiago Maia é Professor Associado na Faculdade de Medicina da Universidade de Lisboa. Fez toda a sua formação pós-graduada nos EUA e, antes de regressar a Portugal, era Professor Auxiliar na Columbia University em Nova Iorque. O seu grupo estuda a síndrome de Tourette, perturbação obsessivo-compulsiva e perturbação de hiperactividade e défice de atenção, integrando perspectivas neurobiológicas e psicológicas. Para o efeito, usa uma combinação sinérgica de metodologias que incluem modelos computacionais, experiências comportamentais e imagiologia cerebral. Tem artigos de primeira autoria em muitas das mais prestigiadas revistas científicas da área e multidisciplinares, incluindo, por exemplo, a Nature Neuroscience e os Proceedings of the National Academy of Sciences."
 
-            ],
+            ],*/
         ]
     ],
     'comissoes' => [
