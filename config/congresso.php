@@ -76,9 +76,13 @@ return [
             [
                 "name" => "Anna Ciaunica",
                 "country" => "UK",
-                "image" => "bg_white.png",
+                "image" => "annaciaunica.png",
                 "url" => "ana-ciaunica",
-                "description" => ""
+                "description" => "Dr Anna Ciaunica is a philosopher and cognitive scientist, currently Principal Investigator at the Centre for Philosophy of Science, Faculty of Science, University of Lisbon, Portugal.<br><br>
+                        Anna leads the Co-Embodied Self Lab (CELab) in Lisbon where she combines theoretical work with experimental approaches to investigate the relationship between (a)typical forms of self-consciousness, embodiment and social interactions in human and artificial agents.<br><br>
+                        She is currently the Lead Investigator of three interdisciplinary projects using methods from philosophy of mind, phenomenology, experimental psychology, cognitive and computational neuroscience and arts to investigate the bodily roots of self-awareness in humans in early life and beyond. She also looks at the multisensory modulation of the sense of self through bodily movements and action observation in depersonalisation and psychedelic experiences.<br><br>
+                        Anna coordinates the Network for Embodied Consciousness and the Arts (NECTArs) – a collaborative platform bringing together artists, researchers, stakeholders, policy makers and people with lived experiences, aiming at fostering creative approaches to timely issues such as self-awareness and (dis)embodiment in our hyper-digitalized world.
+"
 
             ],
             [
@@ -489,7 +493,7 @@ return [
             [
                 "name" => "João Bessa",
                 "country" => "PORTUGAL",
-                "image" => "bg_white.png",
+                "image" => "joaobessa.png",
                 "url" => "joao-bessa",
                 "description" => ""
 
@@ -731,7 +735,7 @@ return [
             [
                 "name" => "João Bessa",
                 "country" => "PORTUGAL",
-                "image" => "bg_white.png",
+                "image" => "joaobessa.png",
                 "url" => "",
                 "description" => "joao-bessa"
             ],
