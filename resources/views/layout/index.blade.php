@@ -66,13 +66,15 @@
     </style>
 </head>
 <body>
+{{--
+Para ativar esta modal ir para o final da página e retirar comentarios no javascript
 <div class="modal fade" id="modalPrograma" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
     <div class="modal-dialog" role="document">
         <div class="modal-content1">
             <img src="{{asset("images/BOLA_DEAD-LINE.png")}}" />
         </div>
     </div>
-</div>
+</div>--}}
 @include("layout.partials.header")
 <!-- END .header -->
 
@@ -109,7 +111,7 @@
 <script>
     $(document).ready(function () {
 
-        if(document.cookie.indexOf('showProgram=') === -1){
+        /*if(document.cookie.indexOf('showProgram=') === -1){
             var now = new Date();
             var minutes = 5 //minutos para expirar
             // now.setTime(now.getTime() + 1 * 3600 * 1000);
@@ -118,7 +120,7 @@
             document.cookie="showProgram=true"+";"+"expires=" + now.toUTCString() + ";"
             $('#modalPrograma').modal('show');
 
-        }
+        }*/
 
 
         if ($(window).width() <= 768) {
