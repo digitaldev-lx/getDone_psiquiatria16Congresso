@@ -854,6 +854,13 @@ return [
                 "url" => "maria-carmo-rosa-cruz",
                 "description" => ""
             ],
+                [
+                "name" => "Maria João Heitor",
+                "country" => "PORTUGAL",
+                "image" => "bg_white.png",
+                "url" => "maria-joao-heitor",
+                "description" => ""
+            ],
             [
                 "name" => "Maria Manuela Abreu",
                 "country" => "PORTUGAL",
