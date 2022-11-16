@@ -5750,8 +5750,9 @@ a.badge:hover, a.badge:focus {
 
 @media (max-width: 1280px) {
     .presidencia {
-        bottom: 210px !important;
+        bottom: 115px !important;
     }
+
 }
 
 /* imac */
@@ -10019,8 +10020,36 @@ a > img.fh5co-align-center {
     .gal-container .modal-content {
         height: 250px;
     }
+
+    .presidencia{
+        bottom: 105px!important;
+    }
 }
 
+@media (min-width: 412px) and (max-width: 767px){
+    .presidencia {
+        bottom: 228px !important;
+    }
+}
+
+
+@media (max-width: 320px) {
+    .presidencia {
+        bottom: -60px !important;
+    }
+}
+
+@media (min-width: 321px) and (max-width: 375px){
+    .presidencia {
+        bottom: 115px !important;
+    }
+}
+
+@media (min-width: 376px) and (max-width: 412px){
+    .presidencia {
+        bottom: 65px !important;
+    }
+}
 /* Footer Style */
 i.red {
     color: #BC0213;
